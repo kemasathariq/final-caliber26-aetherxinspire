@@ -1,0 +1,96 @@
+{
+  "note": "Checksums establish consistency with the audit baseline of 2026-11-04, not authenticity against organiser-issued checksums.",
+  "bom_relocation_record": "data/reference/bom_relocation_record.json",
+  "files": [
+    {
+      "dataset": "PR PO",
+      "dataset_key": "prpo",
+      "file_name": "PR PO.xlsx",
+      "relative_path": "data/raw/PR PO.xlsx",
+      "sha256": "3f986b91d2ccc7e920486a6b15eb810d0676198b0b49fc674a3f7b817aec8f1a",
+      "audit_baseline_sha256": "3f986b91d2ccc7e920486a6b15eb810d0676198b0b49fc674a3f7b817aec8f1a",
+      "file_size_bytes": 1375240,
+      "worksheets": [
+        "Data"
+      ],
+      "data_rows": 11609,
+      "columns": 18,
+      "verification_status": "consistent_with_audit_baseline"
+    },
+    {
+      "dataset": "Movement Material",
+      "dataset_key": "movement",
+      "file_name": "Movement Material.xlsx",
+      "relative_path": "data/raw/Movement Material.xlsx",
+      "sha256": "3384208dda09d3a8c05d21d4fac9b38e77797bcf11b8d917964556386ca1ee3a",
+      "audit_baseline_sha256": "3384208dda09d3a8c05d21d4fac9b38e77797bcf11b8d917964556386ca1ee3a",
+      "file_size_bytes": 708571,
+      "worksheets": [
+        "Data"
+      ],
+      "data_rows": 17518,
+      "columns": 7,
+      "verification_status": "consistent_with_audit_baseline"
+    },
+    {
+      "dataset": "Notif History",
+      "dataset_key": "notif",
+      "file_name": "Notif History.xlsx",
+      "relative_path": "data/raw/Notif History.xlsx",
+      "sha256": "7369419815352942613647692378cb6be64c251be92ce2125c12fdf684c3105e",
+      "audit_baseline_sha256": "7369419815352942613647692378cb6be64c251be92ce2125c12fdf684c3105e",
+      "file_size_bytes": 378378,
+      "worksheets": [
+        "Data"
+      ],
+      "data_rows": 5795,
+      "columns": 12,
+      "verification_status": "consistent_with_audit_baseline"
+    },
+    {
+      "dataset": "Mitem & Mplan",
+      "dataset_key": "mitem",
+      "file_name": "Mitem & Mplan.xlsx",
+      "relative_path": "data/raw/Mitem & Mplan.xlsx",
+      "sha256": "23e0b11894614c3aef8dfab6cd8c0d1369e67b11766c445555089fad00ed96c8",
+      "audit_baseline_sha256": "23e0b11894614c3aef8dfab6cd8c0d1369e67b11766c445555089fad00ed96c8",
+      "file_size_bytes": 638417,
+      "worksheets": [
+        "Data"
+      ],
+      "data_rows": 10153,
+      "columns": 9,
+      "verification_status": "consistent_with_audit_baseline"
+    },
+    {
+      "dataset": "BoM",
+      "dataset_key": "bom",
+      "file_name": "BoM.xlsx",
+      "relative_path": "data/raw/BoM.xlsx",
+      "sha256": "e87f47d69a24ad81c232d7aaec820006ffd6f945b8529e97468c731583065e86",
+      "audit_baseline_sha256": "e87f47d69a24ad81c232d7aaec820006ffd6f945b8529e97468c731583065e86",
+      "file_size_bytes": 987174,
+      "worksheets": [
+        "Data"
+      ],
+      "data_rows": 20653,
+      "columns": 9,
+      "verification_status": "consistent_with_audit_baseline"
+    },
+    {
+      "dataset": "FuncLoc list",
+      "dataset_key": "funcloc",
+      "file_name": "FuncLoc list.xlsx",
+      "relative_path": "data/raw/FuncLoc list.xlsx",
+      "sha256": "9f6d306cef6952084a209993e4e8e7742f345cacfd207b556039412953165a82",
+      "audit_baseline_sha256": "9f6d306cef6952084a209993e4e8e7742f345cacfd207b556039412953165a82",
+      "file_size_bytes": 373573,
+      "worksheets": [
+        "Data"
+      ],
+      "data_rows": 14484,
+      "columns": 3,
+      "verification_status": "consistent_with_audit_baseline"
+    }
+  ]
+}

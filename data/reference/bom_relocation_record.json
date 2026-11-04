@@ -1,0 +1,14 @@
+{
+  "file": "BoM.xlsx",
+  "original_relative_path": "BoM.xlsx",
+  "new_relative_path": "data/raw/BoM.xlsx",
+  "method": "mv -n within the same volume; the file was not opened or resaved",
+  "sha256_before_move": "e87f47d69a24ad81c232d7aaec820006ffd6f945b8529e97468c731583065e86",
+  "sha256_after_move": "e87f47d69a24ad81c232d7aaec820006ffd6f945b8529e97468c731583065e86",
+  "checksums_match": true,
+  "size_bytes_before_move": 987174,
+  "size_bytes_after_move": 987174,
+  "file_mtime_before_move": "2026-11-04T08:47:12+0700",
+  "file_mtime_after_move": "2026-11-04T08:47:12+0700",
+  "moved_at": "2026-11-04T11:36:43+0700"
+}

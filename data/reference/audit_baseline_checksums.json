@@ -1,0 +1,11 @@
+{
+  "note": "Baseline recorded during the read-only audit of 2026-11-04 and confirmed before the BoM move. It shows consistency with that audit, not authenticity against organiser-issued checksums; none were supplied.",
+  "sha256_by_file": {
+    "BoM.xlsx": "e87f47d69a24ad81c232d7aaec820006ffd6f945b8529e97468c731583065e86",
+    "FuncLoc list.xlsx": "9f6d306cef6952084a209993e4e8e7742f345cacfd207b556039412953165a82",
+    "Mitem & Mplan.xlsx": "23e0b11894614c3aef8dfab6cd8c0d1369e67b11766c445555089fad00ed96c8",
+    "Movement Material.xlsx": "3384208dda09d3a8c05d21d4fac9b38e77797bcf11b8d917964556386ca1ee3a",
+    "Notif History.xlsx": "7369419815352942613647692378cb6be64c251be92ce2125c12fdf684c3105e",
+    "PR PO.xlsx": "3f986b91d2ccc7e920486a6b15eb810d0676198b0b49fc674a3f7b817aec8f1a"
+  }
+}

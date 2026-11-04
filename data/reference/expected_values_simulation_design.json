@@ -1,0 +1,70 @@
+{
+  "note": "Values measured separately in an exploratory calculation before this module existed, unless marked. A pass shows no drift. None of these is a simulated result.",
+  "measures": {
+    "sim_design.rows": {
+      "expected": 7481,
+      "source": "Spec M2 grain",
+      "severity": "critical"
+    },
+    "sim_design.excluded": {
+      "expected": 6816,
+      "source": "7,481 - 665, from the approved population",
+      "severity": "critical"
+    },
+    "sim_design.Materials in the population": {
+      "expected": 665,
+      "source": "Project owner approval, Mart Report Section 7",
+      "severity": "critical"
+    },
+    "sim_design.Materially affected by the scenario choice": {
+      "expected": 88,
+      "source": "Mart Report Section 7",
+      "severity": "critical"
+    },
+    "sim_design.Scenarios A and B identical by construction": {
+      "expected": 436,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.Scenarios A and B differ": {
+      "expected": 229,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.At or below Min on day 0, so an order is triggered at once": {
+      "expected": 183,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.Never reaches Min in Scenario A, so no order is ever triggered": {
+      "expected": 125,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.Never reaches Min in Scenario B, so no order is ever triggered": {
+      "expected": 133,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.One issue line larger than Max": {
+      "expected": 173,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.Median PR quantity larger than Max": {
+      "expected": 176,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.Stock above Max": {
+      "expected": 256,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    },
+    "sim_design.Resampling allowed for both": {
+      "expected": 139,
+      "source": "Recorded at the feasibility build; no earlier document states it",
+      "severity": "warning"
+    }
+  }
+}

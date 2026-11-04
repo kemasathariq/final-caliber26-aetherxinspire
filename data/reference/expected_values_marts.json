@@ -1,0 +1,188 @@
+{
+  "note": "Values typed from documents and the earlier Phase 2 build, not copied from this step, unless the source says recorded at this build. A pass shows no drift. It does not show either scenario or view is true.",
+  "measures": {
+    "mart.rows.mart_procurement_line__original_rows": {
+      "expected": 11609,
+      "source": "Spec T01, COR-09",
+      "severity": "critical"
+    },
+    "mart.rows.mart_procurement_line__exact_distinct_rows": {
+      "expected": 6189,
+      "source": "Spec M1 grain",
+      "severity": "critical"
+    },
+    "mart.rows.mart_supplier_material__original_rows": {
+      "expected": 1250,
+      "source": "Spec P-13",
+      "severity": "critical"
+    },
+    "mart.rows.mart_supplier_material__exact_distinct_rows": {
+      "expected": 1250,
+      "source": "Spec P-13",
+      "severity": "critical"
+    },
+    "mart.rows.mart_procurement_nonidr__original_rows": {
+      "expected": 98,
+      "source": "Spec T09: 41+35+20+2",
+      "severity": "critical"
+    },
+    "mart.rows.mart_procurement_nonidr__exact_distinct_rows": {
+      "expected": 51,
+      "source": "Spec 2.7: 21+17+11+2",
+      "severity": "critical"
+    },
+    "mart.rows.mart_material_inventory": {
+      "expected": 7481,
+      "source": "Spec M2 grain",
+      "severity": "critical"
+    },
+    "mart.rows.movement_copy_classification": {
+      "expected": 17518,
+      "source": "Spec T01",
+      "severity": "critical"
+    },
+    "mart.rows.mart_material_demand_month__scenario_a": {
+      "expected": 32810,
+      "source": "Spec T33",
+      "severity": "critical"
+    },
+    "mart.rows.mart_material_demand_month__scenario_b": {
+      "expected": 32810,
+      "source": "Spec T33",
+      "severity": "critical"
+    },
+    "mart.rows.mart_material_demand_summary__scenario_a": {
+      "expected": 1930,
+      "source": "Spec T17",
+      "severity": "critical"
+    },
+    "mart.rows.mart_material_demand_summary__scenario_b": {
+      "expected": 1930,
+      "source": "Spec T17",
+      "severity": "critical"
+    },
+    "mart.rows.mart_material_demand_comparison": {
+      "expected": 1930,
+      "source": "Spec T17",
+      "severity": "critical"
+    },
+    "classification.in_scenario_a": {
+      "expected": 17518,
+      "source": "Spec T01",
+      "severity": "critical"
+    },
+    "classification.in_scenario_b": {
+      "expected": 16655,
+      "source": "Quality report Section 13",
+      "severity": "critical"
+    },
+    "classification.ineligible_rows": {
+      "expected": 0,
+      "source": "Quality report: one movement type, no blanks; recorded at this build for quantity and window",
+      "severity": "critical"
+    },
+    "classification.copy_class": {
+      "expected": {
+        "first_occurrence_of_repeated_record": 820,
+        "repeat_adjacent": 429,
+        "repeat_far": 19,
+        "repeat_near": 415,
+        "unique_record": 15835
+      },
+      "source": "Quality report: 863 repeats, 429 adjacent, 15,835 single rows; split of the rest recorded at this build; no documented value",
+      "severity": "critical"
+    },
+    "demand.lines.scenario_a": {
+      "expected": 17518,
+      "source": "Spec T01",
+      "severity": "critical"
+    },
+    "demand.lines.scenario_b": {
+      "expected": 16655,
+      "source": "Quality report Section 13",
+      "severity": "critical"
+    },
+    "demand.qty_by_unit.scenario_a": {
+      "expected": {
+        "ASS": 12,
+        "CAN": 2260,
+        "EA": 949729,
+        "KG": 805820,
+        "L": 29807,
+        "LG": 3133,
+        "M": 2350,
+        "RL": 2961,
+        "SET": 1025,
+        "SHT": 38
+      },
+      "source": "outputs/tables/movement_duplicate_sensitivity.csv, Phase 2 build",
+      "severity": "critical"
+    },
+    "demand.qty_by_unit.scenario_b": {
+      "expected": {
+        "ASS": 11,
+        "CAN": 2184,
+        "EA": 922363,
+        "KG": 793670,
+        "L": 29068,
+        "LG": 3050,
+        "M": 2320,
+        "RL": 2860,
+        "SET": 958,
+        "SHT": 30
+      },
+      "source": "outputs/tables/movement_duplicate_sensitivity.csv, Phase 2 build",
+      "severity": "critical"
+    },
+    "comparison.materials_with_any_difference": {
+      "expected": 400,
+      "source": "Quality report Section 13",
+      "severity": "critical"
+    },
+    "comparison.materials_above_10pct_strict": {
+      "expected": 220,
+      "source": "Quality report Section 13",
+      "severity": "critical"
+    },
+    "comparison.materials_above_25pct_strict": {
+      "expected": 135,
+      "source": "Quality report Section 13",
+      "severity": "critical"
+    },
+    "comparison.max_diff_pct": {
+      "expected": 80.0,
+      "source": "Quality report Section 13",
+      "severity": "critical"
+    },
+    "comparison.impact_tier": {
+      "expected": {
+        "below_threshold": 178,
+        "high": 152,
+        "material": 70,
+        "no_change": 1530
+      },
+      "source": "Recorded at this build; no documented value",
+      "severity": "warning"
+    },
+    "inventory.never_issued": {
+      "expected": 5551,
+      "source": "Spec R4",
+      "severity": "critical"
+    },
+    "inventory.never_procured": {
+      "expected": 6231,
+      "source": "Spec R5",
+      "severity": "critical"
+    },
+    "inventory.issued_and_procured": {
+      "expected": 1030,
+      "source": "Spec T31",
+      "severity": "critical"
+    },
+    "inventory.simulation_inputs_complete": {
+      "expected": 665,
+      "source": "Recorded at this build; no documented value",
+      "severity": "warning"
+    }
+  }
+}

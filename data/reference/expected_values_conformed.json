@@ -1,0 +1,482 @@
+{
+  "note": "Values typed from the Specification, corrections and plan, not copied from pipeline output, unless the source says recorded at this build. A pass shows no drift from those documents. It does not show an interpretation is correct.",
+  "measures": {
+    "conformed.rows.dim_functional_location": {
+      "expected": 14484,
+      "source": "Spec 4.3",
+      "severity": "critical"
+    },
+    "conformed.rows.dim_material": {
+      "expected": 7481,
+      "source": "Spec 4.3, T13",
+      "severity": "critical"
+    },
+    "conformed.rows.dim_supplier": {
+      "expected": 124,
+      "source": "Spec 4.3, T06",
+      "severity": "critical"
+    },
+    "conformed.rows.map_cycle": {
+      "expected": 28,
+      "source": "Spec Appendix A",
+      "severity": "critical"
+    },
+    "conformed.rows.bridge_fl_material": {
+      "expected": 20423,
+      "source": "Spec T11",
+      "severity": "critical"
+    },
+    "conformed.rows.bridge_order_notification": {
+      "expected": 5242,
+      "source": "Spec 3.4 S07",
+      "severity": "critical"
+    },
+    "conformed.rows.fact_prpo_line": {
+      "expected": 11609,
+      "source": "COR-09 keeps all source rows",
+      "severity": "critical"
+    },
+    "conformed.rows.fact_issue": {
+      "expected": 17518,
+      "source": "Spec 4.3",
+      "severity": "critical"
+    },
+    "conformed.rows.fact_notification": {
+      "expected": 5795,
+      "source": "Spec 4.3",
+      "severity": "critical"
+    },
+    "conformed.rows.fact_plan_item": {
+      "expected": 10153,
+      "source": "Spec 4.3",
+      "severity": "critical"
+    },
+    "flag.fact_prpo_line.flag_req_before_pr": {
+      "expected": 630,
+      "source": "Spec D1, T10",
+      "severity": "warning"
+    },
+    "flag.fact_prpo_line.flag_promise_before_pr": {
+      "expected": 6,
+      "source": "Spec D2, T10",
+      "severity": "warning"
+    },
+    "flag.fact_prpo_line.flag_req_before_pr.exact_distinct_rows": {
+      "expected": 324,
+      "source": "Plan 7.3",
+      "severity": "warning"
+    },
+    "flag.fact_prpo_line.flag_promise_before_pr.exact_distinct_rows": {
+      "expected": 2,
+      "source": "Plan 7.3",
+      "severity": "warning"
+    },
+    "flag.fact_prpo_line.flag_future_requested_date": {
+      "expected": 1682,
+      "source": "Register A-01",
+      "severity": "warning"
+    },
+    "flag.fact_prpo_line.flag_future_promised_date": {
+      "expected": 1467,
+      "source": "Register A-01",
+      "severity": "warning"
+    },
+    "flag.fact_prpo_line.in_idr_scope": {
+      "expected": 11511,
+      "source": "Spec T09",
+      "severity": "critical"
+    },
+    "flag.fact_prpo_line.flag_unit_mismatch": {
+      "expected": 0,
+      "source": "Spec T28",
+      "severity": "critical"
+    },
+    "flag.fact_prpo_line.flag_desc_mismatch": {
+      "expected": 0,
+      "source": "Spec T29",
+      "severity": "critical"
+    },
+    "flag.fact_issue.has_notification": {
+      "expected": 2791,
+      "source": "Spec T30",
+      "severity": "critical"
+    },
+    "flag.fact_issue.order_shared": {
+      "expected": 60,
+      "source": "Spec X-02, register A-07",
+      "severity": "critical"
+    },
+    "flag.fact_issue.flag_unit_mismatch": {
+      "expected": 0,
+      "source": "Spec T28",
+      "severity": "critical"
+    },
+    "flag.fact_issue.flag_desc_mismatch": {
+      "expected": 0,
+      "source": "Spec T29",
+      "severity": "critical"
+    },
+    "flag.fact_issue.partial_dup_groups": {
+      "expected": 297,
+      "source": "Spec 3.3 S04",
+      "severity": "critical"
+    },
+    "flag.fact_issue.fl_attribution": {
+      "expected": {
+        "ambiguous": 60,
+        "none": 14727,
+        "unique": 2731
+      },
+      "source": "Derived from Spec T30 and X-02: 17,518 - 2,791 and 2,791 - 60",
+      "severity": "critical"
+    },
+    "flag.fact_notification.is_open": {
+      "expected": 1305,
+      "source": "Spec T19",
+      "severity": "critical"
+    },
+    "flag.fact_notification.order_missing": {
+      "expected": 553,
+      "source": "Spec T20",
+      "severity": "critical"
+    },
+    "flag.fact_notification.flag_reqstart_before_notif": {
+      "expected": 370,
+      "source": "Spec D5",
+      "severity": "warning"
+    },
+    "flag.fact_notification.flag_created_differs": {
+      "expected": 61,
+      "source": "Register DEF-14",
+      "severity": "warning"
+    },
+    "flag.fact_notification.completed_late": {
+      "expected": 2028,
+      "source": "Spec D8",
+      "severity": "warning"
+    },
+    "flag.fact_notification.first_month_flag": {
+      "expected": 1463,
+      "source": "Spec N-09",
+      "severity": "warning"
+    },
+    "flag.fact_notification.is_system_level": {
+      "expected": 394,
+      "source": "Spec N-10",
+      "severity": "critical"
+    },
+    "flag.fact_notification.partial_dup_extra_rows": {
+      "expected": 8,
+      "source": "Spec 2.2",
+      "severity": "warning"
+    },
+    "flag.fact_plan_item.flag_cycle_unmapped": {
+      "expected": 0,
+      "source": "Spec T24",
+      "severity": "critical"
+    },
+    "flag.fact_plan_item.flag_future_cycle_start": {
+      "expected": 487,
+      "source": "COR-12",
+      "severity": "warning"
+    },
+    "flag.fact_plan_item.start_day_is_first": {
+      "expected": 7718,
+      "source": "Spec I S06",
+      "severity": "warning"
+    },
+    "flag.fact_plan_item.plans_on_multiple_locations": {
+      "expected": 710,
+      "source": "Spec I S09",
+      "severity": "warning"
+    },
+    "flag.dim_material.nonstock_with_stock": {
+      "expected": 1683,
+      "source": "Spec T14",
+      "severity": "warning"
+    },
+    "flag.dim_material.stockitem_min_max_zero": {
+      "expected": 29,
+      "source": "Spec B S09",
+      "severity": "warning"
+    },
+    "flag.dim_material.flag_fraction_on_count_unit": {
+      "expected": 1,
+      "source": "COR-07",
+      "severity": "warning"
+    },
+    "flag.dim_material.is_issued": {
+      "expected": 1930,
+      "source": "Spec T17",
+      "severity": "critical"
+    },
+    "flag.dim_material.is_procured": {
+      "expected": 1250,
+      "source": "Spec P-13",
+      "severity": "critical"
+    },
+    "flag.dim_material.mrp_type": {
+      "expected": {
+        "Non Stock": 3825,
+        "Stock Item": 3656
+      },
+      "source": "Spec T13",
+      "severity": "critical"
+    },
+    "flag.dim_material.desc_shared_groups": {
+      "expected": 133,
+      "source": "Spec 2.10",
+      "severity": "warning"
+    },
+    "flag.dim_material.desc_shared_materials": {
+      "expected": 597,
+      "source": "Spec 2.10",
+      "severity": "warning"
+    },
+    "flag.dim_functional_location.fl_has_bom": {
+      "expected": 4516,
+      "source": "Spec 2.11",
+      "severity": "critical"
+    },
+    "flag.dim_functional_location.fl_has_notification": {
+      "expected": 2219,
+      "source": "Spec 2.11",
+      "severity": "critical"
+    },
+    "flag.dim_functional_location.fl_has_plan": {
+      "expected": 5785,
+      "source": "Spec 2.11",
+      "severity": "critical"
+    },
+    "flag.dim_functional_location.fl_in_all_three": {
+      "expected": 894,
+      "source": "Spec F S07",
+      "severity": "critical"
+    },
+    "flag.dim_functional_location.criticality_missing": {
+      "expected": 33,
+      "source": "Spec T26",
+      "severity": "critical"
+    },
+    "flag.bridge_order_notification.shared_orders": {
+      "expected": 52,
+      "source": "Spec T21",
+      "severity": "critical"
+    },
+    "flag.bridge_order_notification.order_shared": {
+      "expected": 104,
+      "source": "Derived from Spec T21: 52 orders x 2",
+      "severity": "critical"
+    },
+    "flag.bridge_order_notification.shared_orders_same_location": {
+      "expected": 0,
+      "source": "COR-14",
+      "severity": "critical"
+    },
+    "flag.bridge_fl_material.flag_fraction_on_count_unit": {
+      "expected": 0,
+      "source": "COR-07",
+      "severity": "warning"
+    },
+    "flag.bridge_fl_material.flag_non_integer_installed_qty": {
+      "expected": 88,
+      "source": "Recorded at this build; no documented value. Spec lists 89 on all rows; one is an exact copy",
+      "severity": "warning"
+    },
+    "flag.fact_issue.issued_material_in_fl_bom": {
+      "expected": 644,
+      "source": "Recorded at this build; no documented value. Spec R10 gives about 23%",
+      "severity": "warning"
+    },
+    "flag.fact_notification.desc_ref_code_rows": {
+      "expected": 288,
+      "source": "Recorded at this build; no documented value. Spec 279 counts only codes at the very start",
+      "severity": "warning"
+    },
+    "relationship.R1.child_keys_missing_in_parent": {
+      "expected": 0,
+      "source": "Spec R1",
+      "severity": "critical"
+    },
+    "relationship.R1.parent_keys_unused_by_child": {
+      "expected": 9968,
+      "source": "Spec R1",
+      "severity": "critical"
+    },
+    "relationship.R2.child_keys_missing_in_parent": {
+      "expected": 0,
+      "source": "Spec R2",
+      "severity": "critical"
+    },
+    "relationship.R2.parent_keys_unused_by_child": {
+      "expected": 12265,
+      "source": "Spec R2",
+      "severity": "critical"
+    },
+    "relationship.R3.child_keys_missing_in_parent": {
+      "expected": 0,
+      "source": "Spec R3",
+      "severity": "critical"
+    },
+    "relationship.R3.parent_keys_unused_by_child": {
+      "expected": 8699,
+      "source": "Spec R3",
+      "severity": "critical"
+    },
+    "relationship.R4.child_keys_missing_in_parent": {
+      "expected": 0,
+      "source": "Spec R4",
+      "severity": "critical"
+    },
+    "relationship.R4.parent_keys_unused_by_child": {
+      "expected": 5551,
+      "source": "Spec R4",
+      "severity": "critical"
+    },
+    "relationship.R4.rows_added_over_child": {
+      "expected": 0,
+      "source": "Spec R4",
+      "severity": "critical"
+    },
+    "relationship.R4.naive_raw_join_rows_avoided": {
+      "expected": 615146,
+      "source": "Spec R4",
+      "severity": "critical"
+    },
+    "relationship.R5.original_rows.child_keys_missing_in_parent": {
+      "expected": 0,
+      "source": "Spec R5",
+      "severity": "critical"
+    },
+    "relationship.R5.original_rows.parent_keys_unused_by_child": {
+      "expected": 6231,
+      "source": "Spec R5",
+      "severity": "critical"
+    },
+    "relationship.R5.original_rows.rows_added_over_child": {
+      "expected": 0,
+      "source": "Spec R5",
+      "severity": "critical"
+    },
+    "relationship.R5.original_rows.naive_raw_join_rows_avoided": {
+      "expected": 293658,
+      "source": "Spec R5",
+      "severity": "critical"
+    },
+    "relationship.R6.original_rows.child_keys_missing_in_parent": {
+      "expected": 0,
+      "source": "Spec R6",
+      "severity": "critical"
+    },
+    "relationship.R7.child_keys_missing_in_parent": {
+      "expected": 3881,
+      "source": "Spec R7",
+      "severity": "critical"
+    },
+    "relationship.R7.parent_keys_unused_by_child": {
+      "expected": 4187,
+      "source": "Spec R7",
+      "severity": "critical"
+    },
+    "relationship.R7.child_rows_matched": {
+      "expected": 2791,
+      "source": "Spec T30",
+      "severity": "critical"
+    },
+    "relationship.R7.inner_join_rows": {
+      "expected": 2851,
+      "source": "Spec R7",
+      "severity": "critical"
+    },
+    "relationship.R7.rows_added_over_child": {
+      "expected": 60,
+      "source": "Spec X-02",
+      "severity": "critical"
+    },
+    "relationship.R9.child_keys_missing_in_parent": {
+      "expected": 220,
+      "source": "Spec T31",
+      "severity": "critical"
+    },
+    "relationship.R9.parent_keys_unused_by_child": {
+      "expected": 900,
+      "source": "Spec T31",
+      "severity": "critical"
+    },
+    "relationship.R9.inner_join_rows": {
+      "expected": 1030,
+      "source": "Spec T31",
+      "severity": "critical"
+    },
+    "relationship.R11.inner_join_rows": {
+      "expected": 29913,
+      "source": "COR-06",
+      "severity": "critical"
+    },
+    "evidence.keys.pr_key_repeats_original_rows": {
+      "expected": 5420,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.pr_key_repeats_distinct_rows": {
+      "expected": 0,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.po_key_repeats_original_rows": {
+      "expected": 5420,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.po_key_repeats_distinct_rows": {
+      "expected": 0,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.same_pr_key_with_different_content": {
+      "expected": 0,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.same_po_key_with_different_content": {
+      "expected": 0,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.max_po_items_per_pr_item_distinct_rows": {
+      "expected": 1,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.max_pr_items_per_po_item_distinct_rows": {
+      "expected": 1,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.different_key_same_date_material_quantity_amount_po_rows": {
+      "expected": 0,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.keys.different_key_same_date_material_quantity_rows": {
+      "expected": 2,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.observed_same_copy_share.purchase_requisition": {
+      "expected": 0.255,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.observed_same_copy_share.purchase_order": {
+      "expected": 0.125,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    },
+    "evidence.observed_same_copy_share.material_no": {
+      "expected": 0.144,
+      "source": "Plan 7.1",
+      "severity": "critical"
+    }
+  }
+}

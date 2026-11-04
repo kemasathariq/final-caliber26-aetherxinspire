@@ -1,0 +1,763 @@
+{
+ "note": "Documented values from the specification, dictionary, discovery report and the read-only audit of 2026-11-04. A match shows the data has not drifted from those counts. It does not show that an interpretation of them is correct. critical = the check fails the build; warning = reported for review.",
+ "measures": {
+  "rows.prpo": {
+   "expected": 11609,
+   "source": "Spec T01",
+   "severity": "critical"
+  },
+  "rows.movement": {
+   "expected": 17518,
+   "source": "Spec T01",
+   "severity": "critical"
+  },
+  "rows.notif": {
+   "expected": 5795,
+   "source": "Spec T01",
+   "severity": "critical"
+  },
+  "rows.mitem": {
+   "expected": 10153,
+   "source": "Spec T01",
+   "severity": "critical"
+  },
+  "rows.bom": {
+   "expected": 20653,
+   "source": "Spec T01",
+   "severity": "critical"
+  },
+  "rows.funcloc": {
+   "expected": 14484,
+   "source": "Spec T01",
+   "severity": "critical"
+  },
+  "exact_duplicate_extras.prpo": {
+   "expected": 5420,
+   "source": "Spec T04",
+   "severity": "critical"
+  },
+  "exact_duplicate_extras.movement": {
+   "expected": 863,
+   "source": "Spec T16",
+   "severity": "critical"
+  },
+  "exact_duplicate_extras.notif": {
+   "expected": 0,
+   "source": "Spec Spec 2.1",
+   "severity": "critical"
+  },
+  "exact_duplicate_extras.mitem": {
+   "expected": 0,
+   "source": "Spec Spec 2.1",
+   "severity": "critical"
+  },
+  "exact_duplicate_extras.bom": {
+   "expected": 230,
+   "source": "Spec T11",
+   "severity": "critical"
+  },
+  "exact_duplicate_extras.funcloc": {
+   "expected": 0,
+   "source": "Spec Spec 2.1",
+   "severity": "critical"
+  },
+  "prpo.distinct_rows": {
+   "expected": 6189,
+   "source": "Spec T05",
+   "severity": "critical"
+  },
+  "prpo.occurrence_distribution": {
+   "expected": {
+    "1": 2589,
+    "2": 2300,
+    "3": 780,
+    "4": 520
+   },
+   "source": "Spec 2.1",
+   "severity": "critical"
+  },
+  "prpo.pr_key_repeats.original_rows": {
+   "expected": 5420,
+   "source": "Audit 2026-11-04",
+   "severity": "critical"
+  },
+  "prpo.pr_key_repeats.exact_distinct_rows": {
+   "expected": 0,
+   "source": "Spec T05",
+   "severity": "critical"
+  },
+  "prpo.po_key_repeats.original_rows": {
+   "expected": 5420,
+   "source": "Audit 2026-11-04",
+   "severity": "critical"
+  },
+  "prpo.po_key_repeats.exact_distinct_rows": {
+   "expected": 0,
+   "source": "Spec T05",
+   "severity": "critical"
+  },
+  "prpo.distinct_purchase_requisitions": {
+   "expected": 4805,
+   "source": "Dictionary",
+   "severity": "critical"
+  },
+  "prpo.distinct_purchase_orders": {
+   "expected": 1792,
+   "source": "Dictionary",
+   "severity": "critical"
+  },
+  "prpo.distinct_materials": {
+   "expected": 1250,
+   "source": "Dictionary",
+   "severity": "critical"
+  },
+  "prpo.distinct_suppliers": {
+   "expected": 124,
+   "source": "Spec T06",
+   "severity": "critical"
+  },
+  "prpo.max_names_per_supplier": {
+   "expected": 1,
+   "source": "Spec T06",
+   "severity": "critical"
+  },
+  "prpo.max_suppliers_per_po": {
+   "expected": 1,
+   "source": "Spec S07",
+   "severity": "critical"
+  },
+  "prpo.max_suppliers_per_material": {
+   "expected": 1,
+   "source": "Spec T07",
+   "severity": "critical"
+  },
+  "prpo.plant_values": {
+   "expected": [
+    "1000"
+   ],
+   "source": "Spec T08",
+   "severity": "critical"
+  },
+  "prpo.currency_rows.original_rows": {
+   "expected": {
+    "EUR": 20,
+    "IDR": 11511,
+    "JPY": 41,
+    "SGD": 2,
+    "USD": 35
+   },
+   "source": "Spec T09",
+   "severity": "critical"
+  },
+  "prpo.currency_rows.exact_distinct_rows": {
+   "expected": {
+    "EUR": 11,
+    "IDR": 6138,
+    "JPY": 21,
+    "SGD": 2,
+    "USD": 17
+   },
+   "source": "Spec 2.7",
+   "severity": "critical"
+  },
+  "prpo.max_currencies_per_supplier": {
+   "expected": 1,
+   "source": "Correction COR-02",
+   "severity": "critical"
+  },
+  "prpo.suppliers_per_currency": {
+   "expected": {
+    "EUR": 1,
+    "IDR": 118,
+    "JPY": 3,
+    "SGD": 1,
+    "USD": 1
+   },
+   "source": "Correction COR-02",
+   "severity": "critical"
+  },
+  "prpo.pr_prefix_type_violations": {
+   "expected": 0,
+   "source": "Spec 2.9",
+   "severity": "critical"
+  },
+  "prpo.material_desc_space_rows": {
+   "expected": 191,
+   "source": "Spec 2.10",
+   "severity": "warning"
+  },
+  "prpo.requested_before_pr.original_rows": {
+   "expected": 630,
+   "source": "Spec T10",
+   "severity": "warning"
+  },
+  "prpo.requested_before_pr.exact_distinct_rows": {
+   "expected": 324,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "prpo.promised_before_pr.original_rows": {
+   "expected": 6,
+   "source": "Spec T10",
+   "severity": "warning"
+  },
+  "prpo.promised_before_pr.exact_distinct_rows": {
+   "expected": 2,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "prpo.promised_before_requested.original_rows": {
+   "expected": 4232,
+   "source": "Spec D3",
+   "severity": "warning"
+  },
+  "prpo.promised_before_requested.exact_distinct_rows": {
+   "expected": 2277,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "prpo.requested_after_cutoff.exact_distinct_rows": {
+   "expected": 891,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "prpo.promised_after_cutoff.exact_distinct_rows": {
+   "expected": 766,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "bom.distinct_rows": {
+   "expected": 20423,
+   "source": "Spec T11",
+   "severity": "critical"
+  },
+  "bom.pair_repeats.all_rows": {
+   "expected": 230,
+   "source": "Audit 2026-11-04",
+   "severity": "critical"
+  },
+  "bom.pair_repeats.distinct_rows": {
+   "expected": 0,
+   "source": "Spec T11",
+   "severity": "critical"
+  },
+  "bom.materials_with_conflicting_attributes": {
+   "expected": {
+    "material_desc": 0,
+    "unit": 0,
+    "min_qty": 0,
+    "max_qty": 0,
+    "stock": 0,
+    "mrp_type": 0
+   },
+   "source": "Spec T12",
+   "severity": "critical"
+  },
+  "bom.distinct_materials": {
+   "expected": 7481,
+   "source": "Spec T13",
+   "severity": "critical"
+  },
+  "bom.distinct_locations": {
+   "expected": 4516,
+   "source": "Spec 2.11",
+   "severity": "critical"
+  },
+  "bom.mrp_materials": {
+   "expected": {
+    "Non Stock": 3825,
+    "Stock Item": 3656
+   },
+   "source": "Spec T13",
+   "severity": "critical"
+  },
+  "bom.non_stock_with_stock": {
+   "expected": 1683,
+   "source": "Spec T14",
+   "severity": "warning"
+  },
+  "bom.non_stock_with_min_or_max": {
+   "expected": 0,
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "bom.stock_item_zero_stock": {
+   "expected": 472,
+   "source": "Discovery 2.2",
+   "severity": "warning"
+  },
+  "bom.stock_item_below_min": {
+   "expected": 504,
+   "source": "Discovery 2.2",
+   "severity": "warning"
+  },
+  "bom.stock_item_above_max": {
+   "expected": 1380,
+   "source": "Discovery 2.2",
+   "severity": "warning"
+  },
+  "bom.stock_item_min_max_zero": {
+   "expected": 29,
+   "source": "Spec S09",
+   "severity": "warning"
+  },
+  "bom.min_greater_than_max": {
+   "expected": 0,
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "bom.non_integer_stock_rows": {
+   "expected": 3,
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "bom.non_integer_stock_on_count_unit_materials": {
+   "expected": 1,
+   "source": "Correction COR-07",
+   "severity": "warning"
+  },
+  "bom.non_integer_installed_rows": {
+   "expected": 89,
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "bom.non_integer_installed_by_unit": {
+   "expected": {
+    "M": 89
+   },
+   "source": "Correction COR-07",
+   "severity": "warning"
+  },
+  "bom.max_rows_per_material": {
+   "expected": 308,
+   "source": "Correction COR-05",
+   "severity": "warning"
+  },
+  "bom.max_locations_per_material": {
+   "expected": 307,
+   "source": "Correction COR-05",
+   "severity": "warning"
+  },
+  "bom.material_desc_space_rows": {
+   "expected": 438,
+   "source": "Spec 2.10",
+   "severity": "warning"
+  },
+  "bom.descriptions_on_multiple_materials": {
+   "expected": 133,
+   "source": "Spec 2.10",
+   "severity": "warning"
+  },
+  "bom.materials_with_shared_description": {
+   "expected": 597,
+   "source": "Spec 2.10",
+   "severity": "warning"
+  },
+  "movement.distinct_rows": {
+   "expected": 16655,
+   "source": "Audit 2026-11-04",
+   "severity": "critical"
+  },
+  "movement.movement_types": {
+   "expected": [
+    "Issue"
+   ],
+   "source": "Spec T15",
+   "severity": "critical"
+  },
+  "movement.distinct_materials": {
+   "expected": 1930,
+   "source": "Spec T17",
+   "severity": "critical"
+  },
+  "movement.distinct_orders": {
+   "expected": 4884,
+   "source": "Spec T17",
+   "severity": "critical"
+  },
+  "movement.same_date_material_order_groups": {
+   "expected": 1074,
+   "source": "Spec 2.2",
+   "severity": "warning"
+  },
+  "movement.same_key_groups_with_different_quantity": {
+   "expected": 297,
+   "source": "Spec 2.2",
+   "severity": "warning"
+  },
+  "movement.material_desc_space_rows": {
+   "expected": 128,
+   "source": "Spec 2.10",
+   "severity": "warning"
+  },
+  "movement.peak_month_rows": {
+   "expected": 2580,
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "movement.materials_active_in_one_month": {
+   "expected": 1220,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "notif.distinct_notifications": {
+   "expected": 5795,
+   "source": "Spec T18",
+   "severity": "critical"
+  },
+  "notif.status_rows": {
+   "expected": {
+    "Complete": 4490,
+    "In Progress": 1305
+   },
+   "source": "Spec T19",
+   "severity": "critical"
+  },
+  "notif.complete_with_completion_date": {
+   "expected": 4490,
+   "source": "Spec T19",
+   "severity": "critical"
+  },
+  "notif.complete_without_completion_date": {
+   "expected": 0,
+   "source": "Spec T19",
+   "severity": "critical"
+  },
+  "notif.in_progress_with_completion_date": {
+   "expected": 0,
+   "source": "Spec T19",
+   "severity": "critical"
+  },
+  "notif.in_progress_without_completion_date": {
+   "expected": 1305,
+   "source": "Spec T19",
+   "severity": "critical"
+  },
+  "notif.null_orders": {
+   "expected": 553,
+   "source": "Spec T20",
+   "severity": "critical"
+  },
+  "notif.null_orders_not_in_progress": {
+   "expected": 0,
+   "source": "Spec T20",
+   "severity": "critical"
+  },
+  "notif.distinct_orders": {
+   "expected": 5190,
+   "source": "Spec S07",
+   "severity": "critical"
+  },
+  "notif.orders_on_multiple_notifications": {
+   "expected": 52,
+   "source": "Spec T21",
+   "severity": "critical"
+  },
+  "notif.max_notifications_per_order": {
+   "expected": 2,
+   "source": "Audit 2026-11-04",
+   "severity": "critical"
+  },
+  "notif.shared_orders_on_same_location": {
+   "expected": 0,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "notif.prefix_type_violations": {
+   "expected": 0,
+   "source": "Spec 2.9",
+   "severity": "critical"
+  },
+  "notif.order_prefix_202_rows_by_type": {
+   "expected": {
+    "N2": 135
+   },
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "notif.required_end_before_start": {
+   "expected": 0,
+   "source": "Spec T22",
+   "severity": "critical"
+  },
+  "notif.completion_before_notification": {
+   "expected": 0,
+   "source": "Spec T22",
+   "severity": "critical"
+  },
+  "notif.required_start_before_notification": {
+   "expected": 370,
+   "source": "Spec D5",
+   "severity": "warning"
+  },
+  "notif.completed_after_required_end": {
+   "expected": 2028,
+   "source": "Spec D8",
+   "severity": "warning"
+  },
+  "notif.created_on_differs": {
+   "expected": 61,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "notif.first_month_rows": {
+   "expected": 1463,
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "notif.on_site_level_locations": {
+   "expected": 394,
+   "source": "Spec S08",
+   "severity": "warning"
+  },
+  "notif.description_starts_with_replace": {
+   "expected": 882,
+   "source": "Correction COR-03",
+   "severity": "warning"
+  },
+  "notif.bracket_prefix_rows": {
+   "expected": 279,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "mitem.distinct_items": {
+   "expected": 10153,
+   "source": "Spec T23",
+   "severity": "critical"
+  },
+  "mitem.distinct_plans": {
+   "expected": 3823,
+   "source": "Dictionary",
+   "severity": "critical"
+  },
+  "mitem.distinct_locations": {
+   "expected": 5785,
+   "source": "Spec 2.11",
+   "severity": "critical"
+  },
+  "mitem.cycle_description_rows": {
+   "expected": {
+    "1 MONTHLY": 49,
+    "1 WEEKLY": 26,
+    "1 YEARLY": 1254,
+    "10 YEARLY": 621,
+    "12 MONTHLY": 229,
+    "12 WEEK": 76,
+    "16 WEEKLY": 3,
+    "18 MONTHLY": 1132,
+    "2 MONTHLY": 3,
+    "2 WEEK": 14,
+    "2 WEEKLY": 96,
+    "2 YEARLY": 376,
+    "24 WEEK": 39,
+    "26 WEEKLY": 31,
+    "3 MONTHLY": 267,
+    "3 YEARLY": 202,
+    "30 MONTHLY": 4,
+    "4 MONTH": 83,
+    "4 WEEKLY": 92,
+    "48 WEEK": 26,
+    "5 YEARLY": 3767,
+    "6 MONTHLY": 788,
+    "8 WEEKLY": 3,
+    "8 YEARLY": 27,
+    "Monthly": 160,
+    "Weekly": 15,
+    "YEARLY": 465,
+    "Yearly": 305
+   },
+   "source": "Spec Appendix A",
+   "severity": "critical"
+  },
+  "mitem.criticality_differs_from_master": {
+   "expected": 0,
+   "source": "Spec T25",
+   "severity": "critical"
+  },
+  "mitem.description_differs_from_master": {
+   "expected": 0,
+   "source": "Spec T25",
+   "severity": "critical"
+  },
+  "mitem.start_after_cutoff": {
+   "expected": 487,
+   "source": "Correction COR-12",
+   "severity": "warning"
+  },
+  "mitem.start_after_audit_date": {
+   "expected": 344,
+   "source": "Spec D10",
+   "severity": "warning"
+  },
+  "mitem.start_on_first_of_month": {
+   "expected": 7718,
+   "source": "Spec S06",
+   "severity": "warning"
+  },
+  "mitem.plans_on_multiple_locations": {
+   "expected": 710,
+   "source": "Spec S09",
+   "severity": "warning"
+  },
+  "funcloc.distinct_locations": {
+   "expected": 14484,
+   "source": "Spec T26",
+   "severity": "critical"
+  },
+  "funcloc.null_criticality": {
+   "expected": 33,
+   "source": "Spec T26",
+   "severity": "critical"
+  },
+  "funcloc.null_criticality_not_site": {
+   "expected": 0,
+   "source": "Spec T26",
+   "severity": "critical"
+  },
+  "funcloc.site_rows": {
+   "expected": 33,
+   "source": "Spec T26",
+   "severity": "critical"
+  },
+  "funcloc.criticality_rows": {
+   "expected": {
+    "A": 2668,
+    "B": 2581,
+    "C": 7298,
+    "S": 1904
+   },
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "funcloc.prefix_rows": {
+   "expected": {
+    "PX": 12983,
+    "PY": 1411,
+    "SITE": 33,
+    "UT": 57
+   },
+   "source": "Dictionary",
+   "severity": "warning"
+  },
+  "cross.bom_locations_missing_from_funcloc": {
+   "expected": 0,
+   "source": "Spec T27",
+   "severity": "critical"
+  },
+  "cross.notif_locations_missing_from_funcloc": {
+   "expected": 0,
+   "source": "Spec T27",
+   "severity": "critical"
+  },
+  "cross.mitem_locations_missing_from_funcloc": {
+   "expected": 0,
+   "source": "Spec T27",
+   "severity": "critical"
+  },
+  "cross.movement_materials_missing_from_bom": {
+   "expected": 0,
+   "source": "Spec T27",
+   "severity": "critical"
+  },
+  "cross.prpo_materials_missing_from_bom": {
+   "expected": 0,
+   "source": "Spec T27",
+   "severity": "critical"
+  },
+  "cross.materials_issued_and_procured": {
+   "expected": 1030,
+   "source": "Spec T31",
+   "severity": "critical"
+  },
+  "cross.materials_issued_only": {
+   "expected": 900,
+   "source": "Spec T31",
+   "severity": "critical"
+  },
+  "cross.materials_procured_only": {
+   "expected": 220,
+   "source": "Spec T31",
+   "severity": "critical"
+  },
+  "cross.bom_materials_neither": {
+   "expected": 5331,
+   "source": "Audit 2026-11-04",
+   "severity": "warning"
+  },
+  "cross.max_units_per_material": {
+   "expected": 1,
+   "source": "Spec T28",
+   "severity": "critical"
+  },
+  "cross.max_descriptions_per_material": {
+   "expected": 1,
+   "source": "Spec T29",
+   "severity": "critical"
+  },
+  "cross.movement_orders_found_in_notif": {
+   "expected": 1003,
+   "source": "Spec T30",
+   "severity": "critical"
+  },
+  "cross.movement_rows_with_notif_order": {
+   "expected": 2791,
+   "source": "Spec T30",
+   "severity": "critical"
+  },
+  "cross.movement_notif_joined_rows": {
+   "expected": 2851,
+   "source": "Spec Appendix D",
+   "severity": "critical"
+  },
+  "cross.joined_rows_posted_before_notification": {
+   "expected": 10,
+   "source": "Correction COR-04",
+   "severity": "warning"
+  },
+  "cross.raw_join_rows_bom_movement": {
+   "expected": 615146,
+   "source": "Spec R4",
+   "severity": "warning"
+  },
+  "cross.raw_join_rows_bom_prpo": {
+   "expected": 293658,
+   "source": "Spec R5",
+   "severity": "warning"
+  },
+  "cross.raw_join_rows_mitem_bom_all_rows": {
+   "expected": 30245,
+   "source": "Correction COR-06",
+   "severity": "warning"
+  },
+  "cross.raw_join_rows_mitem_bom_distinct": {
+   "expected": 29913,
+   "source": "Correction COR-06",
+   "severity": "warning"
+  },
+  "cross.locations_in_bom_notif_and_mitem": {
+   "expected": 894,
+   "source": "Spec S07",
+   "severity": "warning"
+  },
+  "cross.joined_rows_material_in_location_bom": {
+   "expected": 644,
+   "source": "Audit shares 22.59% and 23.07%; exact count recorded at the first Phase 1 build",
+   "severity": "warning"
+  },
+  "cross.movement_rows_in_bom_for_any_linked_notification": {
+   "expected": 644,
+   "source": "Audit shares 22.59% and 23.07%; exact count recorded at the first Phase 1 build",
+   "severity": "warning"
+  },
+  "prpo.promised_after_cutoff.original_rows": {
+   "expected": 1467,
+   "source": "Recorded at the first Phase 1 build",
+   "severity": "warning"
+  },
+  "prpo.requested_after_cutoff.original_rows": {
+   "expected": 1682,
+   "source": "Recorded at the first Phase 1 build",
+   "severity": "warning"
+  }
+ }
+}
