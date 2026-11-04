@@ -1,0 +1,44 @@
+{
+ "run_id": "RUN-SAMPLE",
+ "spec_version": "0.2",
+ "engine_version": "sample",
+ "methodology_version": "INSPIRE-M-2026-11-04.1",
+ "data_label": "ILLUSTRATIVE SAMPLE. Invented values with invented material numbers. Not derived from the dataset. Not a result.",
+ "config_id": "sample",
+ "seed": null,
+ "input_checksums": {},
+ "created_at": "sample",
+ "execution_status": "sample",
+ "files": {
+  "eng_material_tier.csv": {
+   "rows": 10
+  },
+  "eng_forecast.csv": {
+   "rows": 28
+  },
+  "eng_scenario_result.csv": {
+   "rows": 68
+  },
+  "eng_proposed_parameters.csv": {
+   "rows": 36
+  },
+  "eng_capability_output.csv": {
+   "rows": 51
+  },
+  "eng_recommendation.csv": {
+   "rows": 19
+  },
+  "eng_health_flags.csv": {
+   "rows": 10
+  },
+  "eng_explanation_facts.csv": {
+   "rows": 10
+  },
+  "eng_supply_context.csv": {
+   "rows": 16
+  },
+  "eng_kpi_summary.csv": {
+   "rows": 1
+  }
+ }
+}

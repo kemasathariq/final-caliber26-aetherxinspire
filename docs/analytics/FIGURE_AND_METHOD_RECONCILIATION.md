@@ -70,6 +70,8 @@ If "independent-start" refers to a comparison in which each policy starts from i
 
 ## 7. Simulation status
 
+**Superseded on 2026-11-04.** The engine is built and has run: `SIMULATION_METHODOLOGY_AND_RESULTS.md`, run `RUN-277fc4b966e6`. The population counts in sections 1 and 2 were recomputed from the marts in the run and hold. The indicative pattern split changed: Scenario A is 116 erratic, 100 lumpy, 53 intermittent and 27 smooth, where the methodology had 112, 87, 66 and 31. The table below is the Phase 1 record.
+
 | Item | Status |
 | --- | --- |
 | Design specification, assumption register, feasibility assessment | IMPLEMENTED as documents, checks and tests exist |

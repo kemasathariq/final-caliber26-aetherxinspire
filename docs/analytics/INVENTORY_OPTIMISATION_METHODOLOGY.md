@@ -1,6 +1,6 @@
 # INSpire Inventory Optimisation Methodology
 
-**Status:** DRAFT v0.1, PROPOSED. Engine not built. Builds on `docs/analysis/SIMULATION_DESIGN_SPECIFICATION.md` (event flow, mathematics, worked example) and does not repeat it. No output of this method is called optimal. No cost enters unless approved (D-09).
+**Status:** DRAFT v0.1. **Built on 2026-11-04, see `SIMULATION_METHODOLOGY_AND_RESULTS.md`. Monthly re-estimation in section 3 was not built.** Builds on `docs/analysis/SIMULATION_DESIGN_SPECIFICATION.md` (event flow, mathematics, worked example) and does not repeat it. No output of this method is called optimal. No cost enters unless approved (D-09).
 
 ## 1. Recorded versus proposed
 

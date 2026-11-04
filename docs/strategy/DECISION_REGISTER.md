@@ -30,7 +30,9 @@ Classes: **EVID** evidence-resolvable. **DEFAULT** safe default recommended. **A
 | D-22 | How the deck describes AI | DEFAULT | Use the method classification in blueprint section 12.3 | APPROVAL (wording) | Deck |
 | D-23 | Forecast output R-16 and stock-level what-if in engine scope | EVID (need, p4, p6) + APPROVAL (time) | Needed by the brief. Scope and time are your call. Minimum: forecast range for 296 materials, what-if as Min and Max scaled by 0.5 and 1.5 | APPROVAL | R-16, OB-20 |
 | D-24 | Which materials get proposed parameters: 228 or 665 | DEFAULT | 228 (Grade A). Section 3 of `FIGURE_AND_METHOD_RECONCILIATION.md` | APPROVAL | Capability 2 scope |
-| D-25 | Rule table for `recommended_action` | DEFAULT | Blueprint section 12.2. Thresholds configurable and unset | APPROVAL | R-17 |
+| D-25 | Rule table for `recommended_action` | DEFAULT | Blueprint section 12.2. **Phase 2 run uses analyst-selected thresholds:** reorder at shortfall probability above 0.10, reduce at days above Max above 50 percent, risk levels 0.10 and 0.50. Configurable in `src/simulation/settings.py` | APPROVAL | R-17 |
+| D-26 | Treatment of the block-bootstrap quantile, which **failed the pre-registered pinball rule** at 0.90, 0.95 and 0.98 (coverage 0.97 to 0.98 at nominal 0.90) | APPROVAL | Rule says use the baseline or abstain. **Phase 2 default:** Croston-SBA for the point forecast. X1 to X3 kept as labelled what-if candidates with a limitation code, because D-05 asks for them and held-out replay tests them directly. Alternative: make N1 the only proposed parameter | APPROVAL | Capability 2 wording, deck claim |
+| D-27 | Which policy the deck leads with, given the trade-off: X2 lowers simulated shortages and raises on-hand, N1 costs less stock and helps less | APPROVAL | Recommendation: show the trade-off across X1, X2, X3, N1 and R2, with no single winner | APPROVAL | Deck, narrative |
 
 ## 2. D-07 and D-08 in detail
 
@@ -82,3 +84,23 @@ Because the brief mandates the DB in the zip and a public prototype, refusing al
 | Audit omitted the 228 versus 665 contradiction | New finding | D-24 |
 | Audit omitted the name collision of tier labels | New finding | Reconciliation section 2 |
 | Audit said brief silent on confidentiality | Verified, brief has no such term | none |
+
+## 5. Phase 2 execution record (2026-11-04)
+
+Run `RUN-277fc4b966e6`. Defaults exercised under the Lead's Phase 2 instruction. **Using a default does not close an APPROVAL decision.**
+
+| ID | What the run used | Lead instruction | Still needs |
+| --- | --- | --- | --- |
+| D-02 | R1 reading as primary, R2 as sensitivity | Stated in the Phase 2 instruction | C-2 from the case owner, then close |
+| D-03 | 6 months, 10 observations | "Use the agreed evidence thresholds" | Close |
+| D-04 | Automatic gate: reconciliation plus 12 predictions must pass before Monte Carlo. All passed | Stated | Close |
+| D-05 | 90, 95, 98 percent as scenario levels | Stated | Close |
+| D-06 | `eng_material_tier.csv` with checks | Stated | Close |
+| D-07 | **Not assumed. Nothing deployed or uploaded** | "Do not resolve D-07 through assumption" | **Lead decision** |
+| D-09, D-10 | No money in any engine file | Stated | Brilian's proposal, Lead decision |
+| D-16 | `eng_supply_context.csv` with checks against M1 | Stated (L6) | Close |
+| D-19 | HOLD stands for Maintain, `action_label` shows Maintain | Stated, four actions | Close |
+| D-22 | Method classes reported per output | Stated | Wording in the deck |
+| D-23 | Forecast and stock-level what-if (K12 to K15) built | Stated (L3, L2) | Close |
+| D-24 | 228. The 437 get replay and what-if only | Stated | Close |
+| D-25 | Analyst-selected thresholds above | Stated, labelled | Approve or replace |

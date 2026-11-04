@@ -1,0 +1,11 @@
+run_id,material_no,fact_id,capability,fact_key,value,unit,scenario_id,source_file,source_column
+RUN-SAMPLE,SAMPLE-0001,SAMPLE-0001-1,all,demand_class,D3,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0002,SAMPLE-0002-1,all,demand_class,D4,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0003,SAMPLE-0003-1,all,demand_class,D3,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0004,SAMPLE-0004-1,all,demand_class,D2,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0005,SAMPLE-0005-1,all,demand_class,D1,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0006,SAMPLE-0006-1,all,demand_class,D3,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0007,SAMPLE-0007-1,all,demand_class,D1,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0008,SAMPLE-0008-1,all,demand_class,D0,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0009,SAMPLE-0009-1,all,demand_class,D0,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class
+RUN-SAMPLE,SAMPLE-0010,SAMPLE-0010-1,all,demand_class,D2,,SC-ALL-NA-NA-NA-K0,eng_material_tier.csv,demand_class

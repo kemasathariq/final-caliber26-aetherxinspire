@@ -249,6 +249,8 @@ INSpire is Spare Part Intelligence and Inventory Optimization (the brief's title
 
 ### 12.2 MVP outputs, method class and status
 
+**Update 2026-11-04.** Every row below except Cost-risk scenarios and Explanations by LLM is now IMPLEMENTED and run, on `RUN-277fc4b966e6`. Results: `analytics/SIMULATION_METHODOLOGY_AND_RESULTS.md`. Contract: `handover/ENGINE_OUTPUT_CONTRACT.md`. Thresholds in the action table are analyst-selected (D-25). The status words in the table are the Phase 1 record.
+
 Status words: IMPLEMENTED means exists and tested. Everything else here is PROPOSED and not built.
 
 | Output (brief p4) | Method class | Grade and population | Contract field | Status |

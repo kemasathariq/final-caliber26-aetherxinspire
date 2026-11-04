@@ -192,3 +192,30 @@ Read first: `strategy/MASTER_SOLUTION_BLUEPRINT.md` section 12, `strategy/PHASE_
 **Display rules added:** show the method class (statistical, simulation, rule) beside each output. Show `recommended_action` as a candidate. Show "sample data" on every page until real data is approved. Persist nothing unless the smoke test proves it.
 
 **Acceptance for the baseline** is in the execution plan. A feature is "done" only with a test or screenshot as evidence.
+
+## Addendum D: engine outputs exist, contract v0.2 (2026-11-04)
+
+**Contract:** `handover/ENGINE_OUTPUT_CONTRACT.md`, generated from `src/simulation/contract.py`. It extends section 5 and Addenda A and B. It does not replace them, and no v0.1 column changed. Results and their meaning: `analytics/SIMULATION_METHODOLOGY_AND_RESULTS.md`.
+
+| Use | Path | May be deployed? |
+| --- | --- | --- |
+| Build, smoke deploy, demo before D-07 | `data/samples/engine/`. Invented material numbers, `output_class = sample`, `run_id = RUN-SAMPLE`, tracked in git | **Yes.** Show "sample data" on every page |
+| Real results for your local build | `data/processed/engine/`, run `RUN-277fc4b966e6`. Git-ignored, so the Lead shares it privately | **No, not until the Lead records D-07** |
+
+**Load order.** Read `eng_run_manifest.json` first and reject the run if it or `data_label` is missing. Then validate each CSV against the contract. `eng_explanation_facts.csv` is the only source of numbers for the assistant.
+
+**Reading files.** Read `material_no` and `supplier_code` as text. Turn off default null-string parsing where your CSV reader has it. Blank means no value, never zero.
+
+**Display rules added.**
+
+| Field | Rule |
+| --- | --- |
+| `recommended_action` | Show `action_label`. `HOLD` displays as Maintain. `NO_ACTION_EVIDENCE` displays as an abstention with `reason`. Always a candidate |
+| `consensus_status` | Use it for the list view. `scenario_dependent` needs a visible flag, and `consensus_action` is blank there. Grade A detail shows all four scenario rows |
+| `limitations` | Show on the recommendation. `quantile_method_failed_preregistered_pinball_rule` appears on every Grade A row today. Do not hide it |
+| `output_class` | Label values: sample, historical, rule, statistical forecast, deterministic simulation, stochastic simulation. Never mix without the label |
+| `parameter_source` | `full_window_in_sample` and `full_window_same_history` must read "in-sample". Lead the policy comparison with `run_set = HO` |
+| `flag_potentially_obsolete_candidate` | Text: "potentially obsolete candidate, hypothesis, needs lifecycle data" |
+| `cost_risk` capability | Shows `not_computed_d09_d10`. Show "blocked: no approved cost set", not an empty chart |
+
+**Suggested SQLite scope (D-07 still decides).** Load `eng_material_tier`, `eng_health_flags`, `eng_recommendation`, `eng_proposed_parameters`, `eng_supply_context`, `eng_kpi_summary`, `eng_forecast`, `eng_capability_output`, `eng_explanation_facts`, and `eng_scenario_result` filtered to the policies you display. The audit folder stays out. The whole set is about 50 MB as CSV, so test the bundle size in your smoke deploy.

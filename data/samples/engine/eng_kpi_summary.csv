@@ -1,0 +1,2 @@
+run_id,kpi_id,dimension,kpi_name,formula,numerator,denominator,value,unit,population,population_n,scenario,demand_scenario,pr_view,policy,run_set,result_type,source,interpretation,limitations,status,output_class
+RUN-SAMPLE,AV-1,availability,Materials with a simulated shortage (sample),count / materials,2,5,0.4,share of materials,Sample 5,5,SC-A-ED-R0-BO-K0,,,,,sample,sample,ILLUSTRATIVE SAMPLE. Invented values. Not a result.,ILLUSTRATIVE SAMPLE. Invented values. Not a result.,COMPUTED,sample

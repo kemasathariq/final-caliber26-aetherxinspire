@@ -59,7 +59,7 @@ Transportation appears only in Appendix slide 15 and in roadmap phase 4. Optiona
 | Item | Use | Status |
 | --- | --- | --- |
 | Python, pandas, pytest | Data pipeline and validated marts | IMPLEMENTED |
-| Bootstrap resampling, Croston-SBA, TSB | Forecast and simulation methods | PROPOSED, not built |
+| Bootstrap resampling, Croston-SBA, TSB | Forecast and simulation methods | IMPLEMENTED. Croston-SBA selected for point forecasts. Bootstrap quantile failed its pre-registered test (D-26), so say so |
 | SQLite, web front end, Vercel | Prototype | PROPOSED, not built |
 | LLM assistant | Explains stored results only | PROPOSED. Model and provider not chosen (D-07, D-22) |
 | Claude Code | Used by the Lead for analysis and documentation | Fact, this project. Confirm wording with the Lead |

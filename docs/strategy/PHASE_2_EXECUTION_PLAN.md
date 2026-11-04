@@ -1,6 +1,6 @@
 # INSpire Phase 2 Execution Plan
 
-**Status:** Phase 1 baseline, 2026-11-04. **Phase 2 does not start until the Lead approves the Phase 1 report.** Deadline: Thursday 2026-11-05 06:00 (time zone unconfirmed, C-7). Shared definitions: `MASTER_SOLUTION_BLUEPRINT.md` sections 6 and 12. Decisions: `DECISION_REGISTER.md`.
+**Status:** Phase 2 started on the Lead's instruction, 2026-11-04. Lead workstreams L1 to L6 are **executed**, run `RUN-277fc4b966e6`. See section 7. Deadline: Thursday 2026-11-05 06:00 (time zone unconfirmed, C-7). Shared definitions: `MASTER_SOLUTION_BLUEPRINT.md` sections 6 and 12. Decisions: `DECISION_REGISTER.md`.
 
 **Change control.** A workstream may not change a shared definition (scenario grammar, tiers, terms), a contract column, or a metric. It raises a change request to the Lead, who records it in `handover/TEAM_INTEGRATION_PROTOCOL.md` section 3. Until then the old definition applies.
 
@@ -62,3 +62,16 @@ L1, L3, L6 (Lead). A1, A2, A3, A4 (Atria). B1, B2, B4, and B3 cost sets (Brilian
 ## 6. Phase 2 exit criteria
 
 All official items 1a to 1m in `submission/SUBMISSION_READINESS_CHECKLIST.md` section 1A have evidence, or a stated reason with the Lead's agreement. No claim in the "must not make" list. Tests still pass and no mart or raw data changed.
+
+## 7. Lead workstream status (2026-11-04)
+
+| WS | State | Evidence |
+| --- | --- | --- |
+| L1 Contract samples | **Done** | `data/samples/engine/`, `handover/ENGINE_OUTPUT_CONTRACT.md` |
+| L2 Engine R0 | **Done** | `src/simulation/engine.py`. Gate 12 of 12. Independent loop matches 2,660 runs |
+| L3 Tier and forecast | **Done** | `eng_material_tier.csv`, `eng_forecast.csv`, `eng_forecast_validation.csv` |
+| L4 Stochastic | **Done** for MC-D, MC-L, MC-J. S2 not run | `eng_scenario_result.csv` |
+| L5 Action and flags | **Done**, thresholds pending D-25 | `eng_recommendation.csv`, `eng_health_flags.csv` |
+| L6 Supply context | **Done** | `eng_supply_context.csv` |
+| Business impact layer | **Done in units**. Financial KPIs blocked | `eng_kpi_summary.csv` |
+| Report | **Done** | `analytics/SIMULATION_METHODOLOGY_AND_RESULTS.md` |

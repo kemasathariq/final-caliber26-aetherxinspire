@@ -30,7 +30,7 @@ INSpire is Spare Part Intelligence and Inventory Optimization built as an integr
 | --- | --- |
 | Recorded stock rules and recorded consumption do not line up in this dataset | OBSERVATION, with caveat that Min/Max meaning is unconfirmed |
 | Demand is mostly sparse, so abstention is a feature | OBSERVATION |
-| Policy testing is possible for 665 materials | PROPOSED (design and feasibility exist, engine not built) |
+| Policy testing runs on 665 materials, with proposed parameters on 228 | IMPLEMENTED, run `RUN-277fc4b966e6`. Simulated, not observed |
 | Results are scenarios, not predictions | Design principle |
 | Supply-chain scope was investigated: the data has no location, receipt or freight records, so transportation optimisation is a roadmap with a stated data list | OBSERVATION and assessment |
 | Cost-risk comparison is ready for assumptions, not for claims | Design principle |

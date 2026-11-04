@@ -16,7 +16,7 @@
 
 ## 2. Versioning
 
-- Contract version in `eng_run_manifest.json` (`spec_version`). Current: `0.1`.
+- Contract version in `eng_run_manifest.json` (`spec_version`). Current: `0.2`, in `ENGINE_OUTPUT_CONTRACT.md`.
 - A change to a column name, meaning or enum raises the version and is announced in the change log below before it ships.
 - Adding a column is backward compatible. Removing or renaming is not.
 - Every run has a `run_id`. The application and the financial grid both record the `run_id` they used. A number is only valid with its `run_id`.
@@ -29,6 +29,7 @@
 | 2026-11-04 | 0.1-A (PROPOSED) | Addendum A: optional `eng_supply_context.csv`, empty `ref_location`, `ref_supplier_site`, `ref_transfer` tables and nullable `location_id`. Not active until D-14 and D-16 are approved | Lead |
 | 2026-11-04 | 0.1-B (PROPOSED) | Addendum B: `recommended_action` in `eng_capability_output.csv`, optional `eng_forecast.csv`. Additive. Not active until D-19 and D-23 | Lead |
 | 2026-11-04 | Phase 1 lock | Contract v0.1 plus Addenda A and B adopted as the Phase 2 baseline. Additions still PROPOSED until D-19, D-23 and D-16 are signed. Shared definitions frozen. Changes need a Lead entry here | Lead |
+| 2026-11-04 | 0.2 | **Engine contract v0.2, generated in `ENGINE_OUTPUT_CONTRACT.md` from `src/simulation/contract.py`.** Additive: every v0.1 and Addendum A and B column keeps its name and meaning. New files `eng_recommendation.csv`, `eng_health_flags.csv`, `eng_forecast_validation.csv`, `eng_kpi_summary.csv`, `eng_scenario_comparison.csv`, `eng_sensitivity_summary.csv`, `eng_config_registry.csv`, `eng_held_out_population.csv`, `eng_validation_results.csv`. New column `output_class` on data files. New `result_type` value `heldout_replay`. New policy code `N1`. `R0` means replay and `R1` means the same reading under resampling. `pr_view = ALL` marks a row that does not depend on the view. Addenda A and B are active in this form | Lead |
 
 ## 4. Shared definitions
 

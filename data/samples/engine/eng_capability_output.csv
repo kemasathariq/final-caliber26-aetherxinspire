@@ -1,0 +1,52 @@
+run_id,material_no,capability,scenario_id,flag,value_num,value_kind,unit,confidence,requires_review,reason_codes,method_class,recommended_action,output_class
+RUN-SAMPLE,SAMPLE-0001,reorder,SC-A-OR-X2-BO-K20,REORDER,9.0,proposed_s,EA,Medium,True,sample_reason,deterministic_rule_on_simulation,REORDER,sample
+RUN-SAMPLE,SAMPLE-0001,stockout_risk,SC-A-OR-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Medium,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0001,reorder,SC-A-ED-X2-BO-K20,REORDER,9.0,proposed_s,EA,Medium,True,sample_reason,deterministic_rule_on_simulation,REORDER,sample
+RUN-SAMPLE,SAMPLE-0001,stockout_risk,SC-A-ED-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Medium,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0001,reorder,SC-B-OR-X2-BO-K20,REORDER,9.0,proposed_s,EA,Medium,True,sample_reason,deterministic_rule_on_simulation,REORDER,sample
+RUN-SAMPLE,SAMPLE-0001,stockout_risk,SC-B-OR-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Medium,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0001,reorder,SC-B-ED-X2-BO-K20,REORDER,9.0,proposed_s,EA,Medium,True,sample_reason,deterministic_rule_on_simulation,REORDER,sample
+RUN-SAMPLE,SAMPLE-0001,stockout_risk,SC-B-ED-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Medium,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0001,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Medium,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0001,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Medium,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0002,reorder,SC-A-OR-X2-BO-K20,HOLD,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,HOLD,sample
+RUN-SAMPLE,SAMPLE-0002,stockout_risk,SC-A-OR-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0002,reorder,SC-A-ED-X2-BO-K20,HOLD,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,HOLD,sample
+RUN-SAMPLE,SAMPLE-0002,stockout_risk,SC-A-ED-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0002,reorder,SC-B-OR-X2-BO-K20,HOLD,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,HOLD,sample
+RUN-SAMPLE,SAMPLE-0002,stockout_risk,SC-B-OR-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0002,reorder,SC-B-ED-X2-BO-K20,HOLD,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,HOLD,sample
+RUN-SAMPLE,SAMPLE-0002,stockout_risk,SC-B-ED-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0002,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0002,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0003,reorder,SC-A-OR-X2-BO-K20,REDUCE,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,REDUCE,sample
+RUN-SAMPLE,SAMPLE-0003,stockout_risk,SC-A-OR-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0003,reorder,SC-A-ED-X2-BO-K20,REDUCE,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,REDUCE,sample
+RUN-SAMPLE,SAMPLE-0003,stockout_risk,SC-A-ED-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0003,reorder,SC-B-OR-X2-BO-K20,REDUCE,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,REDUCE,sample
+RUN-SAMPLE,SAMPLE-0003,stockout_risk,SC-B-OR-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0003,reorder,SC-B-ED-X2-BO-K20,REDUCE,9.0,proposed_s,EA,Low,True,sample_reason,deterministic_rule_on_simulation,REDUCE,sample
+RUN-SAMPLE,SAMPLE-0003,stockout_risk,SC-B-ED-R1-BO-K20,Medium,0.42,shortfall_probability_simulated,probability,Low,True,sample_reason,simulation,,sample
+RUN-SAMPLE,SAMPLE-0003,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0003,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0004,reorder,SC-ALL-NA-NA-NA-K0,MONITOR,,,EA,Low,True,sample_reason,deterministic_rule,MONITOR,sample
+RUN-SAMPLE,SAMPLE-0004,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0004,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0005,reorder,SC-ALL-NA-NA-NA-K0,MONITOR,,,EA,Low,True,sample_reason,deterministic_rule,MONITOR,sample
+RUN-SAMPLE,SAMPLE-0005,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0005,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0006,reorder,SC-ALL-NA-NA-NA-K0,MONITOR,,,EA,Low,True,sample_reason,deterministic_rule,MONITOR,sample
+RUN-SAMPLE,SAMPLE-0006,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0006,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0007,reorder,SC-ALL-NA-NA-NA-K0,MONITOR,,,EA,Low,True,sample_reason,deterministic_rule,MONITOR,sample
+RUN-SAMPLE,SAMPLE-0007,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0007,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0008,reorder,SC-ALL-NA-NA-NA-K0,NO_ACTION_EVIDENCE,,,EA,Abstain,False,sample_reason,deterministic_rule,NO_ACTION_EVIDENCE,sample
+RUN-SAMPLE,SAMPLE-0008,slow_moving,SC-ALL-NA-NA-NA-K0,non_moving_by_recorded_issues,,,days,Abstain,True,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0008,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Abstain,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0009,reorder,SC-ALL-NA-NA-NA-K0,MONITOR,,,EA,Abstain,True,sample_reason,deterministic_rule,MONITOR,sample
+RUN-SAMPLE,SAMPLE-0009,slow_moving,SC-ALL-NA-NA-NA-K0,non_moving_by_recorded_issues,,,days,Abstain,True,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0009,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Abstain,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0010,reorder,SC-ALL-NA-NA-NA-K0,MONITOR,,,EA,Low,True,sample_reason,deterministic_rule,MONITOR,sample
+RUN-SAMPLE,SAMPLE-0010,slow_moving,SC-ALL-NA-NA-NA-K0,not_flagged,,,days,Low,False,sample_reason,deterministic_rule,,sample
+RUN-SAMPLE,SAMPLE-0010,overstock_risk,SC-ALL-NA-NA-NA-K0,Not assessed,,,EA,Low,False,sample_reason,deterministic_rule,,sample

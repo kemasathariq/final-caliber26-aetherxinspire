@@ -2,7 +2,7 @@
 
 Data engineering and analysis foundation for the six supplied Excel workbooks.
 
-**Current status:** Phases 0 to 3 and marts M1 to M3 are implemented: environment and sources, ingestion and profiling, data quality evidence, conformed tables with an audited relationship layer, and procurement, inventory and demand marts. Simulation has a design and feasibility assessment only: **no engine exists, and none has been run**. The official Case 3 brief (`docs/case/CALIBER 2026 - Final Case Brief.pdf`) has been inspected and traced in `docs/strategy/OFFICIAL_CASE_ALIGNMENT_AUDIT.md`. The Phase 1 execution baseline is in `docs/strategy/MASTER_SOLUTION_BLUEPRINT.md` section 12. No engine, application or deployment exists yet. Phase 2 awaits Lead approval. EDA awaits approval.
+**Current status:** Phases 0 to 3 and marts M1 to M3 are implemented: environment and sources, ingestion and profiling, data quality evidence, conformed tables with an audited relationship layer, and procurement, inventory and demand marts. **The analytical engine is built and has run** (`src/simulation/`, outputs in `data/processed/engine/`, results in `docs/analytics/SIMULATION_METHODOLOGY_AND_RESULTS.md`). Results are simulated under stated assumptions, on a synthetic dataset. The official Case 3 brief (`docs/case/CALIBER 2026 - Final Case Brief.pdf`) has been inspected and traced in `docs/strategy/OFFICIAL_CASE_ALIGNMENT_AUDIT.md`. The Phase 1 execution baseline is in `docs/strategy/MASTER_SOLUTION_BLUEPRINT.md` section 12. No application or deployment exists in this repository yet. Real-data deployment waits for decision D-07. EDA awaits approval.
 
 **Data status:** The source data is documented as synthetic (dummy) in the Data Context & Relationship Diagram. Results describe this dataset, not operational performance.
 
@@ -90,6 +90,7 @@ src/data/                    Schemas, workbook inspection, ingestion, profiling
 src/validation/              Source checks, duplicates and their evidence, measures, exceptions, relationships, validation checks
 src/marts/                    M1 to M3, the Movement copy classification and the column dictionary
 src/simulation_design/       Population and feasibility evidence. Not a simulation engine
+src/simulation/              Analytical engine: replay, Monte Carlo, classes, forecasts, recommendations, contract
 src/preprocessing/           PR PO views, conformed tables, audited joins, outlier flags, cycle mapping
 tests/unit/                  Logic on small hand-checkable data, and failure detection
 tests/data_contract/         Checks on the real workbooks and full pipeline

@@ -19,6 +19,16 @@
 | 11 | AI assistant explains, does not invent numbers | OPEN | Contract specified | Atria |
 | 12 | Human approval workflow | OPEN | Specified | Atria |
 
+## 0A. Phase 2 analytical status (2026-11-04)
+
+| Item | State | Evidence |
+| --- | --- | --- |
+| Engine outputs for capabilities 1 to 5, in units | DONE (local) | `data/processed/engine/`, run `RUN-277fc4b966e6`, `analytics/SIMULATION_METHODOLOGY_AND_RESULTS.md`. Items 5 to 9 above stay OPEN until the application shows them |
+| Demand forecast with abstention | DONE (local) | `eng_forecast.csv`. Bootstrap quantile failed its pre-registered test, D-26 |
+| Sample files and contract v0.2 for Atria | DONE | `data/samples/engine/`, `handover/ENGINE_OUTPUT_CONTRACT.md` |
+| Capability 6, any monetary figure | BLOCKED | D-09, D-10 |
+| Real data in the app, zip or Vercel | BLOCKED | D-07. Nothing has been deployed or uploaded |
+
 ## 0. Phase 1 status (2026-11-04)
 
 | Item | State | Evidence |

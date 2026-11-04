@@ -1,6 +1,6 @@
 # INSpire Demand Intelligence Methodology
 
-**Status:** DRAFT v0.1, PROPOSED. Nothing here is built. Counts are OBSERVATION from M3 (Scenario A), with the class split labelled indicative (read-only computation, not a validated mart, D-06). Terms: `MASTER_SOLUTION_BLUEPRINT.md` section 6.
+**Status:** DRAFT v0.1. **Built on 2026-11-04, see `SIMULATION_METHODOLOGY_AND_RESULTS.md`, which holds the checked counts. The pre-registered test rejected the bootstrap quantile (D-26).** The text below is the design as written. Counts are OBSERVATION from M3 (Scenario A), with the class split labelled indicative (read-only computation, not a validated mart, D-06). Terms: `MASTER_SOLUTION_BLUEPRINT.md` section 6.
 
 **Governing rules.** Movement issues are observed consumption, not proven demand (A-06). No distribution is fitted from thin history. Where evidence is short, use a configurable scenario or abstain. Maintenance schedules and notifications become demand only through a defensible material relationship, which the data rarely gives (20.5 percent order link).
 

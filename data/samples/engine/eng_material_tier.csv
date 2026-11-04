@@ -1,0 +1,11 @@
+run_id,material_no,unit,mrp_type,active_months,n_issue_lines__scenario_a,n_issue_lines__scenario_b,tier,adi,cv2__scenario_a,demand_pattern__scenario_a,demand_class__scenario_a,cv2__scenario_b,demand_pattern__scenario_b,demand_class__scenario_b,demand_class,flag_class_differs_by_scenario,lead_observations_distinct,forecast_eligibility,policy_grade,evidence_subtier,flag_outlier_review,flag_scenario_divergent,confidence,abstain_reason,output_class
+RUN-SAMPLE,SAMPLE-0001,EA,Stock Item,9,27,18,T3,1.889,,,D3,,,D3,D3,False,,forecast_range,A,T3_grade_A,False,False,Medium,,sample
+RUN-SAMPLE,SAMPLE-0002,EA,Stock Item,15,45,30,T3,1.133,,,D4,,,D4,D4,False,,forecast_range,A,T3_grade_A,True,False,Low,,sample
+RUN-SAMPLE,SAMPLE-0003,EA,Stock Item,9,27,18,T3,1.889,,,D3,,,D3,D3,False,,forecast_range,A,T3_grade_A,False,True,Low,,sample
+RUN-SAMPLE,SAMPLE-0004,EA,Stock Item,4,12,8,T3,4.25,,,D2,,,D2,D2,False,,rate_range_only,B,T3_grade_B,False,False,Low,fewer_than_6_active_months_rate_range_only,sample
+RUN-SAMPLE,SAMPLE-0005,EA,Stock Item,2,6,4,T3,8.5,,,D1,,,D1,D1,False,,abstain,B,T3_grade_B,False,False,Low,fewer_than_3_active_months_no_forecast,sample
+RUN-SAMPLE,SAMPLE-0006,EA,Stock Item,9,27,18,T2,1.889,,,D3,,,D3,D3,False,,forecast_range,,T2__no_lead_proxy,False,False,Low,,sample
+RUN-SAMPLE,SAMPLE-0007,EA,Stock Item,2,6,4,T2,8.5,,,D1,,,D1,D1,False,,abstain,,T2__no_lead_proxy,False,False,Low,fewer_than_3_active_months_no_forecast,sample
+RUN-SAMPLE,SAMPLE-0008,EA,Stock Item,0,0,0,T1,,,,D0,,,D0,D0,False,,abstain,,T1__no_lead_proxy,False,False,Abstain,no_recorded_consumption_in_window,sample
+RUN-SAMPLE,SAMPLE-0009,EA,Stock Item,0,0,0,T1,,,,D0,,,D0,D0,False,,abstain,,T1__no_lead_proxy,False,False,Abstain,no_recorded_consumption_in_window,sample
+RUN-SAMPLE,SAMPLE-0010,EA,Stock Item,4,12,8,T2,4.25,,,D2,,,D2,D2,False,,rate_range_only,,T2__no_lead_proxy,False,False,Low,fewer_than_6_active_months_rate_range_only,sample

@@ -1,6 +1,6 @@
 # INSpire Validation Framework
 
-**Status:** DRAFT v0.1, PROPOSED. Defines how forecasts, policies and simulations are checked once built. Historical replay and future what-if simulation are kept apart throughout.
+**Status:** DRAFT v0.1. Applied on 2026-11-04, results in `SIMULATION_METHODOLOGY_AND_RESULTS.md`. Defines how forecasts, policies and simulations are checked. Historical replay and future what-if simulation are kept apart throughout.
 
 ## 1. Verification versus validation
 

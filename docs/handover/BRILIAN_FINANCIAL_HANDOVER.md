@@ -119,3 +119,18 @@ Read first: `strategy/PHASE_2_EXECUTION_PLAN.md` (B1 to B4), `strategy/DECISION_
 **Start now:** B1 price and amount interpretation memo, B2 exposure ranges from M1 and M2, B4 missing freight input list, and cost-set proposals for B3. **Wait for engine output:** the scenario grid (needs `eng_scenario_result.csv`, which does not exist yet). Cost-risk applies to the 228 Grade A materials only (D-24).
 
 **You may not:** change shared definitions, metric names or contract columns. Raise a change request to the Lead. Show any monetary comparison before D-09. Use PO-Item Amount as a cost until C-5 is answered. Combine currencies. Report savings.
+
+## 16. Engine outputs for the scenario grid (2026-11-04)
+
+Engine output now exists in `data/processed/engine/`, run `RUN-277fc4b966e6`. Column definitions: `ENGINE_OUTPUT_CONTRACT.md`. Results and limits: `analytics/SIMULATION_METHODOLOGY_AND_RESULTS.md`. **The engine contains no money, and `eng_kpi_summary.csv` marks financial KPIs `NOT_COMPUTED`.** They stay yours and stay blocked until D-09 and D-10.
+
+| You need | Use | Filter | Caution |
+| --- | --- | --- | --- |
+| `mean_on_hand` per policy | `eng_scenario_result.csv` | `run_set = HO` for the comparison, one `config_id` at a time | K30 recorded Stock, K31 recorded Min, K32 recorded Max. Report all three. The opening rule moves results more than anything else |
+| `orders_placed` | same | same | Held-out covers 183 days, so state the horizon. MC-D covers 518 |
+| `expected_unmet_qty` | same | same | Simulated, never a historical stockout. Backorder rule |
+| Current position | `eng_health_flags.csv` | | `flag_stock_above_recorded_max` is a recorded comparison |
+| Parameters | `eng_proposed_parameters.csv` | 228 materials | Candidates. The quantile method failed its pre-registered test (D-26), and its error runs towards too much stock |
+| Currency per material | `eng_supply_context.csv` | One row per material and view | 4 of the 665 are not IDR. Keep them apart. Do not convert without an approved rate |
+
+**Do not** report simulated inventory change as a saving. In held-out replay, X2 holds **more** stock than the recorded reading in most materials: median on-hand 1.56 to 2.58 times R0, depending on the opening rule. Under any holding cost, X2 costs more to hold, in exchange for fewer simulated shortages. So the cost-risk question is whether avoided shortage is worth the added stock, and that needs a defensible shortage or downtime cost (D-09). Fewer replenishment orders (153 to 223 against 250 to 475) is the one efficiency direction that holds in all 12 combinations.
