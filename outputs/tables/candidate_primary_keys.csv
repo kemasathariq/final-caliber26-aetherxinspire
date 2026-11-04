@@ -1,0 +1,41 @@
+dataset,columns,column_count,rows,repeats_on_all_rows,distinct_rows,repeats_on_distinct_rows,contains_nulls,includes_date,assessment
+PR PO,purchase_requisition,1,11609,6804,6189,1384,False,False,not_unique
+PR PO,pr_item,1,11609,11602,6189,6182,False,False,not_unique
+PR PO,pr_date,1,11609,11102,6189,5682,False,True,not_unique
+PR PO,material_no,1,11609,10359,6189,4939,False,False,not_unique
+PR PO,pr_delivery_date,1,11609,10552,6189,5132,False,True,not_unique
+PR PO,purchase_order,1,11609,9817,6189,4397,False,False,not_unique
+PR PO,po_item,1,11609,11582,6189,6162,False,False,not_unique
+PR PO,supplier_code,1,11609,11485,6189,6065,False,False,not_unique
+PR PO,po_delivery_date,1,11609,10860,6189,5440,False,True,not_unique
+PR PO,purchase_requisition + pr_item,2,11609,5420,6189,0,False,False,unique_only_after_setting_aside_exact_copies
+PR PO,purchase_order + po_item,2,11609,5420,6189,0,False,False,unique_only_after_setting_aside_exact_copies
+PR PO,purchase_requisition + material_no + pr_delivery_date,3,11609,5420,6189,0,False,True,coincidental_unique_includes_date
+PR PO,purchase_requisition + material_no + po_item,3,11609,5420,6189,0,False,False,unique_only_after_setting_aside_exact_copies
+PR PO,(all source columns),18,11609,5420,6189,0,False,False,no_natural_key_possible_on_all_rows
+Movement Material,posting_date,1,17518,17005,16655,16142,False,True,not_unique
+Movement Material,material_no,1,17518,15588,16655,14725,False,False,not_unique
+Movement Material,order_no,1,17518,12634,16655,11771,False,False,not_unique
+Movement Material,posting_date + material_no + order_no,3,17518,1171,16655,308,False,True,not_unique
+Movement Material,(all source columns),7,17518,863,16655,0,False,False,no_natural_key_possible_on_all_rows
+Notif History,notification_date,1,5795,5278,5795,5278,False,True,not_unique
+Notif History,notification,1,5795,0,5795,0,False,False,unique_on_all_rows
+Notif History,order_no,1,5795,604,5795,604,True,False,not_a_key_contains_nulls
+Notif History,functional_location,1,5795,3576,5795,3576,False,False,not_unique
+Notif History,created_on,1,5795,5278,5795,5278,False,True,not_unique
+Notif History,required_start,1,5795,4882,5795,4882,False,True,not_unique
+Notif History,required_end,1,5795,4847,5795,4847,False,True,not_unique
+Notif History,completion_date,1,5795,5279,5795,5279,True,True,not_a_key_contains_nulls
+Notif History,(all source columns),12,5795,0,5795,0,False,False,whole_row_unique
+Mitem & Mplan,functional_location,1,10153,4368,10153,4368,False,False,not_unique
+Mitem & Mplan,maintenance_plan,1,10153,6330,10153,6330,False,False,not_unique
+Mitem & Mplan,maintenance_item,1,10153,0,10153,0,False,False,unique_on_all_rows
+Mitem & Mplan,start_of_cycle,1,10153,8844,10153,8844,False,True,not_unique
+Mitem & Mplan,functional_location + maintenance_plan + start_of_cycle,3,10153,0,10153,0,False,True,coincidental_unique_includes_date
+Mitem & Mplan,(all source columns),9,10153,0,10153,0,False,False,whole_row_unique
+BoM,functional_location,1,20653,16137,20423,15907,False,False,not_unique
+BoM,material_no,1,20653,13172,20423,12942,False,False,not_unique
+BoM,functional_location + material_no,2,20653,230,20423,0,False,False,unique_only_after_setting_aside_exact_copies
+BoM,(all source columns),9,20653,230,20423,0,False,False,no_natural_key_possible_on_all_rows
+FuncLoc list,functional_location,1,14484,0,14484,0,False,False,unique_on_all_rows
+FuncLoc list,(all source columns),3,14484,0,14484,0,False,False,whole_row_unique

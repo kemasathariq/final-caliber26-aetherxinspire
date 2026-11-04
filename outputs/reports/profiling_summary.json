@@ -1,0 +1,86 @@
+{
+  "data_label": "Source data documented as synthetic (dummy) in the Data Context & Relationship Diagram; not operational performance.",
+  "datasets": {
+    "PR PO": {
+      "file_name": "PR PO.xlsx",
+      "worksheet": "Data",
+      "rows": 11609,
+      "columns": 18,
+      "exact_duplicate_extras": 5420,
+      "columns_with_missing_values": {},
+      "business_keys_unique_on_all_rows": [],
+      "business_keys_unique_only_after_setting_aside_exact_copies": [
+        "purchase_requisition + pr_item",
+        "purchase_order + po_item",
+        "purchase_requisition + material_no + po_item"
+      ]
+    },
+    "Movement Material": {
+      "file_name": "Movement Material.xlsx",
+      "worksheet": "Data",
+      "rows": 17518,
+      "columns": 7,
+      "exact_duplicate_extras": 863,
+      "columns_with_missing_values": {},
+      "business_keys_unique_on_all_rows": [],
+      "business_keys_unique_only_after_setting_aside_exact_copies": []
+    },
+    "Notif History": {
+      "file_name": "Notif History.xlsx",
+      "worksheet": "Data",
+      "rows": 5795,
+      "columns": 12,
+      "exact_duplicate_extras": 0,
+      "columns_with_missing_values": {
+        "order_no": 553,
+        "completion_date": 1305
+      },
+      "business_keys_unique_on_all_rows": [
+        "notification"
+      ],
+      "business_keys_unique_only_after_setting_aside_exact_copies": []
+    },
+    "Mitem & Mplan": {
+      "file_name": "Mitem & Mplan.xlsx",
+      "worksheet": "Data",
+      "rows": 10153,
+      "columns": 9,
+      "exact_duplicate_extras": 0,
+      "columns_with_missing_values": {},
+      "business_keys_unique_on_all_rows": [
+        "maintenance_item"
+      ],
+      "business_keys_unique_only_after_setting_aside_exact_copies": []
+    },
+    "BoM": {
+      "file_name": "BoM.xlsx",
+      "worksheet": "Data",
+      "rows": 20653,
+      "columns": 9,
+      "exact_duplicate_extras": 230,
+      "columns_with_missing_values": {},
+      "business_keys_unique_on_all_rows": [],
+      "business_keys_unique_only_after_setting_aside_exact_copies": [
+        "functional_location + material_no"
+      ]
+    },
+    "FuncLoc list": {
+      "file_name": "FuncLoc list.xlsx",
+      "worksheet": "Data",
+      "rows": 14484,
+      "columns": 3,
+      "exact_duplicate_extras": 0,
+      "columns_with_missing_values": {
+        "criticality": 33
+      },
+      "business_keys_unique_on_all_rows": [
+        "functional_location"
+      ],
+      "business_keys_unique_only_after_setting_aside_exact_copies": []
+    }
+  },
+  "prpo_views": {
+    "original_rows": 11609,
+    "exact_distinct_rows": 6189
+  }
+}

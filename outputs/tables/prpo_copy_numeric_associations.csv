@@ -1,0 +1,12 @@
+field,scope,rows,spearman_rho,p_value
+lines_per_pr,exact_distinct_rows,6189,0.0055,0.6657
+lines_per_po,exact_distinct_rows,6189,0.0128,0.3133
+pr_item_number,exact_distinct_rows,6189,0.0171,0.1773
+requested_interval_days,exact_distinct_rows,6189,-0.0025,0.842
+promised_interval_days,exact_distinct_rows,6189,0.0179,0.1591
+pr_date_ordinal,exact_distinct_rows,6189,0.0093,0.4654
+movement_rows_for_material,exact_distinct_rows,6189,-0.0053,0.6773
+bom_locations_for_material,exact_distinct_rows,6189,0.0093,0.4651
+po_item_amount,"exact_distinct_rows, IDR only",6138,0.0211,0.0985
+pr_quantity,"exact_distinct_rows, unit EA only",4369,0.0055,0.7155
+pr_quantity,"exact_distinct_rows, unit KG only",336,-0.0214,0.696

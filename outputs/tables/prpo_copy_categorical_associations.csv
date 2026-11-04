@@ -1,0 +1,8 @@
+field,levels,rows,chi_square,dof,p_value,cramers_v,cells_expected_below_5_pct,note,p_value_holm
+pr_type,7,6189,23.153,18,0.1848,0.0353,17.9,,0.924
+purchasing_group,19,6189,75.961,54,0.02606,0.064,30.3,,0.1824
+currency,5,6189,15.426,12,0.2189,0.0288,60.0,,0.924
+unit,10,6189,26.221,27,0.5064,0.0376,15.0,,1.0
+pr_month,17,6189,42.958,48,0.6791,0.0481,0.0,,1.0
+po_prefix,4,6189,15.302,9,0.08298,0.0287,0.0,,0.4979
+supplier_code,53,5191,137.077,156,0.8599,0.0938,16.0,Suppliers with at least 30 rows,1.0

@@ -1,0 +1,14 @@
+join,keys,left_rows,right_rows,result_rows,matched_rows,unmatched_rows,left_rows_with_blank_key
+mart_procurement_line.original_rows -> dim_material,material_no,11609,7481,11609,11609,0,0
+mart_procurement_line.exact_distinct_rows -> dim_material,material_no,6189,7481,6189,6189,0,0
+mart_material_demand_month.scenario_a -> dim_material,material_no,32810,7481,32810,32810,0,0
+mart_material_demand_month.scenario_b -> dim_material,material_no,32810,7481,32810,32810,0,0
+mart_material_demand_summary.scenario_a -> demand month,material_no,1930,1930,1930,1930,0,0
+mart_material_demand_summary.scenario_b -> demand month,material_no,1930,1930,1930,1930,0,0
+mart_material_inventory -> demand summary (shared fields),material_no,7481,1930,7481,1930,5551,0
+mart_material_inventory -> demand summary scenario_a,material_no,7481,1930,7481,1930,5551,0
+mart_material_inventory -> demand summary scenario_b,material_no,7481,1930,7481,1930,5551,0
+mart_material_inventory -> demand comparison,material_no,7481,1930,7481,1930,5551,0
+mart_material_inventory -> supplier,material_no,7481,1250,7481,1250,6231,0
+mart_material_inventory -> supplier material original_rows,material_no,7481,1250,7481,1250,6231,0
+mart_material_inventory -> supplier material exact_distinct_rows,material_no,7481,1250,7481,1250,6231,0

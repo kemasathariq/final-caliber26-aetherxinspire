@@ -1,0 +1,4 @@
+grouping,documents_with_multiple_lines,observed_same_copy_share,shuffled_mean,shuffled_min,shuffled_max,permutation_rounds,seed,p_observed_at_or_above_shuffled
+purchase_requisition,987,0.2553,0.2651,0.232,0.306,200,42,0.7612
+purchase_order,1151,0.1251,0.1423,0.1182,0.1659,200,42,0.9602
+material_no,877,0.1437,0.1513,0.1231,0.1836,200,42,0.7562

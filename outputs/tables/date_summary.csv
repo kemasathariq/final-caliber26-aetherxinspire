@@ -1,0 +1,14 @@
+dataset,view,column,non_null,missing,distinct_dates,min_date,max_date,with_time_component,after_data_cutoff
+PR PO,original_rows,pr_date,11609,0,507,2025-05-04,2026-09-22,0,0
+PR PO,original_rows,pr_delivery_date,11609,0,1057,2023-12-21,2029-03-09,0,1682
+PR PO,original_rows,po_delivery_date,11609,0,749,2025-04-20,2028-10-09,0,1467
+PR PO,exact_distinct_rows,pr_date,6189,0,507,2025-05-04,2026-09-22,0,0
+PR PO,exact_distinct_rows,pr_delivery_date,6189,0,1057,2023-12-21,2029-03-09,0,891
+PR PO,exact_distinct_rows,po_delivery_date,6189,0,749,2025-04-20,2028-10-09,0,766
+Movement Material,all_rows,posting_date,17518,0,513,2025-05-06,2026-09-30,0,0
+Notif History,all_rows,notification_date,5795,0,517,2025-05-02,2026-09-30,0,0
+Notif History,all_rows,created_on,5795,0,517,2025-05-02,2026-09-30,0,0
+Notif History,all_rows,required_start,5795,0,913,2024-03-28,2029-03-18,0,342
+Notif History,all_rows,required_end,5795,0,948,2024-04-20,2029-05-31,0,870
+Notif History,all_rows,completion_date,4490,1305,515,2025-05-02,2026-09-29,0,0
+Mitem & Mplan,all_rows,start_of_cycle,10153,0,1309,2015-09-01,2029-12-12,0,487

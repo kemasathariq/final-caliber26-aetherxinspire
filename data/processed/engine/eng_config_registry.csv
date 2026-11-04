@@ -1,0 +1,24 @@
+run_id,config_id,run_set,output_kind,description
+RUN-277fc4b966e6,K0,R0,deterministic,"Reference. Opening stock is recorded Stock, undated (S-01). Median promised interval. No resampling"
+RUN-277fc4b966e6,K1,S1,deterministic,Opening stock x0.5
+RUN-277fc4b966e6,K2,S1,deterministic,Opening stock x1.5
+RUN-277fc4b966e6,K3,S1,deterministic,Opening stock = recorded Min
+RUN-277fc4b966e6,K4,S1,deterministic,Opening stock = recorded Max
+RUN-277fc4b966e6,K5,S1,deterministic,Opening stock = Stock + window issues (upper bound)
+RUN-277fc4b966e6,K6,S1,deterministic,Promised interval x0.5
+RUN-277fc4b966e6,K7,S1,deterministic,Promised interval x1.5
+RUN-277fc4b966e6,K8,S1,deterministic,Promised interval x2
+RUN-277fc4b966e6,K9,S1,deterministic,Promised interval p90
+RUN-277fc4b966e6,K10,S1,deterministic,Issues x0.75
+RUN-277fc4b966e6,K11,S1,deterministic,Issues x1.25
+RUN-277fc4b966e6,K12,S1,deterministic,Stock-level what-if: Min x0.5
+RUN-277fc4b966e6,K13,S1,deterministic,Stock-level what-if: Min x1.5
+RUN-277fc4b966e6,K14,S1,deterministic,Stock-level what-if: Max x0.5
+RUN-277fc4b966e6,K15,S1,deterministic,Stock-level what-if: Max x1.5
+RUN-277fc4b966e6,K16,S1,deterministic,Lines at a repeated unit peak excluded (A-11)
+RUN-277fc4b966e6,K20,MC-D,stochastic,"Issues resampled: circular block bootstrap of months, block 3, 1000 replications, seed 20261105. Median promised interval"
+RUN-277fc4b966e6,K21,MC-L,stochastic,"Promised interval resampled per order from own history, 1000 replications, seed 20261105. Issues replayed"
+RUN-277fc4b966e6,K22,MC-J,stochastic,"Issues and promised interval both resampled, 1000 replications, seed 20261105"
+RUN-277fc4b966e6,K30,HO,deterministic,"Held-out replay on 2026-04 to 2026-09. Parameters from 2025-05 to 2026-03 only. Opening stock = recorded Stock, undated"
+RUN-277fc4b966e6,K31,HO,deterministic,Held-out replay. Opening stock = recorded Min
+RUN-277fc4b966e6,K32,HO,deterministic,Held-out replay. Opening stock = recorded Max

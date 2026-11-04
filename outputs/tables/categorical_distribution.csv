@@ -1,0 +1,276 @@
+dataset,view,column,rank,value,count,pct
+PR PO,original_rows,pr_type,1,PR03,5776,49.755
+PR PO,original_rows,pr_type,2,PR06,4080,35.145
+PR PO,original_rows,pr_type,3,PR05,779,6.71
+PR PO,original_rows,pr_type,4,PR04,494,4.255
+PR PO,original_rows,pr_type,5,PR01,392,3.377
+PR PO,original_rows,pr_type,6,PR10,87,0.749
+PR PO,original_rows,pr_type,7,PR09,1,0.009
+PR PO,original_rows,pr_item,1,10,8969,77.259
+PR PO,original_rows,pr_item,2,20,1871,16.117
+PR PO,original_rows,pr_item,3,30,547,4.712
+PR PO,original_rows,pr_item,4,40,174,1.499
+PR PO,original_rows,pr_item,5,50,40,0.345
+PR PO,original_rows,pr_item,6,60,7,0.06
+PR PO,original_rows,pr_item,7,70,1,0.009
+PR PO,original_rows,unit,1,EA,8247,71.04
+PR PO,original_rows,unit,2,SET,999,8.605
+PR PO,original_rows,unit,3,KG,630,5.427
+PR PO,original_rows,unit,4,RL,556,4.789
+PR PO,original_rows,unit,5,LG,420,3.618
+PR PO,original_rows,unit,6,L,376,3.239
+PR PO,original_rows,unit,7,CAN,249,2.145
+PR PO,original_rows,unit,8,M,62,0.534
+PR PO,original_rows,unit,9,ASS,39,0.336
+PR PO,original_rows,unit,10,SHT,31,0.267
+PR PO,original_rows,plant,1,1000,11609,100.0
+PR PO,original_rows,purchasing_group,1,MR1,4980,42.898
+PR PO,original_rows,purchasing_group,2,MOD,1840,15.85
+PR PO,original_rows,purchasing_group,3,MIG,917,7.899
+PR PO,original_rows,purchasing_group,4,MSM,695,5.987
+PR PO,original_rows,purchasing_group,5,MUO,691,5.952
+PR PO,original_rows,purchasing_group,6,MSU,603,5.194
+PR PO,original_rows,purchasing_group,7,MPE,427,3.678
+PR PO,original_rows,purchasing_group,8,PDL,410,3.532
+PR PO,original_rows,purchasing_group,9,MPP,359,3.092
+PR PO,original_rows,purchasing_group,10,MSI,270,2.326
+PR PO,original_rows,purchasing_group,11,PRJ,172,1.482
+PR PO,original_rows,purchasing_group,12,EPP,88,0.758
+PR PO,original_rows,purchasing_group,13,EPE,52,0.448
+PR PO,original_rows,purchasing_group,14,ETD,46,0.396
+PR PO,original_rows,purchasing_group,15,EOD,34,0.293
+PR PO,original_rows,purchasing_group,16,BBM,9,0.078
+PR PO,original_rows,purchasing_group,17,UOM,9,0.078
+PR PO,original_rows,purchasing_group,18,SPD,6,0.052
+PR PO,original_rows,purchasing_group,19,PMP,1,0.009
+PR PO,original_rows,po_item,1,10,3357,28.917
+PR PO,original_rows,po_item,2,20,2137,18.408
+PR PO,original_rows,po_item,3,30,1422,12.249
+PR PO,original_rows,po_item,4,40,1032,8.89
+PR PO,original_rows,po_item,5,50,770,6.633
+PR PO,original_rows,po_item,6,60,579,4.988
+PR PO,original_rows,po_item,7,70,451,3.885
+PR PO,original_rows,po_item,8,80,354,3.049
+PR PO,original_rows,po_item,9,90,266,2.291
+PR PO,original_rows,po_item,10,100,218,1.878
+PR PO,original_rows,po_item,11,110,205,1.766
+PR PO,original_rows,po_item,12,130,144,1.24
+PR PO,original_rows,po_item,13,120,140,1.206
+PR PO,original_rows,po_item,14,140,102,0.879
+PR PO,original_rows,po_item,15,150,92,0.792
+PR PO,original_rows,po_item,16,160,71,0.612
+PR PO,original_rows,po_item,17,170,62,0.534
+PR PO,original_rows,po_item,18,180,51,0.439
+PR PO,original_rows,po_item,19,190,41,0.353
+PR PO,original_rows,po_item,20,200,31,0.267
+PR PO,original_rows,po_item,21,210,27,0.233
+PR PO,original_rows,po_item,22,230,14,0.121
+PR PO,original_rows,po_item,23,240,14,0.121
+PR PO,original_rows,po_item,24,220,13,0.112
+PR PO,original_rows,po_item,25,250,6,0.052
+PR PO,original_rows,po_item,26,260,6,0.052
+PR PO,original_rows,po_item,27,270,4,0.034
+PR PO,original_rows,currency,1,IDR,11511,99.156
+PR PO,original_rows,currency,2,JPY,41,0.353
+PR PO,original_rows,currency,3,USD,35,0.301
+PR PO,original_rows,currency,4,EUR,20,0.172
+PR PO,original_rows,currency,5,SGD,2,0.017
+PR PO,exact_distinct_rows,pr_type,1,PR03,3093,49.976
+PR PO,exact_distinct_rows,pr_type,2,PR06,2175,35.143
+PR PO,exact_distinct_rows,pr_type,3,PR05,396,6.398
+PR PO,exact_distinct_rows,pr_type,4,PR04,263,4.249
+PR PO,exact_distinct_rows,pr_type,5,PR01,217,3.506
+PR PO,exact_distinct_rows,pr_type,6,PR10,44,0.711
+PR PO,exact_distinct_rows,pr_type,7,PR09,1,0.016
+PR PO,exact_distinct_rows,pr_item,1,10,4805,77.638
+PR PO,exact_distinct_rows,pr_item,2,20,987,15.948
+PR PO,exact_distinct_rows,pr_item,3,30,281,4.54
+PR PO,exact_distinct_rows,pr_item,4,40,87,1.406
+PR PO,exact_distinct_rows,pr_item,5,50,23,0.372
+PR PO,exact_distinct_rows,pr_item,6,60,5,0.081
+PR PO,exact_distinct_rows,pr_item,7,70,1,0.016
+PR PO,exact_distinct_rows,unit,1,EA,4369,70.593
+PR PO,exact_distinct_rows,unit,2,SET,531,8.58
+PR PO,exact_distinct_rows,unit,3,KG,336,5.429
+PR PO,exact_distinct_rows,unit,4,RL,307,4.96
+PR PO,exact_distinct_rows,unit,5,LG,231,3.732
+PR PO,exact_distinct_rows,unit,6,L,204,3.296
+PR PO,exact_distinct_rows,unit,7,CAN,142,2.294
+PR PO,exact_distinct_rows,unit,8,M,32,0.517
+PR PO,exact_distinct_rows,unit,9,ASS,20,0.323
+PR PO,exact_distinct_rows,unit,10,SHT,17,0.275
+PR PO,exact_distinct_rows,plant,1,1000,6189,100.0
+PR PO,exact_distinct_rows,purchasing_group,1,MR1,2657,42.931
+PR PO,exact_distinct_rows,purchasing_group,2,MOD,977,15.786
+PR PO,exact_distinct_rows,purchasing_group,3,MIG,472,7.626
+PR PO,exact_distinct_rows,purchasing_group,4,MUO,377,6.091
+PR PO,exact_distinct_rows,purchasing_group,5,MSM,367,5.93
+PR PO,exact_distinct_rows,purchasing_group,6,MSU,338,5.461
+PR PO,exact_distinct_rows,purchasing_group,7,MPE,222,3.587
+PR PO,exact_distinct_rows,purchasing_group,8,PDL,217,3.506
+PR PO,exact_distinct_rows,purchasing_group,9,MPP,187,3.021
+PR PO,exact_distinct_rows,purchasing_group,10,MSI,145,2.343
+PR PO,exact_distinct_rows,purchasing_group,11,PRJ,100,1.616
+PR PO,exact_distinct_rows,purchasing_group,12,EPP,47,0.759
+PR PO,exact_distinct_rows,purchasing_group,13,EPE,28,0.452
+PR PO,exact_distinct_rows,purchasing_group,14,EOD,21,0.339
+PR PO,exact_distinct_rows,purchasing_group,15,ETD,21,0.339
+PR PO,exact_distinct_rows,purchasing_group,16,UOM,6,0.097
+PR PO,exact_distinct_rows,purchasing_group,17,BBM,4,0.065
+PR PO,exact_distinct_rows,purchasing_group,18,SPD,2,0.032
+PR PO,exact_distinct_rows,purchasing_group,19,PMP,1,0.016
+PR PO,exact_distinct_rows,po_item,1,10,1792,28.955
+PR PO,exact_distinct_rows,po_item,2,20,1151,18.598
+PR PO,exact_distinct_rows,po_item,3,30,776,12.538
+PR PO,exact_distinct_rows,po_item,4,40,545,8.806
+PR PO,exact_distinct_rows,po_item,5,50,409,6.608
+PR PO,exact_distinct_rows,po_item,6,60,308,4.977
+PR PO,exact_distinct_rows,po_item,7,70,240,3.878
+PR PO,exact_distinct_rows,po_item,8,80,192,3.102
+PR PO,exact_distinct_rows,po_item,9,90,144,2.327
+PR PO,exact_distinct_rows,po_item,10,100,114,1.842
+PR PO,exact_distinct_rows,po_item,11,110,100,1.616
+PR PO,exact_distinct_rows,po_item,12,120,79,1.276
+PR PO,exact_distinct_rows,po_item,13,130,68,1.099
+PR PO,exact_distinct_rows,po_item,14,140,56,0.905
+PR PO,exact_distinct_rows,po_item,15,150,49,0.792
+PR PO,exact_distinct_rows,po_item,16,160,40,0.646
+PR PO,exact_distinct_rows,po_item,17,170,29,0.469
+PR PO,exact_distinct_rows,po_item,18,180,24,0.388
+PR PO,exact_distinct_rows,po_item,19,190,20,0.323
+PR PO,exact_distinct_rows,po_item,20,200,15,0.242
+PR PO,exact_distinct_rows,po_item,21,210,11,0.178
+PR PO,exact_distinct_rows,po_item,22,220,7,0.113
+PR PO,exact_distinct_rows,po_item,23,230,7,0.113
+PR PO,exact_distinct_rows,po_item,24,240,5,0.081
+PR PO,exact_distinct_rows,po_item,25,250,4,0.065
+PR PO,exact_distinct_rows,po_item,26,260,2,0.032
+PR PO,exact_distinct_rows,po_item,27,270,2,0.032
+PR PO,exact_distinct_rows,currency,1,IDR,6138,99.176
+PR PO,exact_distinct_rows,currency,2,JPY,21,0.339
+PR PO,exact_distinct_rows,currency,3,USD,17,0.275
+PR PO,exact_distinct_rows,currency,4,EUR,11,0.178
+PR PO,exact_distinct_rows,currency,5,SGD,2,0.032
+Movement Material,all_rows,movement_type,1,Issue,17518,100.0
+Movement Material,all_rows,unit,1,EA,12155,69.386
+Movement Material,all_rows,unit,2,KG,1277,7.29
+Movement Material,all_rows,unit,3,RL,1167,6.662
+Movement Material,all_rows,unit,4,LG,780,4.453
+Movement Material,all_rows,unit,5,SET,772,4.407
+Movement Material,all_rows,unit,6,L,707,4.036
+Movement Material,all_rows,unit,7,CAN,566,3.231
+Movement Material,all_rows,unit,8,M,57,0.325
+Movement Material,all_rows,unit,9,SHT,27,0.154
+Movement Material,all_rows,unit,10,ASS,10,0.057
+Notif History,all_rows,notification_type,1,N1,3871,66.799
+Notif History,all_rows,notification_type,2,N3,1788,30.854
+Notif History,all_rows,notification_type,3,N2,135,2.33
+Notif History,all_rows,notification_type,4,N6,1,0.017
+Notif History,all_rows,notif_priority,1,Medium,3581,61.795
+Notif History,all_rows,notif_priority,2,Low,1669,28.801
+Notif History,all_rows,notif_priority,3,High,410,7.075
+Notif History,all_rows,notif_priority,4,Emergency,135,2.33
+Notif History,all_rows,status,1,Complete,4490,77.481
+Notif History,all_rows,status,2,In Progress,1305,22.519
+Mitem & Mplan,all_rows,criticality,1,C,4258,41.938
+Mitem & Mplan,all_rows,criticality,2,A,2529,24.909
+Mitem & Mplan,all_rows,criticality,3,B,2034,20.033
+Mitem & Mplan,all_rows,criticality,4,S,1332,13.119
+Mitem & Mplan,all_rows,item_text,1,Calibration,779,7.673
+Mitem & Mplan,all_rows,item_text,2,Thickness Measurement,703,6.924
+Mitem & Mplan,all_rows,item_text,3,Piping Uninsulated External Inspection,700,6.895
+Mitem & Mplan,all_rows,item_text,4,Verification (for element),696,6.855
+Mitem & Mplan,all_rows,item_text,5,Piping Insulated External Inspection,678,6.678
+Mitem & Mplan,all_rows,item_text,6,SIL Sensor Test; Pressure measurement,451,4.442
+Mitem & Mplan,all_rows,item_text,7,Final Element Seat Leakage;Control Valve,304,2.994
+Mitem & Mplan,all_rows,item_text,8,Final Element Inspection; Control Valve,303,2.984
+Mitem & Mplan,all_rows,item_text,9,Final Element Seat Leak Test; CV,302,2.974
+Mitem & Mplan,all_rows,item_text,10,Final Element Overhaul; Control Valve,294,2.896
+Mitem & Mplan,all_rows,item_text,11,Final Element Inspection; CV,283,2.787
+Mitem & Mplan,all_rows,item_text,12,Vibration measurement,282,2.778
+Mitem & Mplan,all_rows,item_text,13,Final Element Overhaul; CV,280,2.758
+Mitem & Mplan,all_rows,item_text,14,Final Element Test; Control Valve,276,2.718
+Mitem & Mplan,all_rows,item_text,15,Final Element Test; CV,274,2.699
+Mitem & Mplan,all_rows,item_text,16,Visual and General Inspection,258,2.541
+Mitem & Mplan,all_rows,item_text,17,SIL Sensor Test; Temperature measurement,235,2.315
+Mitem & Mplan,all_rows,item_text,18,"Visual check, cable check, vent drain",223,2.196
+Mitem & Mplan,all_rows,item_text,19,Shell and Tube HE Int. Inspection / RBI,189,1.862
+Mitem & Mplan,all_rows,item_text,20,Shell & tube HE tube cleaning,183,1.802
+Mitem & Mplan,all_rows,item_text,21,Shell & Tube HE Recert. / Int. Inspect,180,1.773
+Mitem & Mplan,all_rows,item_text,22,Shell & tube HE ext. general inspect,176,1.733
+Mitem & Mplan,all_rows,item_text,23,Partial Stroke Test; ONOFFV,155,1.527
+Mitem & Mplan,all_rows,item_text,24,Final Element Inspection; ONOFFV,144,1.418
+Mitem & Mplan,all_rows,item_text,25,Lube oil change,139,1.369
+Mitem & Mplan,all_rows,item_text,26,Pump overhaul,139,1.369
+Mitem & Mplan,all_rows,item_text,27,Final Element Overhaul; ONOFFV,136,1.34
+Mitem & Mplan,all_rows,item_text,28,General inspect (Visual and cleaning),132,1.3
+Mitem & Mplan,all_rows,item_text,29,"Visual check, leak check, and cleaning",131,1.29
+Mitem & Mplan,all_rows,item_text,30,Safety valve recertification,119,1.172
+Mitem & Mplan,all_rows,item_text,31,Motor insulation test,114,1.123
+Mitem & Mplan,all_rows,item_text,32,Re-greasing Bearing Motor,99,0.975
+Mitem & Mplan,all_rows,item_text,33,Vessel (drum) general (ext) inspection,99,0.975
+Mitem & Mplan,all_rows,item_text,34,Drum Internal Inspection / RBI,88,0.867
+Mitem & Mplan,all_rows,item_text,35,Drum Recertification / Int. Inspection,86,0.847
+Mitem & Mplan,all_rows,item_text,36,Drum External Inspection / RBI,81,0.798
+Mitem & Mplan,all_rows,item_text,37,Cleaning & inspect inside vessel (drum),78,0.768
+Mitem & Mplan,all_rows,item_text,38,Burner cleaning,75,0.739
+Mitem & Mplan,all_rows,item_text,39,Filter element replacement,49,0.483
+Mitem & Mplan,all_rows,item_text,40,Compressor major overhaul,41,0.404
+Mitem & Mplan,all_rows,item_text,41,Column Internal Inspection / RBI,36,0.355
+Mitem & Mplan,all_rows,item_text,42,Lube oil analysis,36,0.355
+Mitem & Mplan,all_rows,item_text,43,Tray & packing inspection,32,0.315
+Mitem & Mplan,all_rows,item_text,44,Column External Inspection / RBI,29,0.286
+Mitem & Mplan,all_rows,item_text,45,Re-greasing Gear Box MOV,27,0.266
+Mitem & Mplan,all_rows,item_text,46,Furnace decoking,9,0.089
+Mitem & Mplan,all_rows,item_text,47,Furnace refractory inspection,8,0.079
+Mitem & Mplan,all_rows,item_text,48,Governor valve inspection,7,0.069
+Mitem & Mplan,all_rows,item_text,49,Turbine major overhaul,7,0.069
+Mitem & Mplan,all_rows,item_text,50,Turbine overspeed trip test,5,0.049
+Mitem & Mplan,all_rows,item_text,51,Civil structure inspection,3,0.03
+Mitem & Mplan,all_rows,plan_priority,1,2,8650,85.196
+Mitem & Mplan,all_rows,plan_priority,2,3,1503,14.804
+Mitem & Mplan,all_rows,cycle_desc,1,5 YEARLY,3767,37.102
+Mitem & Mplan,all_rows,cycle_desc,2,1 YEARLY,1254,12.351
+Mitem & Mplan,all_rows,cycle_desc,3,18 MONTHLY,1132,11.149
+Mitem & Mplan,all_rows,cycle_desc,4,6 MONTHLY,788,7.761
+Mitem & Mplan,all_rows,cycle_desc,5,10 YEARLY,621,6.116
+Mitem & Mplan,all_rows,cycle_desc,6,YEARLY,465,4.58
+Mitem & Mplan,all_rows,cycle_desc,7,2 YEARLY,376,3.703
+Mitem & Mplan,all_rows,cycle_desc,8,Yearly,305,3.004
+Mitem & Mplan,all_rows,cycle_desc,9,3 MONTHLY,267,2.63
+Mitem & Mplan,all_rows,cycle_desc,10,12 MONTHLY,229,2.255
+Mitem & Mplan,all_rows,cycle_desc,11,3 YEARLY,202,1.99
+Mitem & Mplan,all_rows,cycle_desc,12,Monthly,160,1.576
+Mitem & Mplan,all_rows,cycle_desc,13,2 WEEKLY,96,0.946
+Mitem & Mplan,all_rows,cycle_desc,14,4 WEEKLY,92,0.906
+Mitem & Mplan,all_rows,cycle_desc,15,4 MONTH,83,0.817
+Mitem & Mplan,all_rows,cycle_desc,16,12 WEEK,76,0.749
+Mitem & Mplan,all_rows,cycle_desc,17,1 MONTHLY,49,0.483
+Mitem & Mplan,all_rows,cycle_desc,18,24 WEEK,39,0.384
+Mitem & Mplan,all_rows,cycle_desc,19,26 WEEKLY,31,0.305
+Mitem & Mplan,all_rows,cycle_desc,20,8 YEARLY,27,0.266
+Mitem & Mplan,all_rows,cycle_desc,21,1 WEEKLY,26,0.256
+Mitem & Mplan,all_rows,cycle_desc,22,48 WEEK,26,0.256
+Mitem & Mplan,all_rows,cycle_desc,23,Weekly,15,0.148
+Mitem & Mplan,all_rows,cycle_desc,24,2 WEEK,14,0.138
+Mitem & Mplan,all_rows,cycle_desc,25,30 MONTHLY,4,0.039
+Mitem & Mplan,all_rows,cycle_desc,26,16 WEEKLY,3,0.03
+Mitem & Mplan,all_rows,cycle_desc,27,2 MONTHLY,3,0.03
+Mitem & Mplan,all_rows,cycle_desc,28,8 WEEKLY,3,0.03
+BoM,all_rows,unit,1,EA,14497,70.193
+BoM,all_rows,unit,2,SET,4469,21.639
+BoM,all_rows,unit,3,LG,367,1.777
+BoM,all_rows,unit,4,L,291,1.409
+BoM,all_rows,unit,5,ASS,276,1.336
+BoM,all_rows,unit,6,KG,229,1.109
+BoM,all_rows,unit,7,M,221,1.07
+BoM,all_rows,unit,8,RL,182,0.881
+BoM,all_rows,unit,9,SHT,68,0.329
+BoM,all_rows,unit,10,CAN,53,0.257
+BoM,all_rows,mrp_type,1,Stock Item,12837,62.156
+BoM,all_rows,mrp_type,2,Non Stock,7816,37.844
+FuncLoc list,all_rows,criticality,1,C,7298,50.387
+FuncLoc list,all_rows,criticality,2,A,2668,18.42
+FuncLoc list,all_rows,criticality,3,B,2581,17.82
+FuncLoc list,all_rows,criticality,4,S,1904,13.146
+FuncLoc list,all_rows,criticality,5,<NULL>,33,0.228

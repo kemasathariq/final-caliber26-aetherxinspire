@@ -1,0 +1,14 @@
+column_a,column_b,distinct_a,distinct_b,shared_values,coverage_of_a_pct,coverage_of_b_pct,unmatched_a,unmatched_b,rows_a,rows_b,max_rows_per_shared_key_a,max_rows_per_shared_key_b,observed_cardinality_a_to_b,raw_inner_join_rows,same_standard_name,diagram_relation,assessment
+prpo.material_no,movement.material_no,1250,1930,1030,82.4,53.37,220,900,11609,17518,123,292,N:N,759280,True,not in diagram,shared_key_partial_overlap
+prpo.material_no,bom.material_no,1250,7481,1250,100.0,16.71,0,6231,11609,20653,123,308,N:N,293658,True,unspecified,candidate_foreign_key_one_side_fully_contained
+prpo.purchase_order,movement.material_no,1792,1930,9,0.5,0.47,1783,1921,11609,17518,12,3,N:N,73,False,not in diagram,value_overlap_only_not_supported_by_name_or_diagram
+prpo.purchase_order,bom.material_no,1792,7481,58,3.24,0.78,1734,7423,11609,20653,37,2,N:N,438,False,not in diagram,value_overlap_only_not_supported_by_name_or_diagram
+prpo.supplier_code,mitem.maintenance_item,124,10153,33,26.61,0.33,91,10120,11609,10153,302,1,N:1,2082,False,not in diagram,value_overlap_only_not_supported_by_name_or_diagram
+movement.material_no,bom.material_no,1930,7481,1930,100.0,25.8,0,5551,17518,20653,292,308,N:N,615146,True,unspecified,candidate_foreign_key_one_side_fully_contained
+movement.order_no,notif.order_no,4884,5190,1003,20.54,19.33,3881,4187,17518,5242,15,2,N:N,2851,True,1:N,shared_key_partial_overlap
+notif.functional_location,mitem.functional_location,2219,5785,1130,50.92,19.53,1089,4655,5795,10153,114,8,N:N,6959,True,not in diagram,shared_key_partial_overlap
+notif.functional_location,bom.functional_location,2219,4516,1380,62.19,30.56,839,3136,5795,20653,114,232,N:N,88510,True,not in diagram,shared_key_partial_overlap
+notif.functional_location,funcloc.functional_location,2219,14484,2219,100.0,15.32,0,12265,5795,14484,114,1,N:1,5795,True,1:N,candidate_foreign_key_one_side_fully_contained
+mitem.functional_location,bom.functional_location,5785,4516,2853,49.32,63.18,2932,1663,10153,20653,8,229,N:N,30245,True,indirect,shared_key_partial_overlap
+mitem.functional_location,funcloc.functional_location,5785,14484,5785,100.0,39.94,0,8699,10153,14484,8,1,N:1,10153,True,1:N,candidate_foreign_key_one_side_fully_contained
+bom.functional_location,funcloc.functional_location,4516,14484,4516,100.0,31.18,0,9968,20653,14484,232,1,N:1,20653,True,1:N,candidate_foreign_key_one_side_fully_contained

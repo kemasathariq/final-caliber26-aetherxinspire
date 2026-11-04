@@ -1,0 +1,5 @@
+demand_evidence_tier,l1_resampling_allowed,l2_point_and_configured_only,l3_one_or_two_lines,total
+d1_resampling_allowed,139,84,5,228
+d2_replay_and_configured_only,1,94,60,155
+d3_single_active_month,0,80,202,282
+total,140,258,267,665

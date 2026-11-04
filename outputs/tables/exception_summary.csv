@@ -1,0 +1,13 @@
+exception_list,table,flag,description,rows,related_item,rows_in_exact_distinct_view
+prpo_requested_before_pr,fact_prpo_line,flag_req_before_pr,Requested date before PR date,630,DEF-06,324.0
+prpo_promised_before_pr,fact_prpo_line,flag_promise_before_pr,Promised date before PR date,6,DEF-06,2.0
+prpo_future_dates,fact_prpo_line,flag_future_date,Requested or promised date after the assumed cutoff,1953,A-01,1034.0
+movement_same_key_different_quantity,fact_issue,is_partial_dup_group,"Same date, material and order with differing quantities",657,A-05,
+notif_required_start_before_notification,fact_notification,flag_reqstart_before_notif,Required Start before Notification Date,370,DEF-14,
+notif_created_on_differs,fact_notification,flag_created_differs,Created On differs from Notification Date,61,DEF-14,
+notif_same_location_description_date,fact_notification,is_partial_dup_group,"Same location, description and date on different notifications",16,,
+plan_future_cycle_start,fact_plan_item,flag_future_cycle_start,Start of cycle after the assumed cutoff,487,DEF-11,
+material_nonstock_with_stock,dim_material,nonstock_with_stock,Non Stock material holding stock,1683,DEF-04,
+material_fraction_on_count_unit,dim_material,flag_fraction_on_count_unit,"Non-integer Stock on EA, SET or ASS",1,DEF-15,
+bom_non_integer_installed_qty,bridge_fl_material,flag_non_integer_installed_qty,Non-integer Installed Qty,88,DEF-15,
+material_shared_descriptions,dim_material,desc_shared_group_id,Same trimmed description on several material numbers. Never merged,597,X-04,

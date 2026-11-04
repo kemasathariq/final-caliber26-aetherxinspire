@@ -1,0 +1,24 @@
+2026-11-04 14:28:33,581 INFO pipeline: Stage 1: source inspection and manifest
+2026-11-04 14:28:35,641 INFO pipeline: PR PO.xlsx: consistent_with_audit_baseline, 11609 data rows
+2026-11-04 14:28:35,641 INFO pipeline: Movement Material.xlsx: consistent_with_audit_baseline, 17518 data rows
+2026-11-04 14:28:35,641 INFO pipeline: Notif History.xlsx: consistent_with_audit_baseline, 5795 data rows
+2026-11-04 14:28:35,641 INFO pipeline: Mitem & Mplan.xlsx: consistent_with_audit_baseline, 10153 data rows
+2026-11-04 14:28:35,641 INFO pipeline: BoM.xlsx: consistent_with_audit_baseline, 20653 data rows
+2026-11-04 14:28:35,641 INFO pipeline: FuncLoc list.xlsx: consistent_with_audit_baseline, 14484 data rows
+2026-11-04 14:28:35,641 INFO pipeline: Stage 2: ingestion, staged tables, duplicate metadata and PR PO views
+2026-11-04 14:28:36,714 INFO src.data.ingest: Ingested PR PO: 11609 rows, 18 source columns
+2026-11-04 14:28:37,332 INFO src.data.ingest: Ingested Movement Material: 17518 rows, 7 source columns
+2026-11-04 14:28:37,723 INFO src.data.ingest: Ingested Notif History: 5795 rows, 12 source columns
+2026-11-04 14:28:38,233 INFO src.data.ingest: Ingested Mitem & Mplan: 10153 rows, 9 source columns
+2026-11-04 14:28:39,026 INFO src.data.ingest: Ingested BoM: 20653 rows, 9 source columns
+2026-11-04 14:28:39,290 INFO src.data.ingest: Ingested FuncLoc list: 14484 rows, 3 source columns
+2026-11-04 14:28:39,803 INFO pipeline: PR PO views: 11609 original rows, 6189 exact distinct rows, 3600 duplicate groups
+2026-11-04 14:28:39,803 INFO pipeline: Stage 3: conformed tables
+2026-11-04 14:28:40,788 INFO pipeline: Conformed tables: {"dim_functional_location": 14484, "dim_material": 7481, "dim_supplier": 124, "map_cycle": 28, "bridge_fl_material": 20423, "bridge_order_notification": 5242, "fact_prpo_line": 11609, "fact_issue": 17518, "fact_notification": 5795, "fact_plan_item": 10153}
+2026-11-04 14:28:40,788 INFO pipeline: Stage 4: marts M1 to M3
+2026-11-04 14:28:41,525 INFO pipeline: Marts: {"mart_procurement_line__original_rows": 11609, "mart_procurement_line__exact_distinct_rows": 6189, "mart_supplier_material__original_rows": 1250, "mart_supplier_material__exact_distinct_rows": 1250, "mart_procurement_nonidr__original_rows": 98, "mart_procurement_nonidr__exact_distinct_rows": 51, "mart_material_inventory": 7481, "movement_copy_classification": 17518, "mart_material_demand_month__scenario_a": 32810, "mart_material_demand_month__scenario_b": 32810, "mart_material_demand_summary__scenario_a": 1930, "mart_material_demand_summary__scenario_b": 1930, "mart_material_demand_comparison": 1930}
+2026-11-04 14:28:41,525 INFO pipeline: Stage 5: simulation feasibility evidence. No simulation is run
+2026-11-04 14:28:41,626 INFO pipeline: Stage 6: profiling
+2026-11-04 14:28:43,480 INFO pipeline: Stage 7: duplicate evidence, exception lists and relationship audit
+2026-11-04 14:28:44,381 INFO pipeline: Stage 8: validation
+2026-11-04 14:28:46,496 INFO pipeline: Validation: {"PASS": 750}

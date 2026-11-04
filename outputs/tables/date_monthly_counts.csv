@@ -1,0 +1,554 @@
+dataset,view,column,month,rows
+PR PO,original_rows,pr_date,2025-05,605
+PR PO,original_rows,pr_date,2025-06,655
+PR PO,original_rows,pr_date,2025-07,720
+PR PO,original_rows,pr_date,2025-08,680
+PR PO,original_rows,pr_date,2025-09,712
+PR PO,original_rows,pr_date,2025-10,748
+PR PO,original_rows,pr_date,2025-11,705
+PR PO,original_rows,pr_date,2025-12,658
+PR PO,original_rows,pr_date,2026-01,694
+PR PO,original_rows,pr_date,2026-02,659
+PR PO,original_rows,pr_date,2026-03,713
+PR PO,original_rows,pr_date,2026-04,667
+PR PO,original_rows,pr_date,2026-05,716
+PR PO,original_rows,pr_date,2026-06,677
+PR PO,original_rows,pr_date,2026-07,734
+PR PO,original_rows,pr_date,2026-08,773
+PR PO,original_rows,pr_date,2026-09,493
+PR PO,original_rows,pr_delivery_date,2023-12,7
+PR PO,original_rows,pr_delivery_date,2024-01,11
+PR PO,original_rows,pr_delivery_date,2024-02,15
+PR PO,original_rows,pr_delivery_date,2024-03,20
+PR PO,original_rows,pr_delivery_date,2024-04,9
+PR PO,original_rows,pr_delivery_date,2024-05,27
+PR PO,original_rows,pr_delivery_date,2024-06,27
+PR PO,original_rows,pr_delivery_date,2024-07,19
+PR PO,original_rows,pr_delivery_date,2024-08,29
+PR PO,original_rows,pr_delivery_date,2024-09,22
+PR PO,original_rows,pr_delivery_date,2024-10,6
+PR PO,original_rows,pr_delivery_date,2024-11,14
+PR PO,original_rows,pr_delivery_date,2024-12,21
+PR PO,original_rows,pr_delivery_date,2025-01,36
+PR PO,original_rows,pr_delivery_date,2025-02,16
+PR PO,original_rows,pr_delivery_date,2025-03,55
+PR PO,original_rows,pr_delivery_date,2025-04,49
+PR PO,original_rows,pr_delivery_date,2025-05,85
+PR PO,original_rows,pr_delivery_date,2025-06,329
+PR PO,original_rows,pr_delivery_date,2025-07,470
+PR PO,original_rows,pr_delivery_date,2025-08,574
+PR PO,original_rows,pr_delivery_date,2025-09,551
+PR PO,original_rows,pr_delivery_date,2025-10,663
+PR PO,original_rows,pr_delivery_date,2025-11,625
+PR PO,original_rows,pr_delivery_date,2025-12,579
+PR PO,original_rows,pr_delivery_date,2026-01,664
+PR PO,original_rows,pr_delivery_date,2026-02,598
+PR PO,original_rows,pr_delivery_date,2026-03,628
+PR PO,original_rows,pr_delivery_date,2026-04,648
+PR PO,original_rows,pr_delivery_date,2026-05,650
+PR PO,original_rows,pr_delivery_date,2026-06,546
+PR PO,original_rows,pr_delivery_date,2026-07,607
+PR PO,original_rows,pr_delivery_date,2026-08,677
+PR PO,original_rows,pr_delivery_date,2026-09,650
+PR PO,original_rows,pr_delivery_date,2026-10,510
+PR PO,original_rows,pr_delivery_date,2026-11,245
+PR PO,original_rows,pr_delivery_date,2026-12,157
+PR PO,original_rows,pr_delivery_date,2027-01,115
+PR PO,original_rows,pr_delivery_date,2027-02,71
+PR PO,original_rows,pr_delivery_date,2027-03,35
+PR PO,original_rows,pr_delivery_date,2027-04,42
+PR PO,original_rows,pr_delivery_date,2027-05,42
+PR PO,original_rows,pr_delivery_date,2027-06,21
+PR PO,original_rows,pr_delivery_date,2027-07,32
+PR PO,original_rows,pr_delivery_date,2027-08,38
+PR PO,original_rows,pr_delivery_date,2027-09,23
+PR PO,original_rows,pr_delivery_date,2027-10,31
+PR PO,original_rows,pr_delivery_date,2027-11,28
+PR PO,original_rows,pr_delivery_date,2027-12,24
+PR PO,original_rows,pr_delivery_date,2028-01,16
+PR PO,original_rows,pr_delivery_date,2028-02,24
+PR PO,original_rows,pr_delivery_date,2028-03,30
+PR PO,original_rows,pr_delivery_date,2028-04,22
+PR PO,original_rows,pr_delivery_date,2028-05,20
+PR PO,original_rows,pr_delivery_date,2028-06,13
+PR PO,original_rows,pr_delivery_date,2028-07,21
+PR PO,original_rows,pr_delivery_date,2028-08,20
+PR PO,original_rows,pr_delivery_date,2028-09,22
+PR PO,original_rows,pr_delivery_date,2028-10,15
+PR PO,original_rows,pr_delivery_date,2028-11,18
+PR PO,original_rows,pr_delivery_date,2028-12,16
+PR PO,original_rows,pr_delivery_date,2029-01,26
+PR PO,original_rows,pr_delivery_date,2029-02,2
+PR PO,original_rows,pr_delivery_date,2029-03,3
+PR PO,original_rows,po_delivery_date,2025-04,2
+PR PO,original_rows,po_delivery_date,2025-05,48
+PR PO,original_rows,po_delivery_date,2025-06,326
+PR PO,original_rows,po_delivery_date,2025-07,441
+PR PO,original_rows,po_delivery_date,2025-08,611
+PR PO,original_rows,po_delivery_date,2025-09,608
+PR PO,original_rows,po_delivery_date,2025-10,656
+PR PO,original_rows,po_delivery_date,2025-11,671
+PR PO,original_rows,po_delivery_date,2025-12,687
+PR PO,original_rows,po_delivery_date,2026-01,655
+PR PO,original_rows,po_delivery_date,2026-02,654
+PR PO,original_rows,po_delivery_date,2026-03,652
+PR PO,original_rows,po_delivery_date,2026-04,681
+PR PO,original_rows,po_delivery_date,2026-05,686
+PR PO,original_rows,po_delivery_date,2026-06,626
+PR PO,original_rows,po_delivery_date,2026-07,693
+PR PO,original_rows,po_delivery_date,2026-08,739
+PR PO,original_rows,po_delivery_date,2026-09,706
+PR PO,original_rows,po_delivery_date,2026-10,565
+PR PO,original_rows,po_delivery_date,2026-11,301
+PR PO,original_rows,po_delivery_date,2026-12,167
+PR PO,original_rows,po_delivery_date,2027-01,118
+PR PO,original_rows,po_delivery_date,2027-02,71
+PR PO,original_rows,po_delivery_date,2027-03,60
+PR PO,original_rows,po_delivery_date,2027-04,47
+PR PO,original_rows,po_delivery_date,2027-05,28
+PR PO,original_rows,po_delivery_date,2027-06,12
+PR PO,original_rows,po_delivery_date,2027-07,26
+PR PO,original_rows,po_delivery_date,2027-08,6
+PR PO,original_rows,po_delivery_date,2027-09,4
+PR PO,original_rows,po_delivery_date,2027-10,13
+PR PO,original_rows,po_delivery_date,2027-11,7
+PR PO,original_rows,po_delivery_date,2027-12,8
+PR PO,original_rows,po_delivery_date,2028-01,5
+PR PO,original_rows,po_delivery_date,2028-02,4
+PR PO,original_rows,po_delivery_date,2028-03,3
+PR PO,original_rows,po_delivery_date,2028-04,10
+PR PO,original_rows,po_delivery_date,2028-05,2
+PR PO,original_rows,po_delivery_date,2028-07,5
+PR PO,original_rows,po_delivery_date,2028-10,5
+PR PO,exact_distinct_rows,pr_date,2025-05,333
+PR PO,exact_distinct_rows,pr_date,2025-06,350
+PR PO,exact_distinct_rows,pr_date,2025-07,364
+PR PO,exact_distinct_rows,pr_date,2025-08,369
+PR PO,exact_distinct_rows,pr_date,2025-09,384
+PR PO,exact_distinct_rows,pr_date,2025-10,390
+PR PO,exact_distinct_rows,pr_date,2025-11,380
+PR PO,exact_distinct_rows,pr_date,2025-12,364
+PR PO,exact_distinct_rows,pr_date,2026-01,370
+PR PO,exact_distinct_rows,pr_date,2026-02,331
+PR PO,exact_distinct_rows,pr_date,2026-03,382
+PR PO,exact_distinct_rows,pr_date,2026-04,379
+PR PO,exact_distinct_rows,pr_date,2026-05,390
+PR PO,exact_distinct_rows,pr_date,2026-06,364
+PR PO,exact_distinct_rows,pr_date,2026-07,381
+PR PO,exact_distinct_rows,pr_date,2026-08,398
+PR PO,exact_distinct_rows,pr_date,2026-09,260
+PR PO,exact_distinct_rows,pr_delivery_date,2023-12,4
+PR PO,exact_distinct_rows,pr_delivery_date,2024-01,7
+PR PO,exact_distinct_rows,pr_delivery_date,2024-02,8
+PR PO,exact_distinct_rows,pr_delivery_date,2024-03,8
+PR PO,exact_distinct_rows,pr_delivery_date,2024-04,7
+PR PO,exact_distinct_rows,pr_delivery_date,2024-05,16
+PR PO,exact_distinct_rows,pr_delivery_date,2024-06,15
+PR PO,exact_distinct_rows,pr_delivery_date,2024-07,9
+PR PO,exact_distinct_rows,pr_delivery_date,2024-08,16
+PR PO,exact_distinct_rows,pr_delivery_date,2024-09,10
+PR PO,exact_distinct_rows,pr_delivery_date,2024-10,4
+PR PO,exact_distinct_rows,pr_delivery_date,2024-11,8
+PR PO,exact_distinct_rows,pr_delivery_date,2024-12,10
+PR PO,exact_distinct_rows,pr_delivery_date,2025-01,20
+PR PO,exact_distinct_rows,pr_delivery_date,2025-02,10
+PR PO,exact_distinct_rows,pr_delivery_date,2025-03,24
+PR PO,exact_distinct_rows,pr_delivery_date,2025-04,26
+PR PO,exact_distinct_rows,pr_delivery_date,2025-05,47
+PR PO,exact_distinct_rows,pr_delivery_date,2025-06,182
+PR PO,exact_distinct_rows,pr_delivery_date,2025-07,250
+PR PO,exact_distinct_rows,pr_delivery_date,2025-08,296
+PR PO,exact_distinct_rows,pr_delivery_date,2025-09,296
+PR PO,exact_distinct_rows,pr_delivery_date,2025-10,347
+PR PO,exact_distinct_rows,pr_delivery_date,2025-11,335
+PR PO,exact_distinct_rows,pr_delivery_date,2025-12,319
+PR PO,exact_distinct_rows,pr_delivery_date,2026-01,351
+PR PO,exact_distinct_rows,pr_delivery_date,2026-02,314
+PR PO,exact_distinct_rows,pr_delivery_date,2026-03,324
+PR PO,exact_distinct_rows,pr_delivery_date,2026-04,332
+PR PO,exact_distinct_rows,pr_delivery_date,2026-05,363
+PR PO,exact_distinct_rows,pr_delivery_date,2026-06,299
+PR PO,exact_distinct_rows,pr_delivery_date,2026-07,335
+PR PO,exact_distinct_rows,pr_delivery_date,2026-08,363
+PR PO,exact_distinct_rows,pr_delivery_date,2026-09,343
+PR PO,exact_distinct_rows,pr_delivery_date,2026-10,254
+PR PO,exact_distinct_rows,pr_delivery_date,2026-11,121
+PR PO,exact_distinct_rows,pr_delivery_date,2026-12,86
+PR PO,exact_distinct_rows,pr_delivery_date,2027-01,67
+PR PO,exact_distinct_rows,pr_delivery_date,2027-02,39
+PR PO,exact_distinct_rows,pr_delivery_date,2027-03,20
+PR PO,exact_distinct_rows,pr_delivery_date,2027-04,24
+PR PO,exact_distinct_rows,pr_delivery_date,2027-05,24
+PR PO,exact_distinct_rows,pr_delivery_date,2027-06,14
+PR PO,exact_distinct_rows,pr_delivery_date,2027-07,20
+PR PO,exact_distinct_rows,pr_delivery_date,2027-08,20
+PR PO,exact_distinct_rows,pr_delivery_date,2027-09,12
+PR PO,exact_distinct_rows,pr_delivery_date,2027-10,16
+PR PO,exact_distinct_rows,pr_delivery_date,2027-11,15
+PR PO,exact_distinct_rows,pr_delivery_date,2027-12,12
+PR PO,exact_distinct_rows,pr_delivery_date,2028-01,8
+PR PO,exact_distinct_rows,pr_delivery_date,2028-02,16
+PR PO,exact_distinct_rows,pr_delivery_date,2028-03,15
+PR PO,exact_distinct_rows,pr_delivery_date,2028-04,11
+PR PO,exact_distinct_rows,pr_delivery_date,2028-05,9
+PR PO,exact_distinct_rows,pr_delivery_date,2028-06,7
+PR PO,exact_distinct_rows,pr_delivery_date,2028-07,12
+PR PO,exact_distinct_rows,pr_delivery_date,2028-08,13
+PR PO,exact_distinct_rows,pr_delivery_date,2028-09,12
+PR PO,exact_distinct_rows,pr_delivery_date,2028-10,9
+PR PO,exact_distinct_rows,pr_delivery_date,2028-11,10
+PR PO,exact_distinct_rows,pr_delivery_date,2028-12,8
+PR PO,exact_distinct_rows,pr_delivery_date,2029-01,13
+PR PO,exact_distinct_rows,pr_delivery_date,2029-02,2
+PR PO,exact_distinct_rows,pr_delivery_date,2029-03,2
+PR PO,exact_distinct_rows,po_delivery_date,2025-04,1
+PR PO,exact_distinct_rows,po_delivery_date,2025-05,28
+PR PO,exact_distinct_rows,po_delivery_date,2025-06,180
+PR PO,exact_distinct_rows,po_delivery_date,2025-07,247
+PR PO,exact_distinct_rows,po_delivery_date,2025-08,301
+PR PO,exact_distinct_rows,po_delivery_date,2025-09,336
+PR PO,exact_distinct_rows,po_delivery_date,2025-10,344
+PR PO,exact_distinct_rows,po_delivery_date,2025-11,364
+PR PO,exact_distinct_rows,po_delivery_date,2025-12,370
+PR PO,exact_distinct_rows,po_delivery_date,2026-01,351
+PR PO,exact_distinct_rows,po_delivery_date,2026-02,356
+PR PO,exact_distinct_rows,po_delivery_date,2026-03,341
+PR PO,exact_distinct_rows,po_delivery_date,2026-04,351
+PR PO,exact_distinct_rows,po_delivery_date,2026-05,365
+PR PO,exact_distinct_rows,po_delivery_date,2026-06,343
+PR PO,exact_distinct_rows,po_delivery_date,2026-07,377
+PR PO,exact_distinct_rows,po_delivery_date,2026-08,395
+PR PO,exact_distinct_rows,po_delivery_date,2026-09,373
+PR PO,exact_distinct_rows,po_delivery_date,2026-10,293
+PR PO,exact_distinct_rows,po_delivery_date,2026-11,148
+PR PO,exact_distinct_rows,po_delivery_date,2026-12,90
+PR PO,exact_distinct_rows,po_delivery_date,2027-01,58
+PR PO,exact_distinct_rows,po_delivery_date,2027-02,39
+PR PO,exact_distinct_rows,po_delivery_date,2027-03,35
+PR PO,exact_distinct_rows,po_delivery_date,2027-04,26
+PR PO,exact_distinct_rows,po_delivery_date,2027-05,15
+PR PO,exact_distinct_rows,po_delivery_date,2027-06,9
+PR PO,exact_distinct_rows,po_delivery_date,2027-07,13
+PR PO,exact_distinct_rows,po_delivery_date,2027-08,5
+PR PO,exact_distinct_rows,po_delivery_date,2027-09,3
+PR PO,exact_distinct_rows,po_delivery_date,2027-10,5
+PR PO,exact_distinct_rows,po_delivery_date,2027-11,3
+PR PO,exact_distinct_rows,po_delivery_date,2027-12,4
+PR PO,exact_distinct_rows,po_delivery_date,2028-01,4
+PR PO,exact_distinct_rows,po_delivery_date,2028-02,2
+PR PO,exact_distinct_rows,po_delivery_date,2028-03,2
+PR PO,exact_distinct_rows,po_delivery_date,2028-04,7
+PR PO,exact_distinct_rows,po_delivery_date,2028-05,1
+PR PO,exact_distinct_rows,po_delivery_date,2028-07,2
+PR PO,exact_distinct_rows,po_delivery_date,2028-10,2
+Movement Material,all_rows,posting_date,2025-05,668
+Movement Material,all_rows,posting_date,2025-06,596
+Movement Material,all_rows,posting_date,2025-07,948
+Movement Material,all_rows,posting_date,2025-08,1388
+Movement Material,all_rows,posting_date,2025-09,1043
+Movement Material,all_rows,posting_date,2025-10,891
+Movement Material,all_rows,posting_date,2025-11,1860
+Movement Material,all_rows,posting_date,2025-12,2580
+Movement Material,all_rows,posting_date,2026-01,2184
+Movement Material,all_rows,posting_date,2026-02,843
+Movement Material,all_rows,posting_date,2026-03,440
+Movement Material,all_rows,posting_date,2026-04,660
+Movement Material,all_rows,posting_date,2026-05,535
+Movement Material,all_rows,posting_date,2026-06,824
+Movement Material,all_rows,posting_date,2026-07,753
+Movement Material,all_rows,posting_date,2026-08,568
+Movement Material,all_rows,posting_date,2026-09,737
+Notif History,all_rows,notification_date,2025-05,1463
+Notif History,all_rows,notification_date,2025-06,348
+Notif History,all_rows,notification_date,2025-07,264
+Notif History,all_rows,notification_date,2025-08,274
+Notif History,all_rows,notification_date,2025-09,262
+Notif History,all_rows,notification_date,2025-10,279
+Notif History,all_rows,notification_date,2025-11,368
+Notif History,all_rows,notification_date,2025-12,236
+Notif History,all_rows,notification_date,2026-01,166
+Notif History,all_rows,notification_date,2026-02,132
+Notif History,all_rows,notification_date,2026-03,260
+Notif History,all_rows,notification_date,2026-04,240
+Notif History,all_rows,notification_date,2026-05,232
+Notif History,all_rows,notification_date,2026-06,231
+Notif History,all_rows,notification_date,2026-07,306
+Notif History,all_rows,notification_date,2026-08,346
+Notif History,all_rows,notification_date,2026-09,388
+Notif History,all_rows,created_on,2025-05,1462
+Notif History,all_rows,created_on,2025-06,349
+Notif History,all_rows,created_on,2025-07,264
+Notif History,all_rows,created_on,2025-08,274
+Notif History,all_rows,created_on,2025-09,262
+Notif History,all_rows,created_on,2025-10,279
+Notif History,all_rows,created_on,2025-11,367
+Notif History,all_rows,created_on,2025-12,237
+Notif History,all_rows,created_on,2026-01,166
+Notif History,all_rows,created_on,2026-02,132
+Notif History,all_rows,created_on,2026-03,260
+Notif History,all_rows,created_on,2026-04,240
+Notif History,all_rows,created_on,2026-05,231
+Notif History,all_rows,created_on,2026-06,232
+Notif History,all_rows,created_on,2026-07,306
+Notif History,all_rows,created_on,2026-08,346
+Notif History,all_rows,created_on,2026-09,388
+Notif History,all_rows,required_start,2024-03,4
+Notif History,all_rows,required_start,2024-04,29
+Notif History,all_rows,required_start,2024-05,8
+Notif History,all_rows,required_start,2024-06,7
+Notif History,all_rows,required_start,2024-07,9
+Notif History,all_rows,required_start,2024-08,13
+Notif History,all_rows,required_start,2024-09,9
+Notif History,all_rows,required_start,2024-10,12
+Notif History,all_rows,required_start,2024-11,12
+Notif History,all_rows,required_start,2024-12,7
+Notif History,all_rows,required_start,2025-01,7
+Notif History,all_rows,required_start,2025-02,5
+Notif History,all_rows,required_start,2025-03,7
+Notif History,all_rows,required_start,2025-04,57
+Notif History,all_rows,required_start,2025-05,1084
+Notif History,all_rows,required_start,2025-06,369
+Notif History,all_rows,required_start,2025-07,313
+Notif History,all_rows,required_start,2025-08,296
+Notif History,all_rows,required_start,2025-09,291
+Notif History,all_rows,required_start,2025-10,254
+Notif History,all_rows,required_start,2025-11,318
+Notif History,all_rows,required_start,2025-12,213
+Notif History,all_rows,required_start,2026-01,162
+Notif History,all_rows,required_start,2026-02,128
+Notif History,all_rows,required_start,2026-03,215
+Notif History,all_rows,required_start,2026-04,231
+Notif History,all_rows,required_start,2026-05,240
+Notif History,all_rows,required_start,2026-06,223
+Notif History,all_rows,required_start,2026-07,275
+Notif History,all_rows,required_start,2026-08,323
+Notif History,all_rows,required_start,2026-09,332
+Notif History,all_rows,required_start,2026-10,39
+Notif History,all_rows,required_start,2026-11,38
+Notif History,all_rows,required_start,2026-12,16
+Notif History,all_rows,required_start,2027-01,12
+Notif History,all_rows,required_start,2027-02,2
+Notif History,all_rows,required_start,2027-03,13
+Notif History,all_rows,required_start,2027-04,12
+Notif History,all_rows,required_start,2027-05,6
+Notif History,all_rows,required_start,2027-06,8
+Notif History,all_rows,required_start,2027-07,10
+Notif History,all_rows,required_start,2027-08,8
+Notif History,all_rows,required_start,2027-09,15
+Notif History,all_rows,required_start,2027-10,16
+Notif History,all_rows,required_start,2027-11,17
+Notif History,all_rows,required_start,2027-12,11
+Notif History,all_rows,required_start,2028-01,10
+Notif History,all_rows,required_start,2028-02,2
+Notif History,all_rows,required_start,2028-03,9
+Notif History,all_rows,required_start,2028-04,12
+Notif History,all_rows,required_start,2028-05,6
+Notif History,all_rows,required_start,2028-06,3
+Notif History,all_rows,required_start,2028-07,7
+Notif History,all_rows,required_start,2028-08,9
+Notif History,all_rows,required_start,2028-09,8
+Notif History,all_rows,required_start,2028-10,10
+Notif History,all_rows,required_start,2028-11,9
+Notif History,all_rows,required_start,2028-12,7
+Notif History,all_rows,required_start,2029-01,10
+Notif History,all_rows,required_start,2029-02,11
+Notif History,all_rows,required_start,2029-03,6
+Notif History,all_rows,required_end,2024-04,4
+Notif History,all_rows,required_end,2024-05,14
+Notif History,all_rows,required_end,2024-06,15
+Notif History,all_rows,required_end,2024-07,14
+Notif History,all_rows,required_end,2024-08,11
+Notif History,all_rows,required_end,2024-09,9
+Notif History,all_rows,required_end,2024-10,8
+Notif History,all_rows,required_end,2024-11,6
+Notif History,all_rows,required_end,2024-12,15
+Notif History,all_rows,required_end,2025-01,9
+Notif History,all_rows,required_end,2025-02,9
+Notif History,all_rows,required_end,2025-03,6
+Notif History,all_rows,required_end,2025-04,10
+Notif History,all_rows,required_end,2025-05,99
+Notif History,all_rows,required_end,2025-06,600
+Notif History,all_rows,required_end,2025-07,397
+Notif History,all_rows,required_end,2025-08,535
+Notif History,all_rows,required_end,2025-09,287
+Notif History,all_rows,required_end,2025-10,320
+Notif History,all_rows,required_end,2025-11,273
+Notif History,all_rows,required_end,2025-12,293
+Notif History,all_rows,required_end,2026-01,242
+Notif History,all_rows,required_end,2026-02,200
+Notif History,all_rows,required_end,2026-03,165
+Notif History,all_rows,required_end,2026-04,201
+Notif History,all_rows,required_end,2026-05,198
+Notif History,all_rows,required_end,2026-06,234
+Notif History,all_rows,required_end,2026-07,238
+Notif History,all_rows,required_end,2026-08,258
+Notif History,all_rows,required_end,2026-09,255
+Notif History,all_rows,required_end,2026-10,307
+Notif History,all_rows,required_end,2026-11,155
+Notif History,all_rows,required_end,2026-12,124
+Notif History,all_rows,required_end,2027-01,22
+Notif History,all_rows,required_end,2027-02,17
+Notif History,all_rows,required_end,2027-03,11
+Notif History,all_rows,required_end,2027-04,8
+Notif History,all_rows,required_end,2027-05,11
+Notif History,all_rows,required_end,2027-06,5
+Notif History,all_rows,required_end,2027-07,12
+Notif History,all_rows,required_end,2027-08,10
+Notif History,all_rows,required_end,2027-09,8
+Notif History,all_rows,required_end,2027-10,11
+Notif History,all_rows,required_end,2027-11,17
+Notif History,all_rows,required_end,2027-12,11
+Notif History,all_rows,required_end,2028-01,12
+Notif History,all_rows,required_end,2028-02,10
+Notif History,all_rows,required_end,2028-03,7
+Notif History,all_rows,required_end,2028-04,11
+Notif History,all_rows,required_end,2028-05,10
+Notif History,all_rows,required_end,2028-06,7
+Notif History,all_rows,required_end,2028-07,8
+Notif History,all_rows,required_end,2028-08,5
+Notif History,all_rows,required_end,2028-09,9
+Notif History,all_rows,required_end,2028-10,5
+Notif History,all_rows,required_end,2028-11,10
+Notif History,all_rows,required_end,2028-12,8
+Notif History,all_rows,required_end,2029-01,5
+Notif History,all_rows,required_end,2029-02,10
+Notif History,all_rows,required_end,2029-03,11
+Notif History,all_rows,required_end,2029-04,10
+Notif History,all_rows,required_end,2029-05,3
+Notif History,all_rows,completion_date,2025-05,187
+Notif History,all_rows,completion_date,2025-06,409
+Notif History,all_rows,completion_date,2025-07,355
+Notif History,all_rows,completion_date,2025-08,338
+Notif History,all_rows,completion_date,2025-09,306
+Notif History,all_rows,completion_date,2025-10,309
+Notif History,all_rows,completion_date,2025-11,279
+Notif History,all_rows,completion_date,2025-12,294
+Notif History,all_rows,completion_date,2026-01,248
+Notif History,all_rows,completion_date,2026-02,216
+Notif History,all_rows,completion_date,2026-03,207
+Notif History,all_rows,completion_date,2026-04,219
+Notif History,all_rows,completion_date,2026-05,189
+Notif History,all_rows,completion_date,2026-06,205
+Notif History,all_rows,completion_date,2026-07,219
+Notif History,all_rows,completion_date,2026-08,239
+Notif History,all_rows,completion_date,2026-09,271
+Mitem & Mplan,all_rows,start_of_cycle,2015-09,1
+Mitem & Mplan,all_rows,start_of_cycle,2016-09,1
+Mitem & Mplan,all_rows,start_of_cycle,2017-01,1
+Mitem & Mplan,all_rows,start_of_cycle,2017-09,1
+Mitem & Mplan,all_rows,start_of_cycle,2018-12,1
+Mitem & Mplan,all_rows,start_of_cycle,2019-01,39
+Mitem & Mplan,all_rows,start_of_cycle,2019-02,53
+Mitem & Mplan,all_rows,start_of_cycle,2019-03,41
+Mitem & Mplan,all_rows,start_of_cycle,2019-04,50
+Mitem & Mplan,all_rows,start_of_cycle,2019-05,50
+Mitem & Mplan,all_rows,start_of_cycle,2019-06,63
+Mitem & Mplan,all_rows,start_of_cycle,2019-07,55
+Mitem & Mplan,all_rows,start_of_cycle,2019-08,51
+Mitem & Mplan,all_rows,start_of_cycle,2019-09,43
+Mitem & Mplan,all_rows,start_of_cycle,2019-10,53
+Mitem & Mplan,all_rows,start_of_cycle,2019-11,42
+Mitem & Mplan,all_rows,start_of_cycle,2019-12,52
+Mitem & Mplan,all_rows,start_of_cycle,2020-01,3
+Mitem & Mplan,all_rows,start_of_cycle,2020-02,8
+Mitem & Mplan,all_rows,start_of_cycle,2020-03,7
+Mitem & Mplan,all_rows,start_of_cycle,2020-04,6
+Mitem & Mplan,all_rows,start_of_cycle,2020-05,11
+Mitem & Mplan,all_rows,start_of_cycle,2020-06,8
+Mitem & Mplan,all_rows,start_of_cycle,2020-07,6
+Mitem & Mplan,all_rows,start_of_cycle,2020-08,10
+Mitem & Mplan,all_rows,start_of_cycle,2020-09,3
+Mitem & Mplan,all_rows,start_of_cycle,2020-10,4
+Mitem & Mplan,all_rows,start_of_cycle,2020-11,14
+Mitem & Mplan,all_rows,start_of_cycle,2020-12,6
+Mitem & Mplan,all_rows,start_of_cycle,2021-01,123
+Mitem & Mplan,all_rows,start_of_cycle,2021-02,114
+Mitem & Mplan,all_rows,start_of_cycle,2021-03,95
+Mitem & Mplan,all_rows,start_of_cycle,2021-04,103
+Mitem & Mplan,all_rows,start_of_cycle,2021-05,101
+Mitem & Mplan,all_rows,start_of_cycle,2021-06,90
+Mitem & Mplan,all_rows,start_of_cycle,2021-07,102
+Mitem & Mplan,all_rows,start_of_cycle,2021-08,108
+Mitem & Mplan,all_rows,start_of_cycle,2021-09,95
+Mitem & Mplan,all_rows,start_of_cycle,2021-10,99
+Mitem & Mplan,all_rows,start_of_cycle,2021-11,96
+Mitem & Mplan,all_rows,start_of_cycle,2021-12,112
+Mitem & Mplan,all_rows,start_of_cycle,2022-01,5
+Mitem & Mplan,all_rows,start_of_cycle,2022-02,4
+Mitem & Mplan,all_rows,start_of_cycle,2022-03,6
+Mitem & Mplan,all_rows,start_of_cycle,2022-04,9
+Mitem & Mplan,all_rows,start_of_cycle,2022-05,7
+Mitem & Mplan,all_rows,start_of_cycle,2022-06,7
+Mitem & Mplan,all_rows,start_of_cycle,2022-07,8
+Mitem & Mplan,all_rows,start_of_cycle,2022-08,13
+Mitem & Mplan,all_rows,start_of_cycle,2022-09,7
+Mitem & Mplan,all_rows,start_of_cycle,2022-10,2
+Mitem & Mplan,all_rows,start_of_cycle,2022-11,4
+Mitem & Mplan,all_rows,start_of_cycle,2022-12,4
+Mitem & Mplan,all_rows,start_of_cycle,2023-01,46
+Mitem & Mplan,all_rows,start_of_cycle,2023-02,44
+Mitem & Mplan,all_rows,start_of_cycle,2023-03,50
+Mitem & Mplan,all_rows,start_of_cycle,2023-04,53
+Mitem & Mplan,all_rows,start_of_cycle,2023-05,48
+Mitem & Mplan,all_rows,start_of_cycle,2023-06,34
+Mitem & Mplan,all_rows,start_of_cycle,2023-07,31
+Mitem & Mplan,all_rows,start_of_cycle,2023-08,42
+Mitem & Mplan,all_rows,start_of_cycle,2023-09,35
+Mitem & Mplan,all_rows,start_of_cycle,2023-10,42
+Mitem & Mplan,all_rows,start_of_cycle,2023-11,46
+Mitem & Mplan,all_rows,start_of_cycle,2023-12,46
+Mitem & Mplan,all_rows,start_of_cycle,2024-01,382
+Mitem & Mplan,all_rows,start_of_cycle,2024-02,390
+Mitem & Mplan,all_rows,start_of_cycle,2024-03,389
+Mitem & Mplan,all_rows,start_of_cycle,2024-04,359
+Mitem & Mplan,all_rows,start_of_cycle,2024-05,365
+Mitem & Mplan,all_rows,start_of_cycle,2024-06,373
+Mitem & Mplan,all_rows,start_of_cycle,2024-07,412
+Mitem & Mplan,all_rows,start_of_cycle,2024-08,350
+Mitem & Mplan,all_rows,start_of_cycle,2024-09,406
+Mitem & Mplan,all_rows,start_of_cycle,2024-10,423
+Mitem & Mplan,all_rows,start_of_cycle,2024-11,388
+Mitem & Mplan,all_rows,start_of_cycle,2024-12,402
+Mitem & Mplan,all_rows,start_of_cycle,2025-01,145
+Mitem & Mplan,all_rows,start_of_cycle,2025-02,130
+Mitem & Mplan,all_rows,start_of_cycle,2025-03,153
+Mitem & Mplan,all_rows,start_of_cycle,2025-04,158
+Mitem & Mplan,all_rows,start_of_cycle,2025-05,146
+Mitem & Mplan,all_rows,start_of_cycle,2025-06,143
+Mitem & Mplan,all_rows,start_of_cycle,2025-07,162
+Mitem & Mplan,all_rows,start_of_cycle,2025-08,145
+Mitem & Mplan,all_rows,start_of_cycle,2025-09,119
+Mitem & Mplan,all_rows,start_of_cycle,2025-10,151
+Mitem & Mplan,all_rows,start_of_cycle,2025-11,155
+Mitem & Mplan,all_rows,start_of_cycle,2025-12,137
+Mitem & Mplan,all_rows,start_of_cycle,2026-01,78
+Mitem & Mplan,all_rows,start_of_cycle,2026-02,82
+Mitem & Mplan,all_rows,start_of_cycle,2026-03,79
+Mitem & Mplan,all_rows,start_of_cycle,2026-04,93
+Mitem & Mplan,all_rows,start_of_cycle,2026-05,88
+Mitem & Mplan,all_rows,start_of_cycle,2026-06,95
+Mitem & Mplan,all_rows,start_of_cycle,2026-07,80
+Mitem & Mplan,all_rows,start_of_cycle,2026-08,76
+Mitem & Mplan,all_rows,start_of_cycle,2026-09,98
+Mitem & Mplan,all_rows,start_of_cycle,2026-10,86
+Mitem & Mplan,all_rows,start_of_cycle,2026-11,78
+Mitem & Mplan,all_rows,start_of_cycle,2026-12,101
+Mitem & Mplan,all_rows,start_of_cycle,2027-01,18
+Mitem & Mplan,all_rows,start_of_cycle,2027-02,23
+Mitem & Mplan,all_rows,start_of_cycle,2027-03,13
+Mitem & Mplan,all_rows,start_of_cycle,2027-04,13
+Mitem & Mplan,all_rows,start_of_cycle,2027-05,20
+Mitem & Mplan,all_rows,start_of_cycle,2027-06,18
+Mitem & Mplan,all_rows,start_of_cycle,2027-07,24
+Mitem & Mplan,all_rows,start_of_cycle,2027-08,17
+Mitem & Mplan,all_rows,start_of_cycle,2027-09,13
+Mitem & Mplan,all_rows,start_of_cycle,2027-10,19
+Mitem & Mplan,all_rows,start_of_cycle,2027-11,17
+Mitem & Mplan,all_rows,start_of_cycle,2027-12,16
+Mitem & Mplan,all_rows,start_of_cycle,2029-04,1
+Mitem & Mplan,all_rows,start_of_cycle,2029-06,1
+Mitem & Mplan,all_rows,start_of_cycle,2029-07,3
+Mitem & Mplan,all_rows,start_of_cycle,2029-08,3
+Mitem & Mplan,all_rows,start_of_cycle,2029-10,1
+Mitem & Mplan,all_rows,start_of_cycle,2029-11,1
+Mitem & Mplan,all_rows,start_of_cycle,2029-12,1

@@ -1,0 +1,9 @@
+join,keys,left_rows,right_rows,result_rows,matched_rows,unmatched_rows,left_rows_with_blank_key
+bridge_fl_material -> dim_functional_location (criticality count),functional_location,20423,14484,20423,20423,0,0
+bridge_fl_material -> dim_material,material_no,20423,7481,20423,20423,0,0
+fact_prpo_line -> dim_material,material_no,11609,7481,11609,11609,0,0
+fact_prpo_line -> dim_supplier,supplier_code,11609,124,11609,11609,0,0
+fact_issue -> dim_material,material_no,17518,7481,17518,17518,0,0
+fact_notification -> dim_functional_location,functional_location,5795,14484,5795,5795,0,0
+fact_plan_item -> map_cycle,_cycle,10153,28,10153,10153,0,0
+fact_plan_item -> dim_functional_location,functional_location,10153,14484,10153,10153,0,0

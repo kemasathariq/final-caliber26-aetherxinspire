@@ -1,0 +1,75 @@
+run_id,config_id,unmet_rule,policy,demand_scenario,pr_view,n_materials,materials_with_shortage,materials_with_shortage_base,shortage_status_changes,order_count_changes,median_abs_fill_rate_change,mean_abs_fill_rate_change,p90_abs_fill_rate_change,median_fill_rate,output_class,description
+RUN-277fc4b966e6,K0,LS,R0,A,ED,665,307.0,307.0,0,167,0.0,0.015943,0.063269,1.0,deterministic_simulation,"Unmet quantity lost, not backordered"
+RUN-277fc4b966e6,K0,LS,R0,A,OR,665,307.0,307.0,0,167,0.0,0.015063,0.059936,1.0,deterministic_simulation,"Unmet quantity lost, not backordered"
+RUN-277fc4b966e6,K0,LS,R0,B,ED,665,289.0,289.0,0,158,0.0,0.015862,0.062259,1.0,deterministic_simulation,"Unmet quantity lost, not backordered"
+RUN-277fc4b966e6,K0,LS,R0,B,OR,665,288.0,288.0,0,158,0.0,0.014799,0.057829,1.0,deterministic_simulation,"Unmet quantity lost, not backordered"
+RUN-277fc4b966e6,K1,BO,R0,A,ED,665,339.0,307.0,50,309,0.0,0.04081,0.165923,0.972271,deterministic_simulation,Opening stock x0.5
+RUN-277fc4b966e6,K1,BO,R0,A,OR,665,339.0,307.0,52,309,0.0,0.040539,0.165923,0.975806,deterministic_simulation,Opening stock x0.5
+RUN-277fc4b966e6,K1,BO,R0,B,ED,665,315.0,289.0,48,310,0.0,0.036658,0.130082,1.0,deterministic_simulation,Opening stock x0.5
+RUN-277fc4b966e6,K1,BO,R0,B,OR,665,314.0,288.0,48,310,0.0,0.03615,0.125,1.0,deterministic_simulation,Opening stock x0.5
+RUN-277fc4b966e6,K10,BO,R0,A,ED,665,249.0,307.0,66,209,0.0,0.055477,0.166667,1.0,deterministic_simulation,Issues x0.75
+RUN-277fc4b966e6,K10,BO,R0,A,OR,665,248.0,307.0,67,209,0.0,0.055824,0.166667,1.0,deterministic_simulation,Issues x0.75
+RUN-277fc4b966e6,K10,BO,R0,B,ED,665,227.0,289.0,70,205,0.0,0.05276,0.167992,1.0,deterministic_simulation,Issues x0.75
+RUN-277fc4b966e6,K10,BO,R0,B,OR,665,225.0,288.0,71,205,0.0,0.052936,0.166667,1.0,deterministic_simulation,Issues x0.75
+RUN-277fc4b966e6,K11,BO,R0,A,ED,665,395.0,307.0,90,175,0.035484,0.069029,0.168116,0.8,deterministic_simulation,Issues x1.25
+RUN-277fc4b966e6,K11,BO,R0,A,OR,665,394.0,307.0,89,175,0.038,0.068753,0.169156,0.8,deterministic_simulation,Issues x1.25
+RUN-277fc4b966e6,K11,BO,R0,B,ED,665,378.0,289.0,89,178,0.029066,0.06536,0.166667,0.868421,deterministic_simulation,Issues x1.25
+RUN-277fc4b966e6,K11,BO,R0,B,OR,665,377.0,288.0,89,178,0.029072,0.065468,0.16819,0.868421,deterministic_simulation,Issues x1.25
+RUN-277fc4b966e6,K12,BO,R0,A,ED,665,328.0,307.0,23,167,0.0,0.013945,0.054955,1.0,deterministic_simulation,Stock-level what-if: Min x0.5
+RUN-277fc4b966e6,K12,BO,R0,A,OR,665,328.0,307.0,23,167,0.0,0.013721,0.05,1.0,deterministic_simulation,Stock-level what-if: Min x0.5
+RUN-277fc4b966e6,K12,BO,R0,B,ED,665,311.0,289.0,26,164,0.0,0.01424,0.054984,1.0,deterministic_simulation,Stock-level what-if: Min x0.5
+RUN-277fc4b966e6,K12,BO,R0,B,OR,665,309.0,288.0,25,164,0.0,0.013731,0.050252,1.0,deterministic_simulation,Stock-level what-if: Min x0.5
+RUN-277fc4b966e6,K13,BO,R0,A,ED,665,275.0,307.0,36,382,0.0,0.036872,0.128467,1.0,deterministic_simulation,Stock-level what-if: Min x1.5
+RUN-277fc4b966e6,K13,BO,R0,A,OR,665,275.0,307.0,36,382,0.0,0.037703,0.133334,1.0,deterministic_simulation,Stock-level what-if: Min x1.5
+RUN-277fc4b966e6,K13,BO,R0,B,ED,665,252.0,289.0,41,385,0.0,0.035325,0.126471,1.0,deterministic_simulation,Stock-level what-if: Min x1.5
+RUN-277fc4b966e6,K13,BO,R0,B,OR,665,253.0,288.0,39,385,0.0,0.035686,0.131244,1.0,deterministic_simulation,Stock-level what-if: Min x1.5
+RUN-277fc4b966e6,K14,BO,R0,A,ED,665,332.0,307.0,25,248,0.0,0.029243,0.121052,1.0,deterministic_simulation,Stock-level what-if: Max x0.5
+RUN-277fc4b966e6,K14,BO,R0,A,OR,665,331.0,307.0,24,248,0.0,0.029507,0.122283,1.0,deterministic_simulation,Stock-level what-if: Max x0.5
+RUN-277fc4b966e6,K14,BO,R0,B,ED,665,315.0,289.0,26,250,0.0,0.027892,0.11745,1.0,deterministic_simulation,Stock-level what-if: Max x0.5
+RUN-277fc4b966e6,K14,BO,R0,B,OR,665,312.0,288.0,24,250,0.0,0.027959,0.112782,1.0,deterministic_simulation,Stock-level what-if: Max x0.5
+RUN-277fc4b966e6,K15,BO,R0,A,ED,665,280.0,307.0,33,318,0.0,0.036198,0.138102,1.0,deterministic_simulation,Stock-level what-if: Max x1.5
+RUN-277fc4b966e6,K15,BO,R0,A,OR,665,278.0,307.0,35,318,0.0,0.036111,0.135222,1.0,deterministic_simulation,Stock-level what-if: Max x1.5
+RUN-277fc4b966e6,K15,BO,R0,B,ED,665,264.0,289.0,33,322,0.0,0.033623,0.126657,1.0,deterministic_simulation,Stock-level what-if: Max x1.5
+RUN-277fc4b966e6,K15,BO,R0,B,OR,665,261.0,288.0,35,322,0.0,0.033054,0.125,1.0,deterministic_simulation,Stock-level what-if: Max x1.5
+RUN-277fc4b966e6,K16,BO,R0,A,ED,665,295.0,307.0,12,24,0.0,0.009765,0.0,1.0,deterministic_simulation,Lines at a repeated unit peak excluded (A-11)
+RUN-277fc4b966e6,K16,BO,R0,A,OR,665,295.0,307.0,12,24,0.0,0.009664,0.0,1.0,deterministic_simulation,Lines at a repeated unit peak excluded (A-11)
+RUN-277fc4b966e6,K16,BO,R0,B,ED,665,278.0,289.0,11,24,0.0,0.009578,0.0,1.0,deterministic_simulation,Lines at a repeated unit peak excluded (A-11)
+RUN-277fc4b966e6,K16,BO,R0,B,OR,665,277.0,288.0,11,24,0.0,0.009478,0.0,1.0,deterministic_simulation,Lines at a repeated unit peak excluded (A-11)
+RUN-277fc4b966e6,K2,BO,R0,A,ED,665,264.0,307.0,57,318,0.0,0.042209,0.166667,1.0,deterministic_simulation,Opening stock x1.5
+RUN-277fc4b966e6,K2,BO,R0,A,OR,665,262.0,307.0,55,318,0.0,0.042165,0.166666,1.0,deterministic_simulation,Opening stock x1.5
+RUN-277fc4b966e6,K2,BO,R0,B,ED,665,245.0,289.0,56,304,0.0,0.03969,0.152308,1.0,deterministic_simulation,Opening stock x1.5
+RUN-277fc4b966e6,K2,BO,R0,B,OR,665,243.0,288.0,57,304,0.0,0.039866,0.152308,1.0,deterministic_simulation,Opening stock x1.5
+RUN-277fc4b966e6,K3,BO,R0,A,ED,665,368.0,307.0,85,429,0.0,0.072518,0.297143,0.879032,deterministic_simulation,Opening stock = recorded Min
+RUN-277fc4b966e6,K3,BO,R0,A,OR,665,365.0,307.0,82,429,0.0,0.071717,0.278096,0.881148,deterministic_simulation,Opening stock = recorded Min
+RUN-277fc4b966e6,K3,BO,R0,B,ED,665,346.0,289.0,85,430,0.0,0.068303,0.25,0.958333,deterministic_simulation,Opening stock = recorded Min
+RUN-277fc4b966e6,K3,BO,R0,B,OR,665,342.0,288.0,84,430,0.0,0.067491,0.25,0.968379,deterministic_simulation,Opening stock = recorded Min
+RUN-277fc4b966e6,K4,BO,R0,A,ED,665,350.0,307.0,85,429,0.0,0.070343,0.25,0.940476,deterministic_simulation,Opening stock = recorded Max
+RUN-277fc4b966e6,K4,BO,R0,A,OR,665,346.0,307.0,83,429,0.0,0.06937,0.25,0.966292,deterministic_simulation,Opening stock = recorded Max
+RUN-277fc4b966e6,K4,BO,R0,B,ED,665,327.0,289.0,84,428,0.0,0.065999,0.25,1.0,deterministic_simulation,Opening stock = recorded Max
+RUN-277fc4b966e6,K4,BO,R0,B,OR,665,324.0,288.0,82,428,0.0,0.0651,0.25,1.0,deterministic_simulation,Opening stock = recorded Max
+RUN-277fc4b966e6,K5,BO,R0,A,ED,665,0.0,307.0,307,512,0.0,0.212132,0.696923,1.0,deterministic_simulation,Opening stock = Stock + window issues (upper bound)
+RUN-277fc4b966e6,K5,BO,R0,A,OR,665,0.0,307.0,307,512,0.0,0.210736,0.691562,1.0,deterministic_simulation,Opening stock = Stock + window issues (upper bound)
+RUN-277fc4b966e6,K5,BO,R0,B,ED,665,0.0,289.0,289,501,0.0,0.196784,0.684619,1.0,deterministic_simulation,Opening stock = Stock + window issues (upper bound)
+RUN-277fc4b966e6,K5,BO,R0,B,OR,665,0.0,288.0,288,501,0.0,0.195407,0.681756,1.0,deterministic_simulation,Opening stock = Stock + window issues (upper bound)
+RUN-277fc4b966e6,K6,BO,R0,A,ED,665,278.0,307.0,29,0,0.0,0.043998,0.166666,1.0,deterministic_simulation,Promised interval x0.5
+RUN-277fc4b966e6,K6,BO,R0,A,OR,665,276.0,307.0,31,0,0.0,0.043569,0.166667,1.0,deterministic_simulation,Promised interval x0.5
+RUN-277fc4b966e6,K6,BO,R0,B,ED,665,258.0,289.0,31,0,0.0,0.04294,0.166055,1.0,deterministic_simulation,Promised interval x0.5
+RUN-277fc4b966e6,K6,BO,R0,B,OR,665,255.0,288.0,33,0,0.0,0.042551,0.165454,1.0,deterministic_simulation,Promised interval x0.5
+RUN-277fc4b966e6,K7,BO,R0,A,ED,665,327.0,307.0,20,0,0.0,0.0327,0.121877,1.0,deterministic_simulation,Promised interval x1.5
+RUN-277fc4b966e6,K7,BO,R0,A,OR,665,328.0,307.0,21,0,0.0,0.032955,0.123147,1.0,deterministic_simulation,Promised interval x1.5
+RUN-277fc4b966e6,K7,BO,R0,B,ED,665,309.0,289.0,20,0,0.0,0.031921,0.119726,1.0,deterministic_simulation,Promised interval x1.5
+RUN-277fc4b966e6,K7,BO,R0,B,OR,665,309.0,288.0,21,0,0.0,0.032088,0.117634,1.0,deterministic_simulation,Promised interval x1.5
+RUN-277fc4b966e6,K8,BO,R0,A,ED,665,346.0,307.0,39,0,0.0,0.05847,0.207259,0.931818,deterministic_simulation,Promised interval x2
+RUN-277fc4b966e6,K8,BO,R0,A,OR,665,346.0,307.0,39,0,0.0,0.059164,0.211164,0.928571,deterministic_simulation,Promised interval x2
+RUN-277fc4b966e6,K8,BO,R0,B,ED,665,327.0,289.0,38,0,0.0,0.056369,0.212122,1.0,deterministic_simulation,Promised interval x2
+RUN-277fc4b966e6,K8,BO,R0,B,OR,665,327.0,288.0,39,0,0.0,0.057412,0.21374,1.0,deterministic_simulation,Promised interval x2
+RUN-277fc4b966e6,K9,BO,R0,A,ED,665,332.0,307.0,25,0,0.0,0.035292,0.144991,1.0,deterministic_simulation,Promised interval p90
+RUN-277fc4b966e6,K9,BO,R0,A,OR,665,332.0,307.0,25,0,0.0,0.037823,0.163386,1.0,deterministic_simulation,Promised interval p90
+RUN-277fc4b966e6,K9,BO,R0,B,ED,665,315.0,289.0,26,0,0.0,0.034031,0.136363,1.0,deterministic_simulation,Promised interval p90
+RUN-277fc4b966e6,K9,BO,R0,B,OR,665,314.0,288.0,26,0,0.0,0.036923,0.147584,1.0,deterministic_simulation,Promised interval p90
+RUN-277fc4b966e6,K0,BO,R2,A,ED,665,301.0,307.0,30,260,0.0,0.051385,0.2,1.0,deterministic_simulation,"Policy R2: Min as reorder level, repeated median PR quantity"
+RUN-277fc4b966e6,K0,BO,R2,A,OR,665,303.0,307.0,30,260,0.0,0.05126,0.203789,1.0,deterministic_simulation,"Policy R2: Min as reorder level, repeated median PR quantity"
+RUN-277fc4b966e6,K0,BO,R2,B,ED,665,281.0,289.0,32,264,0.0,0.049825,0.2,1.0,deterministic_simulation,"Policy R2: Min as reorder level, repeated median PR quantity"
+RUN-277fc4b966e6,K0,BO,R2,B,OR,665,282.0,288.0,30,265,0.0,0.049269,0.202131,1.0,deterministic_simulation,"Policy R2: Min as reorder level, repeated median PR quantity"
+RUN-277fc4b966e6,A_vs_B,BO,R0,A|B,ED,665,,,22,52,0.0,0.016467,0.029045,,deterministic_simulation,"Demand Scenario A against B, paired"
+RUN-277fc4b966e6,A_vs_B,BO,R0,A|B,OR,665,,,23,52,0.0,0.016509,0.035379,,deterministic_simulation,"Demand Scenario A against B, paired"

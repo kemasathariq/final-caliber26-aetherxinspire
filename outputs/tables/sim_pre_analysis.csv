@@ -1,0 +1,26 @@
+topic,condition,materials
+population,Materials in the population,665
+scenario,Scenarios A and B identical by construction,436
+scenario,Scenarios A and B differ,229
+scenario,Materially affected by the scenario choice,88
+scenario,"Scenarios differ, and an order could be triggered in Scenario A",202
+scenario,"Materially affected, and an order could be triggered in Scenario A",73
+scenario,Scenario choice changes whether Min is ever reached,8
+reference reading,"At or below Min on day 0, so an order is triggered at once",183
+reference reading,"Never reaches Min in Scenario A, so no order is ever triggered",125
+reference reading,"Never reaches Min in Scenario B, so no order is ever triggered",133
+reference reading,Initial inventory covers all issues in Scenario A,238
+reference reading,Initial inventory covers all issues in Scenario B,253
+parameter conflict,One issue line larger than Max,173
+parameter conflict,Median PR quantity larger than Max,176
+parameter conflict,Stock above Max,256
+parameter conflict,Any of the three conflicts above,398
+initial inventory,"Stock of zero, so scaling the initial inventory has no effect",85
+lead proxy,Median lead proxy longer than the 518-day horizon,4
+demand evidence,Resampling allowed for demand,228
+demand evidence,One active month only,282
+demand evidence,"One issue line only, in Scenario A",201
+lead evidence,Resampling allowed for the lead proxy,140
+combined,Resampling allowed for both,139
+combined,"Resampling allowed for both, and an order could be triggered in Scenario A",124
+other,Has a line at a repeated unit peak,29

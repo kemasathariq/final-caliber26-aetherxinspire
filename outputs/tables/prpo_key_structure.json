@@ -1,0 +1,12 @@
+{
+  "pr_key_repeats_original_rows": 5420,
+  "pr_key_repeats_distinct_rows": 0,
+  "po_key_repeats_original_rows": 5420,
+  "po_key_repeats_distinct_rows": 0,
+  "same_pr_key_with_different_content": 0,
+  "same_po_key_with_different_content": 0,
+  "max_po_items_per_pr_item_distinct_rows": 1,
+  "max_pr_items_per_po_item_distinct_rows": 1,
+  "different_key_same_date_material_quantity_amount_po_rows": 0,
+  "different_key_same_date_material_quantity_rows": 2
+}

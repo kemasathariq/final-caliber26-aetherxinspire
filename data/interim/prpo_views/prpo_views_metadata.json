@@ -1,0 +1,19 @@
+{
+  "status": "Approved Decision 4. Neither view is the definitive business truth. The distinct view is a sensitivity scenario.",
+  "views": {
+    "original_rows": {
+      "definition": "All PR PO source rows, unchanged.",
+      "limitation": "If repeated rows are copies of one document line, counts, quantities and amounts are overstated."
+    },
+    "exact_distinct_rows": {
+      "definition": "First occurrence of each group of rows identical in all 18 source columns.",
+      "limitation": "If repeated rows are real separate transactions, counts, quantities and amounts are understated. This is a sensitivity scenario, not a correction of the data."
+    }
+  },
+  "row_counts": {
+    "original_rows": 11609,
+    "exact_distinct_rows": 6189
+  },
+  "duplicate_groups_file": "data/interim/duplicates/prpo_duplicate_groups.csv",
+  "data_label": "Source data documented as synthetic (dummy) in the Data Context & Relationship Diagram; not operational performance."
+}

@@ -1,0 +1,13 @@
+mrp,reasons,materials
+Stock Item,no_demand_history;no_promised_interval;no_unit_amount_record,2381
+Stock Item,"none, in population",665
+Stock Item,no_promised_interval;no_unit_amount_record,486
+Stock Item,no_demand_history,95
+Stock Item,no_demand_history;no_promised_interval;no_unit_amount_record;min_and_max_both_zero,14
+Stock Item,min_and_max_both_zero,7
+Stock Item,no_promised_interval;no_unit_amount_record;min_and_max_both_zero,6
+Stock Item,no_demand_history;min_and_max_both_zero,2
+Non Stock,mrp_type_not_stock_item;no_demand_history;no_promised_interval;no_unit_amount_record;min_and_max_both_zero,2936
+Non Stock,mrp_type_not_stock_item;no_promised_interval;no_unit_amount_record;min_and_max_both_zero,408
+Non Stock,mrp_type_not_stock_item;min_and_max_both_zero,358
+Non Stock,mrp_type_not_stock_item;no_demand_history;min_and_max_both_zero,123

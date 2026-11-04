@@ -1,0 +1,11 @@
+unit,materials_in_both,pr_quantity__original_rows,pr_quantity__exact_distinct_rows,issued_quantity__scenario_a,issued_quantity__scenario_b,ratio_distinct_rows_to_scenario_a,median_material_ratio_distinct_rows_to_scenario_a
+ASS,4,24,13,7,6,1.857,1.5
+CAN,9,33918,19427,2241,2165,8.669,3.825
+EA,754,13056278,6924907,917658,891091,7.546,1.667
+KG,22,13370192,7180004,792245,780145,9.063,3.012
+L,18,442562,234770,29255,28536,8.025,2.767
+LG,19,46673,26942,3023,2940,8.912,3.091
+M,10,2847,1561,1290,1260,1.21,0.59
+RL,21,49747,27016,2939,2838,9.192,3.306
+SET,167,2496,1348,586,545,2.3,1.5
+SHT,6,43,24,33,25,0.727,0.744

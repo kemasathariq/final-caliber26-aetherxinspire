@@ -1,0 +1,6 @@
+currency,lines__original_rows,lines__exact_distinct_rows,amount__original_rows,amount__exact_distinct_rows,ratio_original_to_distinct
+EUR,20,11,161470.86,99266.04,1.6266
+IDR,11511,6138,168836490165.0,89210784211.0,1.8926
+JPY,41,21,17669735.0,7623969.0,2.3177
+SGD,2,2,9569.36,9569.36,1.0
+USD,35,17,310714.71,139557.65,2.2264

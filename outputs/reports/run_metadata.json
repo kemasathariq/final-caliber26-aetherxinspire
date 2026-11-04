@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-04T07:28:33+00:00",
+  "finished_utc": "2026-11-04T07:28:46+00:00",
+  "python": "3.14.3",
+  "packages": {
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "openpyxl": "3.1.5",
+    "scipy": "1.18.1"
+  },
+  "spec_version": "0.1+corrections-3",
+  "data_cutoff_assumption": "2026-09-30",
+  "permutation_seed": 42,
+  "permutation_rounds": 200,
+  "check_status_counts": {
+    "PASS": 750
+  }
+}

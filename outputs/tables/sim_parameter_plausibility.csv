@@ -1,0 +1,8 @@
+measure,value
+Max is exactly 2 times Min,259.0
+Max is exactly 3 times Min,141.0
+Min is at or above mean Scenario A demand during the median lead proxy,540.0
+PR quantity on exact_distinct_rows exceeds Scenario A issues,431.0
+"Median ratio of PR quantity to Scenario A issues, as a value",1.704
+Median of Min,1.0
+Median of Max,3.0

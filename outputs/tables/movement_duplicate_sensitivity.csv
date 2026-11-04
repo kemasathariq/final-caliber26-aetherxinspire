@@ -1,0 +1,37 @@
+metric,group,all_rows,exact_distinct_rows,change_pct,value
+issue_lines,,17518.0,16655.0,-4.926,
+distinct_orders,,4884.0,4884.0,0.0,
+distinct_materials,,1930.0,1930.0,0.0,
+quantity_sum_within_unit,ASS,12.0,11.0,-8.333,
+quantity_sum_within_unit,CAN,2260.0,2184.0,-3.363,
+quantity_sum_within_unit,EA,949729.0,922363.0,-2.881,
+quantity_sum_within_unit,KG,805820.0,793670.0,-1.508,
+quantity_sum_within_unit,L,29807.0,29068.0,-2.479,
+quantity_sum_within_unit,LG,3133.0,3050.0,-2.649,
+quantity_sum_within_unit,M,2350.0,2320.0,-1.277,
+quantity_sum_within_unit,RL,2961.0,2860.0,-3.411,
+quantity_sum_within_unit,SET,1025.0,958.0,-6.537,
+quantity_sum_within_unit,SHT,38.0,30.0,-21.053,
+materials_with_any_line_removed_in_distinct_view,per material,,,,400.0
+materials_with_quantity_change_above_10pct,per material,,,,220.0
+materials_with_quantity_change_above_25pct,per material,,,,135.0
+max_quantity_change_pct_within_a_material,per material,,,,80.0
+spearman_material_line_counts_between_views,per material,,,,0.963
+spearman_material_quantity_between_views,per material,,,,0.982
+issue_lines_in_month,2025-05,668.0,643.0,-3.743,
+issue_lines_in_month,2025-06,596.0,561.0,-5.872,
+issue_lines_in_month,2025-07,948.0,912.0,-3.797,
+issue_lines_in_month,2025-08,1388.0,1299.0,-6.412,
+issue_lines_in_month,2025-09,1043.0,993.0,-4.794,
+issue_lines_in_month,2025-10,891.0,838.0,-5.948,
+issue_lines_in_month,2025-11,1860.0,1759.0,-5.43,
+issue_lines_in_month,2025-12,2580.0,2455.0,-4.845,
+issue_lines_in_month,2026-01,2184.0,2086.0,-4.487,
+issue_lines_in_month,2026-02,843.0,800.0,-5.101,
+issue_lines_in_month,2026-03,440.0,419.0,-4.773,
+issue_lines_in_month,2026-04,660.0,634.0,-3.939,
+issue_lines_in_month,2026-05,535.0,504.0,-5.794,
+issue_lines_in_month,2026-06,824.0,783.0,-4.976,
+issue_lines_in_month,2026-07,753.0,715.0,-5.046,
+issue_lines_in_month,2026-08,568.0,538.0,-5.282,
+issue_lines_in_month,2026-09,737.0,716.0,-2.849,

@@ -1,0 +1,6 @@
+threshold_pct,materials_at_or_above,of_which_low_line_count,of_which_enough_lines,materials_total
+1.0,376,137,239,1930
+5.0,280,135,145,1930
+10.0,222,135,87,1930
+25.0,152,126,26,1930
+50.0,81,78,3,1930

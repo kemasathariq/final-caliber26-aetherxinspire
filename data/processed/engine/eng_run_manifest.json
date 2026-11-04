@@ -1,0 +1,408 @@
+{
+ "run_id": "RUN-277fc4b966e6",
+ "spec_version": "0.2",
+ "engine_version": "1.0.0",
+ "methodology_version": "INSPIRE-M-2026-11-04.1",
+ "data_label": "Source data documented as synthetic (dummy) in the Data Context & Relationship Diagram; not operational performance.",
+ "simulated_label": "SIMULATED under stated assumptions. Not observed. Inputs unverified.",
+ "config_id": "K0 plus registry",
+ "seed": 20261105,
+ "replications": 1000,
+ "block_months": 3,
+ "input_checksums": {
+  "simulation_population.csv": "f28985f0e6dfe2ba04dabc1898c321488ded6ac4640ad8bcd70c1de202126f39",
+  "movement_copy_classification.csv": "6aafc752ee30f93a42d9f6e43e6c77eee716f6a490d2acae5c0701b77d1dc724",
+  "mart_material_inventory.csv": "a8be5e48e8d89a2b8381148142b9463c99fe997eca5dc51e646400f1fcedcf14",
+  "mart_material_demand_summary__scenario_a.csv": "634a4d8dd26472f9ce6b304bd3137d62e49d64a9c1408461538fd83703032240",
+  "mart_material_demand_summary__scenario_b.csv": "4b3bac86e17afcaa1c65901a8245f8007ea158a5378c02ac041641b022217135",
+  "mart_material_demand_month__scenario_a.csv": "6bf7d7b02104433fb3084bcc70c59d823a401160a49fbb03fe50fa7e40348245",
+  "mart_material_demand_month__scenario_b.csv": "4cc4eb4039cf6b30dcbd8477b9f09aa904937a792b9f326ca0b233817afe7329",
+  "mart_procurement_line__original_rows.csv": "ebc2948acd820d67cc24a807ff83c3159226c24a4f485dfbc03630e420956315",
+  "mart_procurement_line__exact_distinct_rows.csv": "c67e216e57c6e7df8a72919f514b3ab5dbc3e025990c494465b297fd7ec049dc",
+  "mart_supplier_material__original_rows.csv": "657cc1834af3427a20fd5174017795481499fc2d31ac59e566ce5c7909a6579d",
+  "mart_supplier_material__exact_distinct_rows.csv": "bd20916db7d6c3b8ba2a3f412b6623c6ad92333d68f98c4f69f5a10714141d51",
+  "mart_metadata.json": "ed5e2a771d94fa38aa1c4555cc5c5972a804a837217a766ac4460032d419f639",
+  "simulation_population_metadata.json": "fd6cf72221f42217ecb55e87bbad630ae0c46185ecf8fda249c5adc9cab40dc6"
+ },
+ "created_at": "2026-11-04T16:58:36+00:00",
+ "execution_status": "complete",
+ "assumptions": [
+  "S-01 undated Stock assumed to apply on day 0",
+  "S-02 no open orders or backorders on day 0",
+  "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+  "S-05 backorder reference, lost sales alternative",
+  "S-11 issues stand in for demand; they are not proven demand",
+  "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+  "D-03 evidence thresholds 6 active months and 10 lead observations",
+  "D-05 service levels 90, 95, 98 percent are scenario levels",
+  "D-24 proposed parameters for the 228 Grade A materials only"
+ ],
+ "decisions_applied_as_defaults": {
+  "D-02": "R1 reading with R2 alternative",
+  "D-03": "6 active months, 10 lead observations",
+  "D-05": "90, 95, 98 percent as scenario levels",
+  "D-24": "parameters for 228 Grade A only",
+  "D-25": "reorder threshold 0.1, reduce threshold 0.5, analyst-selected"
+ },
+ "populations": {
+  "all_materials": 7481,
+  "t3": 665,
+  "grade_a": 228,
+  "held_out": 197
+ },
+ "files": {
+  "eng_material_tier.csv": {
+   "rows": 7481,
+   "sha256": "92ccb976e5f7151947490ce8c79a590fc1f6cd0e34fdbdbe1f53f15e40baafa7",
+   "grain": "One row per material",
+   "output_classes": [
+    "rule_derived"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "All 7,481 materials",
+   "scenario": "Both scenarios as separate columns. demand_class takes the less smooth of the two",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_forecast.csv": {
+   "rows": 16146,
+   "sha256": "7bae7e282324e5d7177fec9d1fda2faec6b987eda9f51d096f5f6a2b3d7d3247",
+   "grain": "One row per material, scenario and horizon basis. next_month_rate for all 7,481 under A and B. lead_time_demand for the 296 eligible under each scenario and view",
+   "output_classes": [
+    "historical_descriptive",
+    "rule_derived",
+    "statistical_forecast"
+   ],
+   "execution_status": "generated",
+   "seed": 20261105,
+   "population": "All 7,481 with abstention rows",
+   "scenario": "Scenario A and B, and view OR and ED for lead-time demand",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_forecast_validation.csv": {
+   "rows": 20,
+   "sha256": "cdb53c8936b91c417939b3491c42f3340ca0a15a5e0afd906958e08b1dea3bc8",
+   "grain": "One row per demand scenario, class and method",
+   "output_classes": [
+    "statistical_forecast"
+   ],
+   "execution_status": "generated",
+   "seed": 20261105,
+   "population": "296 forecast-eligible materials",
+   "scenario": "A and B separately",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_scenario_result.csv": {
+   "rows": 35304,
+   "sha256": "11f53f14feefc82da590d0dc9e36679dd34c4566b38723fb8767f2f5427888ee",
+   "grain": "One row per material and scenario_id",
+   "output_classes": [
+    "deterministic_simulation",
+    "stochastic_simulation"
+   ],
+   "execution_status": "generated",
+   "seed": 20261105,
+   "population": "R0, R2 665. N1, X 228. Held-out 197. MC-D 228, MC-L 140, MC-J 139",
+   "scenario": "A and B, OR and ED, policy, shortage rule and K in scenario_id",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "eng_proposed_parameters.csv": {
+   "rows": 2736,
+   "sha256": "8d0d45390497339dece805e7bbcad8d239b3dd30f334d976a2bb64d46ca7adc8",
+   "grain": "One row per material, scenario and service level",
+   "output_classes": [
+    "stochastic_simulation"
+   ],
+   "execution_status": "generated",
+   "seed": 20261105,
+   "population": "228 Grade A materials only (D-24)",
+   "scenario": "A and B, OR and ED, X1 to X3",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "eng_capability_output.csv": {
+   "rows": 28751,
+   "sha256": "0d2e454fc90915d6c61ccd544248902ae2a376200fee50a011b3ff669828c585",
+   "grain": "One row per material, capability and scenario",
+   "output_classes": [
+    "deterministic_simulation",
+    "rule_derived",
+    "stochastic_simulation"
+   ],
+   "execution_status": "generated",
+   "seed": 20261105,
+   "population": "All 7,481 for overstock, slow-moving and reorder. T3 for stockout. Grade A for dynamic parameters and cost risk",
+   "scenario": "In scenario_id",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "eng_recommendation.csv": {
+   "rows": 8165,
+   "sha256": "94a2f862c34df134f1238e11fc8452ceb3e15ac7cbb556fae8f3f59a528069b4",
+   "grain": "One row per material and scenario. Grade A: 4 rows. Everyone else: 1 row, SC-ALL",
+   "output_classes": [
+    "rule_derived"
+   ],
+   "execution_status": "generated",
+   "seed": 20261105,
+   "population": "All 7,481",
+   "scenario": "Grade A per A or B and OR or ED, at the X2 reference level. Actions at 90 and 98 percent alongside",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "eng_health_flags.csv": {
+   "rows": 7481,
+   "sha256": "cddf84f92861e5f028c6eb47731c7907a477843fa616ee4139ad9c01182d2270",
+   "grain": "One row per material",
+   "output_classes": [
+    "rule_derived"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "All 7,481",
+   "scenario": "Scenario independent except simulated risk, which reports the worst of four",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_explanation_facts.csv": {
+   "rows": 83061,
+   "sha256": "faaf092d869d8acadad91a681c32e621db7170dd8d5c1e951329f82b4e322ad0",
+   "grain": "One row per fact",
+   "output_classes": [],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "All 7,481",
+   "scenario": "In scenario_id",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_supply_context.csv": {
+   "rows": 2500,
+   "sha256": "7f7b05971f24e5a0b83c77790d4a0cd7467209bcb7803f30d1d0d1cbd8212923",
+   "grain": "One row per material and PR PO view",
+   "output_classes": [
+    "historical_descriptive"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "1,250 procured materials, 2 views",
+   "scenario": "PR view OR and ED",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_kpi_summary.csv": {
+   "rows": 2261,
+   "sha256": "45042151d6312117b07a0d486c73a2148eba7bdc74c6b3ac8757d6f162320ef4",
+   "grain": "One row per KPI, population and scenario",
+   "output_classes": [
+    "deterministic_simulation",
+    "historical_descriptive",
+    "not_computed",
+    "rule_derived",
+    "stochastic_simulation"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "Named in each row",
+   "scenario": "Named in each row",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "eng_scenario_comparison.csv": {
+   "rows": 20490,
+   "sha256": "6fb7423145155996481328a6c095fbce40bc6eb675530c04ae477cf305d05536",
+   "grain": "One row per comparison type, material, view, demand scenario, policy pair and configuration",
+   "output_classes": [
+    "deterministic_simulation",
+    "stochastic_simulation"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "A vs B 665. Held-out 197. MC-D 228. MC-J 139",
+   "scenario": "scenario_a and scenario_b",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "eng_sensitivity_summary.csv": {
+   "rows": 74,
+   "sha256": "c3aeb3e25f64e8770459e2cff23a829d1c4d9b5a568f396d52a824c960b27876",
+   "grain": "One row per what-if, shortage rule, policy, demand scenario and view",
+   "output_classes": [
+    "deterministic_simulation"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "665 T3",
+   "scenario": "Against K0 in the same scenario. A_vs_B row is the dominance check",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "eng_config_registry.csv": {
+   "rows": 23,
+   "sha256": "798c7be6c2f2125e903acbe729a8c67e9bd1bddc0cf95affe737362d31a33160",
+   "grain": "One row per configuration K",
+   "output_classes": [],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "n/a",
+   "scenario": "K part of scenario_id",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_held_out_population.csv": {
+   "rows": 228,
+   "sha256": "8291227001436f5144a253821bdc5a0c7ca0aef30316580c1000cddfe3ea90cd",
+   "grain": "One row per Grade A material",
+   "output_classes": [
+    "rule_derived"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "228 Grade A",
+   "scenario": "Training months only",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "eng_validation_results.csv": {
+   "rows": 103,
+   "sha256": "a57fbad318680126d016f07f35f69188383d2dacca392d3271bc5a709f0c649a",
+   "grain": "One row per check",
+   "output_classes": [],
+   "execution_status": "generated",
+   "seed": null,
+   "population": "n/a",
+   "scenario": "n/a",
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": null
+  },
+  "audit/eng_sensitivity_result.csv.gz": {
+   "rows": 45220,
+   "sha256": "268d928a0afa9f0c98643861a149d157a574989bd781677c4682a7f81d0c1863",
+   "grain": null,
+   "output_classes": [],
+   "execution_status": "generated",
+   "seed": null,
+   "population": null,
+   "scenario": null,
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  },
+  "audit/eng_replay_event_trace.csv.gz": {
+   "rows": 96699,
+   "sha256": "10b391dcdc1b12754b3ff9013520575dc5a38a4cd7888c33f75a9af850231bd4",
+   "grain": null,
+   "output_classes": [
+    "deterministic_simulation"
+   ],
+   "execution_status": "generated",
+   "seed": null,
+   "population": null,
+   "scenario": null,
+   "methodology_version": "INSPIRE-M-2026-11-04.1",
+   "assumptions": [
+    "S-01 undated Stock assumed to apply on day 0",
+    "S-02 no open orders or backorders on day 0",
+    "S-03 Min and Max read as reorder level and order-up-to level, unverified (D-02)",
+    "S-05 backorder reference, lost sales alternative",
+    "S-11 issues stand in for demand; they are not proven demand",
+    "P-05 promised interval stands in for lead time; it is not a goods-receipt lead time",
+    "D-03 evidence thresholds 6 active months and 10 lead observations",
+    "D-05 service levels 90, 95, 98 percent are scenario levels",
+    "D-24 proposed parameters for the 228 Grade A materials only"
+   ]
+  }
+ },
+ "environment": {
+  "python": "3.14.3",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2"
+ },
+ "validation": {
+  "checks": 103,
+  "passed": 103
+ }
+}

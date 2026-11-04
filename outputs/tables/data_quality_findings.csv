@@ -1,0 +1,33 @@
+finding_id,dataset,field,finding,count,view_or_grain,measure,treatment,related_definition
+DQ-01,PR PO,all columns,Rows repeating an earlier row in all 18 columns,5420,original_rows,exact_duplicate_extras.prpo,Kept. Dual views maintained. No view is declared definitive,DEF-01
+DQ-02,PR PO,PR-Delivery Date,Requested date before PR date,630,original_rows,prpo.requested_before_pr.original_rows,Flag only,DEF-06
+DQ-03,PR PO,PR-Delivery Date,Requested date before PR date,324,exact_distinct_rows,prpo.requested_before_pr.exact_distinct_rows,Flag only,DEF-06
+DQ-04,PR PO,PO-Delivery Date,Promised date before PR date,6,original_rows,prpo.promised_before_pr.original_rows,Flag only,DEF-06
+DQ-05,PR PO,PO-Delivery Date,Promised date before PR date,2,exact_distinct_rows,prpo.promised_before_pr.exact_distinct_rows,Flag only,DEF-06
+DQ-06,PR PO,PO-Delivery Date,Promised date after the assumed data cutoff,1467,original_rows,prpo.promised_after_cutoff.original_rows,Flag only. Cutoff is an assumption,A-01
+DQ-07,PR PO,PR-Material Desc,Rows with leading or trailing spaces,191,original_rows,prpo.material_desc_space_rows,Original text kept verbatim,
+DQ-08,BoM,all columns,Rows repeating an earlier row in all 9 columns,230,all_rows,exact_duplicate_extras.bom,Kept and labelled,
+DQ-09,BoM,"Stock, Min.Qty, Max.Qty, MRP Type",Non Stock materials holding stock above zero,1683,one_row_per_material,bom.non_stock_with_stock,Flag only,DEF-04
+DQ-10,BoM,Stock,Stock Item materials with zero stock. Not a stockout without a business rule,472,one_row_per_material,bom.stock_item_zero_stock,Comparison only,DEF-02
+DQ-11,BoM,Stock,Stock Item materials below Min.Qty. Min.Qty meaning is undefined,504,one_row_per_material,bom.stock_item_below_min,Comparison only,DEF-02
+DQ-12,BoM,Stock,Stock Item materials above Max.Qty. Max.Qty meaning is undefined,1380,one_row_per_material,bom.stock_item_above_max,Comparison only,DEF-02
+DQ-13,BoM,Stock,Rows with non-integer stock. One material holds 0.5 in unit EA,3,all_rows,bom.non_integer_stock_rows,Flag only,
+DQ-14,BoM,Installed Qty,Rows with non-integer Installed Qty. All are in unit M,89,all_rows,bom.non_integer_installed_rows,Flag only,DEF-15
+DQ-15,BoM,Material Desc.,Rows with leading or trailing spaces,438,all_rows,bom.material_desc_space_rows,Original text kept verbatim,
+DQ-16,BoM,Material Desc.,Trimmed descriptions shared by more than one material number,133,one_row_per_material,bom.descriptions_on_multiple_materials,Flag only. Never merge material numbers,
+DQ-17,Movement Material,all columns,Rows repeating an earlier row in all 7 columns. No document number exists to test them,863,all_rows,exact_duplicate_extras.movement,Kept and labelled,
+DQ-18,Movement Material,"Posting Date, Material, Order","Same date, material and order, with differing quantities",297,all_rows,movement.same_key_groups_with_different_quantity,Kept,
+DQ-19,Movement Material,Material Descriptions,Rows with leading or trailing spaces,128,all_rows,movement.material_desc_space_rows,Original text kept verbatim,
+DQ-20,Notif History,Order,Notifications with no order. All are In Progress,553,all_rows,notif.null_orders,Null kept. Not imputed,
+DQ-21,Notif History,Order,Orders on two notifications at different functional locations,52,all_rows,notif.orders_on_multiple_notifications,Flag only,A-07
+DQ-22,Notif History,Completion by Date,Null completion dates. Exactly the In Progress rows,1305,all_rows,notif.in_progress_without_completion_date,Null kept. Not imputed,
+DQ-23,Notif History,Required Start,Required start before notification date,370,all_rows,notif.required_start_before_notification,Flag only,DEF-14
+DQ-24,Notif History,Created On,Created On differs from Notification Date,61,all_rows,notif.created_on_differs,Both kept,DEF-14
+DQ-25,Notif History,Notification Date,"Notifications in May 2025, far above later months. Cause unknown",1463,all_rows,notif.first_month_rows,Flag only,
+DQ-26,Mitem & Mplan,Cycle Descriptions,Distinct spellings of the maintenance interval,28,all_rows,mitem.distinct_cycle_spellings,Originals kept. Mapping awaits confirmation,DEF-10
+DQ-27,Mitem & Mplan,Start of cycle,Start of cycle after the assumed data cutoff,487,all_rows,mitem.start_after_cutoff,Flag only,DEF-11
+DQ-28,FuncLoc list,FuncLoc Criticallity,Null criticality. Exactly the SITE rows,33,all_rows,funcloc.null_criticality,Null kept. Not imputed,DEF-03
+DQ-30,PR PO,PO-Delivery Date,Promised date after the assumed data cutoff,766,exact_distinct_rows,prpo.promised_after_cutoff.exact_distinct_rows,Flag only. Cutoff is an assumption,A-01
+DQ-31,PR PO,PR-Delivery Date,Requested date after the assumed data cutoff,1682,original_rows,prpo.requested_after_cutoff.original_rows,Flag only. Cutoff is an assumption,A-01
+DQ-32,PR PO,PR-Delivery Date,Requested date after the assumed data cutoff,891,exact_distinct_rows,prpo.requested_after_cutoff.exact_distinct_rows,Flag only. Cutoff is an assumption,A-01
+DQ-29,"Movement Material, Notif History",Order,Movement orders with no matching notification order,3881,all_rows,cross.movement_orders_not_in_notif,Kept. Order prefix meaning is undefined,DEF-07
